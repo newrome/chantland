@@ -8,6 +8,7 @@ const state = {
   activeEditionId: null,
   draft: null,
   editingKey: null,
+  workspaceMode: localStorage.getItem("dcsWorkspaceMode") || "edit",
   filter: "all",
   query: "",
   fontSize: Number(localStorage.getItem("dcsFontSize") || 19),
@@ -20,8 +21,11 @@ const els = {
   content: document.querySelector("#chantContent"),
   title: document.querySelector("#documentTitle"),
   meta: document.querySelector("#documentMeta"),
+  editionNote: document.querySelector("#editionNote"),
   collectionLabel: document.querySelector("#collectionLabel"),
   filters: document.querySelectorAll("[data-filter]"),
+  workspaceModes: document.querySelectorAll("[data-workspace-mode]"),
+  serviceNav: document.querySelector("#serviceNav"),
   increaseFont: document.querySelector("#increaseFont"),
   decreaseFont: document.querySelector("#decreaseFont"),
   toggleTheme: document.querySelector("#toggleTheme"),
@@ -75,6 +79,14 @@ function bindEvents() {
   els.filters.forEach((button) => {
     button.addEventListener("click", () => {
       state.filter = button.dataset.filter;
+      render();
+    });
+  });
+
+  els.workspaceModes.forEach((button) => {
+    button.addEventListener("click", () => {
+      state.workspaceMode = button.dataset.workspaceMode;
+      localStorage.setItem("dcsWorkspaceMode", state.workspaceMode);
       render();
     });
   });
@@ -137,6 +149,7 @@ function bindEvents() {
         kind: entry.kind,
         source: entry.value,
         value,
+        note: "Parish Version",
         updatedAt: new Date().toISOString(),
       };
     }
@@ -152,12 +165,17 @@ function setFontSize(size) {
 }
 
 function render() {
+  document.body.classList.toggle("sing-mode", state.workspaceMode === "sing");
   renderCollections();
   renderDocuments();
   renderEditionPanel();
   renderDocument();
+  renderServiceNav();
   els.filters.forEach((button) => {
     button.classList.toggle("active", button.dataset.filter === state.filter);
+  });
+  els.workspaceModes.forEach((button) => {
+    button.classList.toggle("active", button.dataset.workspaceMode === state.workspaceMode);
   });
 }
 
@@ -219,7 +237,9 @@ function renderDocument() {
   if (!collection || !selected) {
     els.title.textContent = "No matching text";
     els.meta.textContent = "";
+    els.editionNote.textContent = "";
     els.collectionLabel.textContent = "Library";
+    els.serviceNav.replaceChildren();
     els.content.innerHTML = `<p class="empty">Try a broader search.</p>`;
     return;
   }
@@ -233,10 +253,12 @@ function renderDocument() {
     `${changed} replacements`,
     selected.path,
   ].join(" · ");
+  els.editionNote.textContent = activeEditionLabel(changed);
 
   const queryMatchesDocument = state.query && `${selected.title} ${selected.path}`.toLowerCase().includes(state.query.toLowerCase());
   const entries = selected.entries.filter((entry) => {
     const effective = effectiveEntry(entry);
+    if (state.workspaceMode === "sing") return true;
     if (state.filter !== "all" && entry.kind !== state.filter) return false;
     if (!state.query || queryMatchesDocument) return true;
     return `${entry.key} ${effective.value}`.toLowerCase().includes(state.query.toLowerCase());
@@ -251,10 +273,34 @@ function renderDocument() {
     const effective = effectiveEntry(entry);
     const section = document.createElement("section");
     section.className = `entry entry-${entry.kind}${effective.changed ? " changed" : ""}`;
-    section.innerHTML = entry.greek ? bilingualEntryMarkup(entry, effective) : singleEntryMarkup(entry, effective);
-    section.querySelector(".replace-button").addEventListener("click", () => openEditor(entry));
+    section.id = entryId(entry);
+    section.innerHTML = state.workspaceMode === "sing"
+      ? singingEntryMarkup(entry, effective)
+      : (entry.greek ? bilingualEntryMarkup(entry, effective) : singleEntryMarkup(entry, effective));
+    section.querySelector(".replace-button")?.addEventListener("click", () => openEditor(entry));
     return section;
   }));
+}
+
+function renderServiceNav() {
+  const selected = selectedDocument(selectedCollection());
+  if (!selected || state.workspaceMode !== "sing") {
+    els.serviceNav.replaceChildren();
+    return;
+  }
+
+  const links = selected.entries
+    .filter((entry) => entry.kind === "title" || entry.kind === "rubric")
+    .filter((entry) => (entry.value || entry.greek).length > 2 && (entry.value || entry.greek).length < 70)
+    .slice(0, 28)
+    .map((entry) => {
+      const link = document.createElement("a");
+      link.href = `#${entryId(entry)}`;
+      link.textContent = entry.value || entry.greek;
+      return link;
+    });
+
+  els.serviceNav.replaceChildren(...links);
 }
 
 function selectedCollection() {
@@ -290,6 +336,11 @@ function effectiveEntry(entry) {
   const replacement = state.draft?.replacements?.[entry.key];
   if (!replacement) return { ...entry, changed: false };
   return { ...entry, value: replacement.value, changed: true };
+}
+
+function activeEditionLabel(changed) {
+  if (!changed) return "Source text";
+  return `${state.draft?.name || "Parish Version"} · Parish Version`;
 }
 
 async function loadImportedServices() {
@@ -453,13 +504,17 @@ function labelFor(entry) {
   return parts.slice(-3).join(" / ");
 }
 
+function entryId(entry) {
+  return `entry-${entry.key.replace(/[^a-z0-9_-]+/gi, "-")}`;
+}
+
 function singleEntryMarkup(entry, effective) {
   return `
     <div class="entry-topline">
       <p class="entry-key">${escapeHtml(labelFor(entry))}</p>
       <button class="replace-button" type="button">${effective.changed ? "Edit replacement" : "Replace"}</button>
     </div>
-    ${effective.changed ? `<p class="replacement-note">Custom version saved in this iteration</p>` : ""}
+    ${effective.changed ? `<p class="replacement-note">Parish Version</p>` : ""}
     <p class="entry-text">${formatValue(effective.value)}</p>
   `;
 }
@@ -470,11 +525,28 @@ function bilingualEntryMarkup(entry, effective) {
       <p class="entry-key">${escapeHtml(labelFor(entry))}</p>
       <button class="replace-button" type="button">${effective.changed ? "Edit English" : "Replace English"}</button>
     </div>
-    ${effective.changed ? `<p class="replacement-note">Custom English version saved in this iteration</p>` : ""}
+    ${effective.changed ? `<p class="replacement-note">Parish Version</p>` : ""}
     <div class="bilingual-row">
       <p class="entry-text greek-text">${formatValue(entry.greek)}</p>
       <p class="entry-text">${formatValue(effective.value)}</p>
     </div>
+  `;
+}
+
+function singingEntryMarkup(entry, effective) {
+  if (entry.greek) {
+    return `
+      ${effective.changed ? `<p class="replacement-note singing-note">Parish Version</p>` : ""}
+      <div class="bilingual-row">
+        <p class="entry-text greek-text">${formatValue(entry.greek)}</p>
+        <p class="entry-text">${formatValue(effective.value)}</p>
+      </div>
+    `;
+  }
+
+  return `
+    ${effective.changed ? `<p class="replacement-note singing-note">Parish Version</p>` : ""}
+    <p class="entry-text">${formatValue(effective.value)}</p>
   `;
 }
 

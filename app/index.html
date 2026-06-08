@@ -28,6 +28,11 @@
           <button class="icon-button" id="toggleTheme" type="button" title="Toggle dark mode" aria-label="Toggle dark mode">◐</button>
         </div>
 
+        <div class="mode-switch" role="tablist" aria-label="Workspace mode">
+          <button class="active" type="button" data-workspace-mode="edit">Edit</button>
+          <button type="button" data-workspace-mode="sing">Sing</button>
+        </div>
+
         <section class="edition-panel" aria-label="Service editions">
           <div class="panel-heading">
             <h2>Service Edition</h2>
@@ -58,17 +63,25 @@
           <div>
             <p class="eyebrow" id="collectionLabel">Library</p>
             <h2 id="documentTitle">Loading chant library...</h2>
-            <p class="meta" id="documentMeta"></p>
+          <p class="meta" id="documentMeta"></p>
+          <p class="edition-note" id="editionNote"></p>
           </div>
-          <div class="view-switch" role="tablist" aria-label="Content filter">
-            <button class="active" type="button" data-filter="all">All</button>
-            <button type="button" data-filter="text">Text</button>
-            <button type="button" data-filter="rubric">Rubrics</button>
-            <button type="button" data-filter="mode">Modes</button>
+          <div class="reader-actions">
+            <div class="mode-switch header-mode-switch" role="tablist" aria-label="Workspace mode">
+              <button class="active" type="button" data-workspace-mode="edit">Edit</button>
+              <button type="button" data-workspace-mode="sing">Sing</button>
+            </div>
+            <div class="view-switch" role="tablist" aria-label="Content filter">
+              <button class="active" type="button" data-filter="all">All</button>
+              <button type="button" data-filter="text">Text</button>
+              <button type="button" data-filter="rubric">Rubrics</button>
+              <button type="button" data-filter="mode">Modes</button>
+            </div>
           </div>
         </header>
 
         <section class="document-list" id="documentList" aria-label="Documents"></section>
+        <nav class="service-nav" id="serviceNav" aria-label="Service sections"></nav>
         <article class="chant-content" id="chantContent" aria-live="polite"></article>
       </main>
     </div>
