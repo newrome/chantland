@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Digital Chant Stand</title>
+    <link rel="stylesheet" href="./src/styles.css">
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar" aria-label="Library browser">
+        <div class="brand">
+          <div class="brand-mark">DCS</div>
+          <div>
+            <h1>Digital Chant Stand</h1>
+            <p>GOA Dedes library reader</p>
+          </div>
+        </div>
+
+        <label class="field">
+          <span>Search library</span>
+          <input id="searchInput" type="search" placeholder="Eothinon, Matins, Communion..." autocomplete="off">
+        </label>
+
+        <div class="toolbar" aria-label="Reader settings">
+          <button class="icon-button" id="decreaseFont" type="button" title="Decrease text size" aria-label="Decrease text size">A-</button>
+          <button class="icon-button" id="increaseFont" type="button" title="Increase text size" aria-label="Increase text size">A+</button>
+          <button class="icon-button" id="toggleTheme" type="button" title="Toggle dark mode" aria-label="Toggle dark mode">◐</button>
+        </div>
+
+        <section class="edition-panel" aria-label="Service editions">
+          <div class="panel-heading">
+            <h2>Service Edition</h2>
+            <span id="replacementCount">0 changed</span>
+          </div>
+          <label class="field">
+            <span>Saved iterations</span>
+            <select id="editionSelect"></select>
+          </label>
+          <label class="field">
+            <span>Iteration name</span>
+            <input id="editionName" type="text" placeholder="Sunday Orthros, parish version">
+          </label>
+          <div class="edition-actions">
+            <button id="newEdition" type="button">New</button>
+            <button id="copyEdition" type="button">Copy</button>
+            <button id="saveEdition" type="button">Save</button>
+            <button id="deleteEdition" type="button">Delete</button>
+            <button id="exportEdition" type="button">Export</button>
+          </div>
+        </section>
+
+        <nav id="collectionList" class="collection-list" aria-label="Collections"></nav>
+      </aside>
+
+      <main class="reader">
+        <header class="reader-header">
+          <div>
+            <p class="eyebrow" id="collectionLabel">Library</p>
+            <h2 id="documentTitle">Loading chant library...</h2>
+            <p class="meta" id="documentMeta"></p>
+          </div>
+          <div class="view-switch" role="tablist" aria-label="Content filter">
+            <button class="active" type="button" data-filter="all">All</button>
+            <button type="button" data-filter="text">Text</button>
+            <button type="button" data-filter="rubric">Rubrics</button>
+            <button type="button" data-filter="mode">Modes</button>
+          </div>
+        </header>
+
+        <section class="document-list" id="documentList" aria-label="Documents"></section>
+        <article class="chant-content" id="chantContent" aria-live="polite"></article>
+      </main>
+    </div>
+
+    <dialog class="edit-dialog" id="editDialog">
+      <form method="dialog" class="edit-form">
+        <div>
+          <p class="eyebrow" id="editKind">Replacement</p>
+          <h2 id="editTitle">Edit hymn</h2>
+          <p class="meta" id="editSource"></p>
+        </div>
+        <label class="field">
+          <span>Source text</span>
+          <textarea id="sourceText" readonly></textarea>
+        </label>
+        <label class="field">
+          <span>Your version</span>
+          <textarea id="replacementText"></textarea>
+        </label>
+        <div class="dialog-actions">
+          <button id="restoreSource" type="button">Use source</button>
+          <span></span>
+          <button value="cancel" type="submit">Cancel</button>
+          <button id="applyReplacement" value="default" type="submit">Apply</button>
+        </div>
+      </form>
+    </dialog>
+
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>
