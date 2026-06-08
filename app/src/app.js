@@ -51,6 +51,7 @@ async function init() {
 
   const response = await fetch("./data/catalog.json");
   state.catalog = await response.json();
+  await loadImportedServices();
   state.collection = state.catalog.collections[0]?.name;
   state.documentId = state.catalog.collections[0]?.documents[0]?.id;
   resetDraftForSelectedDocument();
@@ -250,14 +251,7 @@ function renderDocument() {
     const effective = effectiveEntry(entry);
     const section = document.createElement("section");
     section.className = `entry entry-${entry.kind}${effective.changed ? " changed" : ""}`;
-    section.innerHTML = `
-      <div class="entry-topline">
-        <p class="entry-key">${escapeHtml(labelFor(entry))}</p>
-        <button class="replace-button" type="button">${effective.changed ? "Edit replacement" : "Replace"}</button>
-      </div>
-      ${effective.changed ? `<p class="replacement-note">Custom version saved in this iteration</p>` : ""}
-      <p class="entry-text">${formatValue(effective.value)}</p>
-    `;
+    section.innerHTML = entry.greek ? bilingualEntryMarkup(entry, effective) : singleEntryMarkup(entry, effective);
     section.querySelector(".replace-button").addEventListener("click", () => openEditor(entry));
     return section;
   }));
@@ -298,13 +292,41 @@ function effectiveEntry(entry) {
   return { ...entry, value: replacement.value, changed: true };
 }
 
+async function loadImportedServices() {
+  try {
+    const response = await fetch("./data/services/index.json");
+    if (!response.ok) return;
+    const index = await response.json();
+    const services = await Promise.all((index.services || []).map(async (item) => {
+      const serviceResponse = await fetch(`./data/services/${item.slug}.json`);
+      if (!serviceResponse.ok) return null;
+      const service = await serviceResponse.json();
+      return {
+        id: service.id,
+        title: service.title,
+        path: item.sourceUrl,
+        entries: service.entries,
+      };
+    }));
+    const documents = services.filter(Boolean);
+    if (documents.length) {
+      state.catalog.collections.unshift({
+        name: "Imported DCS Services",
+        documents,
+      });
+    }
+  } catch {
+    // Imported services are optional; the source library should still load.
+  }
+}
+
 function openEditor(entry) {
   const replacement = state.draft?.replacements?.[entry.key];
   state.editingKey = entry.key;
   els.editKind.textContent = entry.kind;
   els.editTitle.textContent = labelFor(entry);
   els.editSource.textContent = entry.key;
-  els.sourceText.value = entry.value;
+  els.sourceText.value = entry.greek ? `${entry.greek}\n\n${entry.value}` : entry.value;
   els.replacementText.value = replacement?.value || entry.value;
   els.editDialog.showModal();
   els.replacementText.focus();
@@ -426,8 +448,34 @@ function optionElement(value, label) {
 }
 
 function labelFor(entry) {
+  if (entry.key.includes(".row")) return entry.key.split(".").pop().replace(/^row/, "Row ");
   const parts = entry.key.split(".");
   return parts.slice(-3).join(" / ");
+}
+
+function singleEntryMarkup(entry, effective) {
+  return `
+    <div class="entry-topline">
+      <p class="entry-key">${escapeHtml(labelFor(entry))}</p>
+      <button class="replace-button" type="button">${effective.changed ? "Edit replacement" : "Replace"}</button>
+    </div>
+    ${effective.changed ? `<p class="replacement-note">Custom version saved in this iteration</p>` : ""}
+    <p class="entry-text">${formatValue(effective.value)}</p>
+  `;
+}
+
+function bilingualEntryMarkup(entry, effective) {
+  return `
+    <div class="entry-topline">
+      <p class="entry-key">${escapeHtml(labelFor(entry))}</p>
+      <button class="replace-button" type="button">${effective.changed ? "Edit English" : "Replace English"}</button>
+    </div>
+    ${effective.changed ? `<p class="replacement-note">Custom English version saved in this iteration</p>` : ""}
+    <div class="bilingual-row">
+      <p class="entry-text greek-text">${formatValue(entry.greek)}</p>
+      <p class="entry-text">${formatValue(effective.value)}</p>
+    </div>
+  `;
 }
 
 function formatValue(value) {

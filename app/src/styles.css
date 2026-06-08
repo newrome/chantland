@@ -416,6 +416,17 @@ textarea {
   margin: 0;
 }
 
+.bilingual-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 24px;
+  margin-top: 10px;
+}
+
+.greek-text {
+  font-family: "Times New Roman", Georgia, serif;
+}
+
 .entry-topline + .entry-text,
 .replacement-note + .entry-text {
   margin-top: 10px;
@@ -505,6 +516,11 @@ mark {
   .entry-topline {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .bilingual-row {
+    grid-template-columns: 1fr;
+    gap: 12px;
   }
 
   .chant-content {
