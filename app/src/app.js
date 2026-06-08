@@ -53,15 +53,37 @@ async function init() {
   document.documentElement.style.setProperty("--reader-size", `${state.fontSize}px`);
   document.body.classList.toggle("dark", localStorage.getItem("dcsTheme") === "dark");
 
-  const response = await fetch("./data/catalog.json");
-  state.catalog = await response.json();
+  state.catalog = { collections: [] };
   await loadImportedServices();
-  state.collection = state.catalog.collections[0]?.name;
-  state.documentId = state.catalog.collections[0]?.documents[0]?.id;
+  selectFirstAvailableDocument();
   resetDraftForSelectedDocument();
 
   bindEvents();
   render();
+  loadSourceCatalog();
+}
+
+async function loadSourceCatalog() {
+  try {
+    const response = await fetch("./data/catalog.json");
+    if (!response.ok) throw new Error(`Catalog request failed: ${response.status}`);
+    const catalog = await response.json();
+    const imported = state.catalog.collections.filter((collection) => collection.name === "Imported DCS Services");
+    const existingNames = new Set(imported.map((collection) => collection.name));
+    state.catalog.collections = [
+      ...imported,
+      ...catalog.collections.filter((collection) => !existingNames.has(collection.name)),
+    ];
+    render();
+  } catch (error) {
+    els.meta.textContent = "The imported service loaded, but the full source library could not be loaded.";
+    console.error(error);
+  }
+}
+
+function selectFirstAvailableDocument() {
+  state.collection = state.catalog.collections[0]?.name || null;
+  state.documentId = state.catalog.collections[0]?.documents[0]?.id || null;
 }
 
 function bindEvents() {
