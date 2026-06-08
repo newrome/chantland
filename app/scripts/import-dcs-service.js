@@ -37,6 +37,8 @@ async function main() {
     .map((row, index) => ({
       key: `${slug}.row${String(index + 1).padStart(3, "0")}`,
       kind: classifyRow(row),
+      dcsClasses: row.classes,
+      dcsKeys: row.keys,
       greek: row.greek,
       value: row.english,
     }))
@@ -62,10 +64,15 @@ function extractRows(html) {
   const rowPattern = /<tr\b[^>]*>([\s\S]*?)<\/tr>/gi;
   let rowMatch;
   while ((rowMatch = rowPattern.exec(html))) {
-    const cells = [...rowMatch[1].matchAll(/<td\b[^>]*class=["'][^"']*(leftCell|rightCell)[^"']*["'][^>]*>([\s\S]*?)<\/td>/gi)];
+    const rowHtml = rowMatch[1];
+    const cells = [...rowHtml.matchAll(/<td\b[^>]*class=["'][^"']*(leftCell|rightCell)[^"']*["'][^>]*>([\s\S]*?)<\/td>/gi)];
     const greek = cleanText(cells.find((cell) => cell[1] === "leftCell")?.[2] || "");
     const english = cleanText(cells.find((cell) => cell[1] === "rightCell")?.[2] || "");
-    if (greek || english) rows.push({ greek, english });
+    const classes = [...rowHtml.matchAll(/class=["']([^"']+)["']/gi)]
+      .flatMap((match) => match[1].split(/\s+/))
+      .filter(Boolean);
+    const keys = [...rowHtml.matchAll(/data-key=["']([^"']+)["']/gi)].map((match) => match[1]);
+    if (greek || english) rows.push({ greek, english, classes: [...new Set(classes)], keys });
   }
   return rows;
 }
@@ -96,6 +103,7 @@ function decodeEntities(value) {
 function classifyRow(row) {
   const english = row.english || "";
   const greek = row.greek || "";
+  if (row.classes.includes("verse") || row.keys.some((key) => /\|misc\.vVerse\d+/.test(key))) return "verse";
   if (/^(MATINS|PRIEST|READER|CHOIR|DEACON|BOOKS - SOURCES)$/i.test(english)) return "title";
   if (/^(Mode|Grave Mode|First Mode|Second Mode|Third Mode|Fourth Mode|Plagal)/i.test(english)) return "mode";
   if (english.length < 55 && greek.length < 55 && !/[.!?·;]$/.test(english)) return "rubric";

@@ -483,6 +483,10 @@ textarea {
   font-style: italic;
 }
 
+.entry-verse .entry-text {
+  color: var(--rubric);
+}
+
 .entry-mode .entry-text,
 .entry-melody .entry-text {
   color: var(--mode);

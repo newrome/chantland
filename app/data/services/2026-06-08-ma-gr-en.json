@@ -3,1613 +3,4855 @@
   "slug": "2026-06-08-ma-gr-en",
   "title": "MATINS · June 8",
   "sourceUrl": "https://dcs.goarch.org/goa/dcs/h/s/2026/06/08/ma/gr-en/index.html",
-  "importedAt": "2026-06-08T23:29:42.913Z",
+  "importedAt": "2026-06-08T23:51:46.250Z",
   "entries": [
     {
       "key": "2026-06-08-ma-gr-en.row001",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "servicesourcestitle",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.book.BooksSources.title",
+        "miscellanea_en_US_dedes|misc.book.BooksSources.title"
+      ],
       "greek": "Βιβλία - Πηγαί",
       "value": "Books - Sources"
     },
     {
       "key": "2026-06-08-ma-gr-en.row002",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "servicesources",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.book.Octoechos.name",
+        "miscellanea_gr_GR_cog|misc.separator.hyphen",
+        "miscellanea_gr_GR_cog|misc.Mode8",
+        "miscellanea_en_US_dedes|misc.book.Octoechos.name",
+        "miscellanea_en_US_dedes|misc.separator.hyphen",
+        "miscellanea_en_US_goadedes|misc.Mode8"
+      ],
       "greek": "Ὀκτώηχος \r\n - \r\n Ἦχος πλ. δʹ.",
       "value": "Octoechos - Mode pl. 4."
     },
     {
       "key": "2026-06-08-ma-gr-en.row003",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "servicesourcessection",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.OnMonday",
+        "titles_gr_GR_cog|ti.Morning",
+        "titles_en_US_dedes|ti.OnMonday",
+        "titles_en_US_dedes|ti.Morning"
+      ],
       "greek": "Τῇ Δευτέρᾳ \r\n Πρωΐ",
       "value": "On Monday Morning"
     },
     {
       "key": "2026-06-08-ma-gr-en.row004",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "servicesources",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.book.Menaion.name",
+        "miscellanea_gr_GR_cog|misc.separator.hyphen",
+        "me.m06.d08_gr_GR_cog|meDA.date",
+        "miscellanea_en_US_dedes|misc.book.Menaion.name",
+        "miscellanea_en_US_dedes|misc.separator.hyphen",
+        "me.m06.d08_en_US_dedes|meDA.date"
+      ],
       "greek": "Μηναῖον \r\n - \r\n Τῌ Ηʹ ΙΟΥΝΙΟΥ",
       "value": "Menaion - June 8"
     },
     {
       "key": "2026-06-08-ma-gr-en.row005",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "servicesourcessection",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "me.m06.d08_gr_GR_cog|meDA.commemoration.first_short",
+        "me.m06.d08_en_US_dedes|meDA.commemoration.first_short"
+      ],
       "greek": "Ἀνακομιδὴ τοῦ Λειψάνου τοῦ Ἁγ. Μεγαλομάρτυρος Θεοδώρου τοῦ Στρατηλάτου",
       "value": "Transfer of the Relic of the Holy Great-martyr Theodore the General"
     },
     {
       "key": "2026-06-08-ma-gr-en.row006",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "mixed",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.horizontal_line.solid1",
+        "miscellanea_en_US_dedes|misc.horizontal_line.solid1"
+      ],
       "greek": "__________",
       "value": "__________"
     },
     {
       "key": "2026-06-08-ma-gr-en.row007",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "break",
+        "rightCell"
+      ],
+      "dcsKeys": [],
       "greek": "   ",
       "value": "   "
     },
     {
       "key": "2026-06-08-ma-gr-en.row008",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "mixed",
+        "boldred",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "template.titles_gr_US_goa|ma.html.tab",
+        "template.titles_en_US_goa|ma.html.tab"
+      ],
       "greek": "ΟΡΘΡΟΣ",
       "value": "MATINS"
     },
     {
       "key": "2026-06-08-ma-gr-en.row009",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "bkmrk00",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.bookmark",
+        "miscellanea_en_US_dedes|misc.bookmark"
+      ],
       "greek": "bookmark",
       "value": "bookmark"
     },
     {
       "key": "2026-06-08-ma-gr-en.row010",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "bkmrk02",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.bookmark",
+        "miscellanea_en_US_dedes|misc.bookmark"
+      ],
       "greek": "bookmark",
       "value": "bookmark"
     },
     {
       "key": "2026-06-08-ma-gr-en.row011",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Choir",
+        "actors_en_US_goa|ac.Choir"
+      ],
       "greek": "ΧΟΡΟΣ",
       "value": "CHOIR"
     },
     {
       "key": "2026-06-08-ma-gr-en.row012",
       "kind": "mode",
+      "dcsClasses": [
+        "leftCell",
+        "mode",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.Mode4",
+        "miscellanea_en_US_dedes|misc.Mode4"
+      ],
       "greek": "Ἦχος δʹ.",
       "value": "Mode 4."
     },
     {
       "key": "2026-06-08-ma-gr-en.row013",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "kvp",
+        "media-group",
+        "media-icon",
+        "fa",
+        "fa-byznote",
+        "jqm-dropdown",
+        "jqm-dropdown-tip",
+        "alwb-media-dropdown-div",
+        "jqm-dropdown-menu",
+        "jqm-dropdown-relative",
+        "alwb-media-dropdown-menu",
+        "mediaMenuItemId",
+        "mediaMenuItemPeople",
+        "glyphicon",
+        "glyphicon-music",
+        "rightCell",
+        "glyphicon-volume-up"
+      ],
+      "dcsKeys": [
+        "properties_gr_GR_cog|media.key",
+        "properties_en_US_dedes|media.key"
+      ],
       "greek": "c1012 - GTheodoridis/\r\n \r\n \r\n c1013 - SApostolou/\r\n \r\n \r\n c1014 - RBarrett/\r\n \r\n \r\n c1015 - Petros-Ioannis | JM Boyer/\r\n \r\n \r\n \r\n \r\n c1011 - Roubanis/\r\n \r\n \r\n c1014 - Petros-Ioannis | RBarrett/",
       "value": "c1111 - SDedes/\r\n \r\n \r\n c1112 - GTheodoridis/\r\n \r\n \r\n \r\n \r\n c1111 - SDedes/\r\n \r\n \r\n \r\n \r\n c1111.a1 - SDedes/"
     },
     {
       "key": "2026-06-08-ma-gr-en.row014",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "liturgical.verses_gr_GR_cog|psMA.beginning.v1.text",
+        "liturgical.verses_en_US_saas|psMA.beginning.v1.text",
+        "properties_en_US_saas|version.designation"
+      ],
       "greek": "Θεὸς Κύριος καὶ ἐπέφανεν ἡμῖν. Εὐλογημένος ὁ ἐρχόμενος ἐν ὀνόματι Κυρίου.",
       "value": "God is the Lord, and He revealed Himself to us. Blessed is he who comes in the name of the Lord. [SAAS]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row015",
-      "kind": "text",
+      "kind": "verse",
+      "dcsClasses": [
+        "leftCell",
+        "verse",
+        "boldred",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.vVerse1",
+        "liturgical.verses_gr_GR_cog|psMA.beginning.v2.text",
+        "miscellanea_en_US_dedes|misc.vVerse1",
+        "liturgical.verses_en_US_saas|psMA.beginning.v2.text"
+      ],
       "greek": "Στίχ. αʹ. \r\n \r\n Ἐξομολογεῖσθε τῷ Κυρίῳ καὶ ἐπικαλεῖσθε τὸ ὄνομα τὸ ἅγιον αὐτοῦ.",
       "value": "Verse 1: Give thanks to the Lord and call upon His holy name."
     },
     {
       "key": "2026-06-08-ma-gr-en.row016",
-      "kind": "text",
+      "kind": "verse",
+      "dcsClasses": [
+        "leftCell",
+        "verse",
+        "boldred",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.vVerse2",
+        "liturgical.verses_gr_GR_cog|psMA.beginning.v3.text",
+        "miscellanea_en_US_dedes|misc.vVerse2",
+        "liturgical.verses_en_US_saas|psMA.beginning.v3.text"
+      ],
       "greek": "Στίχ. βʹ. \r\n \r\n Πάντα τὰ ἔθνη ἐκύκλωσάν με, καὶ τῷ ὀνόματι Κυρίου ἠμυνάμην αὐτούς.",
       "value": "Verse 2: All the nations surrounded me, but in the name of the Lord I defended myself against them."
     },
     {
       "key": "2026-06-08-ma-gr-en.row017",
-      "kind": "text",
+      "kind": "verse",
+      "dcsClasses": [
+        "leftCell",
+        "verse",
+        "boldred",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.vVerse3",
+        "liturgical.verses_gr_GR_cog|psMA.beginning.v4.text",
+        "miscellanea_en_US_dedes|misc.vVerse3",
+        "liturgical.verses_en_US_saas|psMA.beginning.v4.text"
+      ],
       "greek": "Στίχ. γʹ. \r\n \r\n Παρὰ Κυρίου ἐγένετο αὕτη καὶ ἔστι θαυμαστὴ ἐν ὀφθαλμοῖς ἡμῶν.",
       "value": "Verse 3: And this came about from the Lord, and it is wonderful in our eyes."
     },
     {
       "key": "2026-06-08-ma-gr-en.row018",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.Apolytikion",
+        "titles_en_US_dedes|ti.Apolytikion"
+      ],
       "greek": "Ἀπολυτίκιον.",
       "value": "Apolytikion."
     },
     {
       "key": "2026-06-08-ma-gr-en.row019",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "source0",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.sourceMenaion",
+        "titles_en_US_dedes|ti.sourceMenaion"
+      ],
       "greek": "Τοῦ Μηναίου - - -",
       "value": "From Menaion - - -"
     },
     {
       "key": "2026-06-08-ma-gr-en.row020",
       "kind": "mode",
+      "dcsClasses": [
+        "leftCell",
+        "mode",
+        "kvp",
+        "melody",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.Mode4",
+        "he.a.m4_gr_GR_cog|heAU.OYpsotheisEnToStavro.name",
+        "miscellanea_en_US_dedes|misc.Mode4",
+        "he.a.m4_en_US_dedes|heAU.OYpsotheisEnToStavro.name"
+      ],
       "greek": "Ἦχος δʹ. \r\n Ὁ ὑψωθεὶς ἐν τῷ Σταυρῷ.",
       "value": "Mode 4. You who were lifted."
     },
     {
       "key": "2026-06-08-ma-gr-en.row021",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "greekmelody",
+        "kvp",
+        "dummy",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "he.a.m4_gr_GR_cog|heAU.OYpsotheisEnToStavro.greekname",
+        "he.a.m4_en_US_dedes|heAU.OYpsotheisEnToStavro.greekname"
+      ],
       "greek": "",
       "value": "Ὁ ὑψωθεὶς ἐν τῷ Σταυρῷ."
     },
     {
       "key": "2026-06-08-ma-gr-en.row022",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "kvp",
+        "media-group",
+        "glyphicon",
+        "glyphicon-music",
+        "jqm-dropdown",
+        "jqm-dropdown-tip",
+        "alwb-media-dropdown-div",
+        "jqm-dropdown-menu",
+        "jqm-dropdown-relative",
+        "alwb-media-dropdown-menu",
+        "mediaMenuItemId",
+        "mediaMenuItemPeople",
+        "rightCell",
+        "media-group-empty"
+      ],
+      "dcsKeys": [
+        "me.m02.d08_gr_GR_cog|meVE.Apolytikion1.text",
+        "me.m02.d08_en_US_dedes|meVE.Apolytikion1.text"
+      ],
       "greek": "c1011 - NewByz/",
       "value": ""
     },
     {
       "key": "2026-06-08-ma-gr-en.row023",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "me.m02.d08_gr_GR_cog|meVE.Apolytikion1.text",
+        "me.m02.d08_en_US_dedes|meVE.Apolytikion1.text",
+        "properties_en_US_dedes|version.designation"
+      ],
       "greek": "Στρατολογίᾳ ἀληθεῖ Ἀθλοφόρε, τοῦ οὐρανίου στρατηγὸς Βασιλέως, περικαλὴς γεγένησαι Θεόδωρε· ὅπλοις γὰρ τῆς πίστεως, παρετάξω ἐμφρόνως, καὶ κατεξωλόθρευσας, τῶν δαιμόνων τὰ στίφη, καὶ νικηφόρος ὤφθης ἀθλητής· ὅθεν σε πίστει ἀεὶ μακαρίζομεν.",
       "value": "O medal-winner, you were duly enlisted * and highly decorated as a commander, * O Theodore, in service to the heavenly King. * Armed with faith, you prudently went to war and combated, * and you vanquished utterly the arrays of the demons. * O Martyr Athlete, evermore with faith * we count you blessed, for you were victorious. [SD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row024",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "mixed",
+        "kvp",
+        "designation",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.GloryBothNow",
+        "titles_gr_GR_cog|ti.Theotokion",
+        "titles_en_US_dedes|ti.GloryBothNow",
+        "titles_en_US_dedes|ti.Theotokion"
+      ],
       "greek": "Δόξα· καὶ νῦν. \r\n Θεοτοκίον.",
       "value": "Glory. Both now. Theotokion."
     },
     {
       "key": "2026-06-08-ma-gr-en.row025",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "source0",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.sourceOctoechos",
+        "titles_en_US_dedes|ti.sourceOctoechos"
+      ],
       "greek": "Τῆς Ὀκτωήχου - - -",
       "value": "From Octoechos - - -"
     },
     {
       "key": "2026-06-08-ma-gr-en.row026",
       "kind": "mode",
+      "dcsClasses": [
+        "leftCell",
+        "mode",
+        "kvp",
+        "melody",
+        "dummy",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.Mode4",
+        "oc.m4.d2_gr_GR_cog|ocVE.ApolTheotokionVM.melody",
+        "miscellanea_en_US_dedes|misc.Mode4",
+        "oc.m4.d2_en_US_dedes|ocVE.ApolTheotokionVM.melody"
+      ],
       "greek": "Ἦχος δʹ.",
       "value": "Mode 4."
     },
     {
       "key": "2026-06-08-ma-gr-en.row027",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "oc.m4.d2_gr_GR_cog|ocMA.Kathisma33.text",
+        "oc.m4.d2_en_US_dedes|ocMA.Kathisma33.text",
+        "properties_en_US_dedes|version.designation"
+      ],
       "greek": "Τῇ ἀνατραφείσῃ ἐν τῷ Ναῷ, εἰς τὰ Ἅγια τῶν Ἁγίων, τῇ περιβεβλημένῃ τὴν πίστιν καὶ τὴν σοφίαν, καὶ τὴν ἄμεμπτον παρθενίαν, ὁ Ἀρχιστράτηγος Γαβριήλ, προσέφερεν οὐρανόθεν, τὸν ἀσπασμὸν καὶ τὸ χαῖρε. Χαῖρε εὐλογημένη, χαῖρε δεδοξασμένη, ὁ Κύριος μετὰ σοῦ.",
       "value": "To you who were raised in the Temple, in the Holy of Holies, and who were clothed in faith and wisdom and measureless virginity, the Supreme Commander Gabriel from heaven brought the salutation, “Rejoice”; “Rejoice, O blessed Maiden! Rejoice, O glorified one! The Lord is with you.” [SD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row028",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "rubric",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "lectionaries_gr_GR_cog|lecPS.rubric_kathisma",
+        "miscellanea_gr_GR_cog|misc.anum4",
+        "lectionaries_gr_GR_cog|lecPS.rubric_litany",
+        "lectionaries_en_US_goadedes|lecPS.rubric_kathisma",
+        "miscellanea_en_US_dedes|misc.anum4",
+        "lectionaries_en_US_goadedes|lecPS.rubric_litany"
+      ],
       "greek": "Ἀναγινώσκεται τὸ οἰκεῖον Κάθισμα τοῦ Ψαλτηρίου, ἤτοι Κάθισμα \r\n 4. \r\n Μεθʼ ὃ ἡ μικρὰ Συναπτή.",
       "value": "The appointed Kathisma of the Psalter may be read, i.e. Kathisma 4. Then the short litany."
     },
     {
       "key": "2026-06-08-ma-gr-en.row029",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "adeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Deacon",
+        "actors_en_US_goa|ac.Deacon"
+      ],
       "greek": "ΔΙΑΚΟΝΟΣ",
       "value": "DEACON"
     },
     {
       "key": "2026-06-08-ma-gr-en.row030",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "ddeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.pet14.text",
+        "prayers_en_US_goa|pr.pet14.text"
+      ],
       "greek": "Ἔτι καὶ ἔτι ἐν εἰρήνῃ τοῦ Κυρίου δεηθῶμεν.",
       "value": "Again and again in peace let us pray to the Lord."
     },
     {
       "key": "2026-06-08-ma-gr-en.row031",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "dwachoir",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res01.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res01.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Κύριε, ἐλέησον.",
       "value": "CHOIR: Lord, have mercy."
     },
     {
       "key": "2026-06-08-ma-gr-en.row032",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "adeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Deacon",
+        "actors_en_US_goa|ac.Deacon"
+      ],
       "greek": "ΔΙΑΚΟΝΟΣ",
       "value": "DEACON"
     },
     {
       "key": "2026-06-08-ma-gr-en.row033",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "ddeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.pet12.text",
+        "prayers_en_US_goa|pr.pet12.text"
+      ],
       "greek": "Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς, ὁ Θεός, τῇ σῇ χάριτι.",
       "value": "Help us, save us, have mercy on us, and protect us, O God, by Your grace."
     },
     {
       "key": "2026-06-08-ma-gr-en.row034",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "dwachoir",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res01.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res01.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Κύριε, ἐλέησον.",
       "value": "CHOIR: Lord, have mercy."
     },
     {
       "key": "2026-06-08-ma-gr-en.row035",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "adeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Deacon",
+        "actors_en_US_goa|ac.Deacon"
+      ],
       "greek": "ΔΙΑΚΟΝΟΣ",
       "value": "DEACON"
     },
     {
       "key": "2026-06-08-ma-gr-en.row036",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "ddeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.pet13.text",
+        "prayers_en_US_goa|pr.pet13.text"
+      ],
       "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
       "value": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
     },
     {
       "key": "2026-06-08-ma-gr-en.row037",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "dwachoir",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res03.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res03.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Σοί, Κύριε.",
       "value": "CHOIR: To You, O Lord."
     },
     {
       "key": "2026-06-08-ma-gr-en.row038",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "apriest",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Priest",
+        "actors_en_US_goa|ac.Priest"
+      ],
       "greek": "ΙΕΡΕΥΣ",
       "value": "PRIEST"
     },
     {
       "key": "2026-06-08-ma-gr-en.row039",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "ddeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.exc02.text",
+        "prayers_en_US_goa|pr.exc02.text"
+      ],
       "greek": "Ὅτι σὸν τὸ κράτος καὶ σοῦ ἐστιν ἡ βασιλεία καὶ ἡ δύναμις καὶ ἡ δόξα, τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ ἁγίου Πνεύματος, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
       "value": "For Yours is the dominion, and Yours is the kingdom and the power and the glory, of the Father and the Son and the Holy Spirit, now and ever and to the ages of ages."
     },
     {
       "key": "2026-06-08-ma-gr-en.row040",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "dwachoir",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res04.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res04.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Ἀμήν.",
       "value": "CHOIR: Amen."
     },
     {
       "key": "2026-06-08-ma-gr-en.row041",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "bkmrk03",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.bookmark",
+        "miscellanea_en_US_dedes|misc.bookmark"
+      ],
       "greek": "bookmark",
       "value": "bookmark"
     },
     {
       "key": "2026-06-08-ma-gr-en.row042",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.Kathisma1",
+        "titles_en_US_dedes|ti.Kathisma1"
+      ],
       "greek": "Κάθισμα Αʹ.",
       "value": "Kathisma I."
     },
     {
       "key": "2026-06-08-ma-gr-en.row043",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "source0",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.sourceOctoechos",
+        "titles_en_US_dedes|ti.sourceOctoechos"
+      ],
       "greek": "Τῆς Ὀκτωήχου - - -",
       "value": "From Octoechos - - -"
     },
     {
       "key": "2026-06-08-ma-gr-en.row044",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.ForCompunction_hymns",
+        "titles_en_US_dedes|ti.ForCompunction_hymns"
+      ],
       "greek": "Κατανυκτικά.",
       "value": "For compunction."
     },
     {
       "key": "2026-06-08-ma-gr-en.row045",
       "kind": "mode",
+      "dcsClasses": [
+        "leftCell",
+        "mode",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.Mode8",
+        "miscellanea_en_US_goadedes|misc.Mode8"
+      ],
       "greek": "Ἦχος πλ. δʹ.",
       "value": "Mode pl. 4."
     },
     {
       "key": "2026-06-08-ma-gr-en.row046",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "oc.m8.d2_gr_GR_cog|ocMA.Kathisma11.text",
+        "oc.m8.d2_en_US_goadedes|ocMA.Kathisma11.text",
+        "properties_en_US_goadedes|version.designation"
+      ],
       "greek": "Ὄμματι εὐσπλάγχνῳ Κύριε, ἴδε τὴν ἐμὴν ταπείνωσιν, ὅτι κατὰ μικρὸν ἡ ζωή μου δαπανᾶται, καὶ ἐξ ἔργων ἐμοὶ οὐχ ὑπάρχει σωτηρία· διὰ τοῦτο δέομαι· Ὄμματι εὐσπλάγχνῳ Κύριε, ἴδε τὴν ἐμὴν ταπείνωσιν, καὶ σῶσόν με.",
       "value": "O Lord, I beg You look at my low condition with a compassionate expression. For my life is passing little by little, and I have not done anything to merit salvation. Therefore I implore You: O Lord, look at my low condition with a compassionate expression, and save me. [GOASD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row047",
-      "kind": "text",
+      "kind": "verse",
+      "dcsClasses": [
+        "leftCell",
+        "verse",
+        "italicsred",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.vVerse",
+        "liturgical.verses_gr_GR_cog|psMA.monday.kathismata.v1.text",
+        "miscellanea_en_US_dedes|misc.vVerse",
+        "liturgical.verses_en_US_saas|psMA.monday.kathismata.v1.text"
+      ],
       "greek": "Στίχ. \r\n \r\n Κύριε, μὴ τῷ θυμῷ σου ἐλέγξῃς με, μηδὲ τῇ ὀργῇ σου παιδεύσῃς με.",
       "value": "Verse: O Lord, do not rebuke me in Your wrath, nor chasten me in Your anger."
     },
     {
       "key": "2026-06-08-ma-gr-en.row048",
       "kind": "mode",
+      "dcsClasses": [
+        "leftCell",
+        "mode",
+        "kvp",
+        "melody",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.Mode8",
+        "he.a.m8_gr_GR_cog|heAU.TinSofianKaiLogon.name",
+        "miscellanea_en_US_goadedes|misc.Mode8",
+        "he.a.m8_en_US_goadedes|heAU.TinSofianKaiLogon.name"
+      ],
       "greek": "Ἦχος πλ. δʹ. \r\n Τὴν Σοφίαν καὶ Λόγον.",
       "value": "Mode pl. 4. By conceiving the Wisdom."
     },
     {
       "key": "2026-06-08-ma-gr-en.row049",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "greekmelody",
+        "kvp",
+        "dummy",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "he.a.m8_gr_GR_cog|heAU.TinSofianKaiLogon.greekname",
+        "he.a.m8_en_US_goadedes|heAU.TinSofianKaiLogon.greekname"
+      ],
       "greek": "",
       "value": "Τὴν Σοφίαν καὶ Λόγον."
     },
     {
       "key": "2026-06-08-ma-gr-en.row050",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "oc.m8.d2_gr_GR_cog|ocMA.Kathisma12.text",
+        "oc.m8.d2_en_US_goadedes|ocMA.Kathisma12.text",
+        "properties_en_US_goadedes|version.designation"
+      ],
       "greek": "Τὴν ἡμέραν ἐκείνην τὴν φοβεράν, ἐννοοῦσα ψυχή μου γρηγόρησον, ἀνάπτουσα λαμπάδα σου, ἐν ἐλαίῳ φαιδρύνουσα· οὐ γὰρ οἶδας πότε, πρὸς σὲ ἐπελεύσεται, ἡ φωνὴ ἡ λέγουσα, Ἰδοὺ ὁ Νυμφίος σου. Βλέπε οὖν ψυχή μου, μὴ νυστάξῃς καὶ μείνῃς, ἔξωθεν κρούουσα, ὡς αἱ πέντε παρθένοι· ἀλλʼ ἀγρύπνως καρτέρησον, ἵνα ὑπαντήσῃς Χριστῷ τῷ Θεῷ, ἐν ἐλαίῳ πίονι καὶ δῴη σοι, τὸν νυμφῶνα τὸν θεῖον τῆς δόξης αὐτοῦ.",
       "value": "O my soul, keep the thought of that fearful day * in the front of your mind, and be vigilant; * and trimming your oil lamp, keep it lit with the virtues. * For you know not the day nor the hour the cry will come * to you specifically, saying, “Behold, your Bridegroom is here!” * Therefore, O my soul, always watch lest you slumber * and be left outside knocking like those five foolish maidens. * But continue in vigilance, * so that you may meet Christ God with abundant oil, and He give to you * the heavenly bridal room of His glory divine. [GOASD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row051",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "mixed",
+        "kvp",
+        "designation",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.GloryBothNow",
+        "titles_gr_GR_cog|ti.Theotokion",
+        "titles_en_US_dedes|ti.GloryBothNow",
+        "titles_en_US_dedes|ti.Theotokion"
+      ],
       "greek": "Δόξα· καὶ νῦν. \r\n Θεοτοκίον.",
       "value": "Glory. Both now. Theotokion."
     },
     {
       "key": "2026-06-08-ma-gr-en.row052",
       "kind": "mode",
+      "dcsClasses": [
+        "leftCell",
+        "mode",
+        "kvp",
+        "melody",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.Mode8",
+        "he.a.m8_gr_GR_cog|heAU.TinSofianKaiLogon.name",
+        "miscellanea_en_US_goadedes|misc.Mode8",
+        "he.a.m8_en_US_goadedes|heAU.TinSofianKaiLogon.name"
+      ],
       "greek": "Ἦχος πλ. δʹ. \r\n Τὴν Σοφίαν καὶ Λόγον.",
       "value": "Mode pl. 4. By conceiving the Wisdom."
     },
     {
       "key": "2026-06-08-ma-gr-en.row053",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "greekmelody",
+        "kvp",
+        "dummy",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "he.a.m8_gr_GR_cog|heAU.TinSofianKaiLogon.greekname",
+        "he.a.m8_en_US_dedes|heAU.TinSofianKaiLogon.greekname"
+      ],
       "greek": "",
       "value": "Τὴν Σοφίαν καὶ Λόγον."
     },
     {
       "key": "2026-06-08-ma-gr-en.row054",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "oc.m8.d2_gr_GR_cog|ocMA.Kathisma13.text",
+        "oc.m8.d2_en_US_goadedes|ocMA.Kathisma13.text",
+        "properties_en_US_goadedes|version.designation"
+      ],
       "greek": "Ὁ τῶν ὅλων Δεσπότης καὶ ποιητής, ἐξ ἀχράντου σου μήτρας σάρκα λαβών, προστάτιν σε ἔδειξε, τῶν ἀνθρώπων Πανάμωμε· διὰ τοῦτο πάντες, πρὸς σὲ καταφεύγομεν, ἱλασμὸν πταισμάτων, αἰτούμενοι Δέσποινα, καὶ αἰωνιζούσης, λυτρωθῆναι βασάνου, καὶ πάσης κολάσεως, τῆς ἐκεῖσε δεόμεθα, ἵνα πίστει βοῶμέν σοι· Πρέσβευε Χριστῷ τῷ Θεῷ, τοῦ δοθῆναι πᾶσι Κόρη ἄφεσιν, τοῖς πιστῶς προσιοῦσι τῇ σκέπῃ σου.",
       "value": "The Creator and Master of all the world, * who took flesh from your all-pure and holy womb, * made you, the all-blameless Maid, * the protectress of humanity. * For this reason all we faithful now have recourse to you, * and we ask you, O Lady, to be forgiven our offenses, * and to be delivered from eternal perdition * We pray you to rescue us from all punishments that are there. * And with faith we cry out to you: * Intercede with Christ our God * that He grant forgiveness of offenses * to those who faithfully run to you for shelter, O Bride of God [GOASD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row055",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "rubric",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "lectionaries_gr_GR_cog|lecPS.rubric_kathisma",
+        "miscellanea_gr_GR_cog|misc.anum5",
+        "lectionaries_gr_GR_cog|lecPS.rubric_nolitany",
+        "lectionaries_en_US_goadedes|lecPS.rubric_kathisma",
+        "miscellanea_en_US_dedes|misc.anum5",
+        "lectionaries_en_US_goadedes|lecPS.rubric_nolitany"
+      ],
       "greek": "Ἀναγινώσκεται τὸ οἰκεῖον Κάθισμα τοῦ Ψαλτηρίου, ἤτοι Κάθισμα \r\n 5. \r\n Καὶ εὐθύς, ἄνευ μικρᾶς Συναπτῆς·",
       "value": "The appointed Kathisma of the Psalter may be read, i.e. Kathisma 5. There is no litany, but immediately the following:"
     },
     {
       "key": "2026-06-08-ma-gr-en.row056",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "source",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.sourceOctoechos",
+        "titles_en_US_dedes|ti.sourceOctoechos"
+      ],
       "greek": "Τῆς Ὀκτωήχου - - -",
       "value": "From Octoechos - - -"
     },
     {
       "key": "2026-06-08-ma-gr-en.row057",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.Kathisma2",
+        "titles_en_US_dedes|ti.Kathisma2"
+      ],
       "greek": "Κάθισμα Βʹ.",
       "value": "Kathisma II."
     },
     {
       "key": "2026-06-08-ma-gr-en.row058",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.ForCompunction_hymns",
+        "titles_en_US_dedes|ti.ForCompunction_hymns"
+      ],
       "greek": "Κατανυκτικά.",
       "value": "For compunction."
     },
     {
       "key": "2026-06-08-ma-gr-en.row059",
       "kind": "mode",
+      "dcsClasses": [
+        "leftCell",
+        "mode",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.Mode8",
+        "miscellanea_en_US_goadedes|misc.Mode8"
+      ],
       "greek": "Ἦχος πλ. δʹ.",
       "value": "Mode pl. 4."
     },
     {
       "key": "2026-06-08-ma-gr-en.row060",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "oc.m8.d2_gr_GR_cog|ocMA.Kathisma21.text",
+        "oc.m8.d2_en_US_goadedes|ocMA.Kathisma21.text",
+        "properties_en_US_goadedes|version.designation"
+      ],
       "greek": "Ὡς τοῦ Κριτοῦ παρόντος, μερίμνησον ψυχή, καὶ τῆς φρικτῆς ἡμέρας, τὴν ὥραν ἐννοοῦ· ἡ γὰρ κρίσις ἀνίλεώς ἐστι, τοῖς μὴ πράξασιν ἔλεος· διὸ πρὸ τέλους βόησον· Φεῖσαί μου Σωτήρ, μόνος γὰρ ὑπάρχεις φιλάνθρωπος.",
       "value": "As if the Judge were present, be anxious, O my soul, and keep in mind the thought of the hour of that fearful day. For the judgment is merciless to those who showed no mercy. So before the end cry aloud, “Spare me, O my Savior, for You are supremely benevolent.” [GOASD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row061",
-      "kind": "text",
+      "kind": "verse",
+      "dcsClasses": [
+        "leftCell",
+        "verse",
+        "italicsred",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.vVerse",
+        "liturgical.verses_gr_GR_cog|psMA.monday.kathismata.v2.text",
+        "miscellanea_en_US_dedes|misc.vVerse",
+        "liturgical.verses_en_US_saas|psMA.monday.kathismata.v2.text"
+      ],
       "greek": "Στίχ. \r\n \r\n Ἐπίβλεψον ἐπʼ ἐμὲ καὶ ἐλέησόν με κατὰ τὸ κρίμα τῶν ἀγαπώντων τὸ ὄνομά σου.",
       "value": "Verse: Look upon me and have mercy on me."
     },
     {
       "key": "2026-06-08-ma-gr-en.row062",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "oc.m8.d2_gr_GR_cog|ocMA.Kathisma22.text",
+        "oc.m8.d2_en_US_goadedes|ocMA.Kathisma22.text",
+        "properties_en_US_goadedes|version.designation"
+      ],
       "greek": "Ὡς ἡ πόρνη σοι προσπίπτω, ἵνα λάβω τὴν ἄφεσιν, καὶ ἀντὶ μύρου τὰ δάκρυα ἐκ καρδίας, προσφέρω σοι Χριστὲ ὁ Θεός· ἵνα ὡς ἐκείνην, οἰκτειρήσῃς με Σωτήρ, καὶ παράσχῃς ἱλασμὸν ἁμαρτιῶν· ὡς αὐτὴ γὰρ κραυγάζω σοι· Λύτρωσαί με τοῦ βορβόρου τῶν ἔργων μου.",
       "value": "Like the sinful woman, I come to You to be forgiven, and instead of perfume, I offer You my heartfelt tears, O Christ God, so that You will pity me, as You did her, O Savior, and grant to me forgiveness of sins. For like her, I cry to You, “Free me from the mud of my sinful deeds!” [GOASD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row063",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "mixed",
+        "kvp",
+        "designation",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.GloryBothNow",
+        "titles_gr_GR_cog|ti.Theotokion",
+        "titles_en_US_dedes|ti.GloryBothNow",
+        "titles_en_US_dedes|ti.Theotokion"
+      ],
       "greek": "Δόξα· καὶ νῦν. \r\n Θεοτοκίον.",
       "value": "Glory. Both now. Theotokion."
     },
     {
       "key": "2026-06-08-ma-gr-en.row064",
       "kind": "mode",
+      "dcsClasses": [
+        "leftCell",
+        "mode",
+        "kvp",
+        "melody",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.Mode8",
+        "he.a.m8_gr_GR_cog|heAU.ToProstachthen.name",
+        "miscellanea_en_US_dedes|misc.Mode8",
+        "he.a.m8_en_US_dedes|heAU.ToProstachthen.name"
+      ],
       "greek": "Ἦχος πλ. δʹ. \r\n Τὸ προσταχθέν.",
       "value": "Mode pl. 4. When he perceived."
     },
     {
       "key": "2026-06-08-ma-gr-en.row065",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "greekmelody",
+        "kvp",
+        "dummy",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "he.a.m8_gr_GR_cog|heAU.ToProstachthen.greekname",
+        "he.a.m8_en_US_dedes|heAU.ToProstachthen.greekname"
+      ],
       "greek": "",
       "value": "Τὸ προσταχθέν."
     },
     {
       "key": "2026-06-08-ma-gr-en.row066",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "oc.m8.d2_gr_GR_cog|ocMA.Kathisma23.text",
+        "oc.m8.d2_en_US_dedes|ocMA.Kathisma23.text",
+        "properties_en_US_dedes|version.designation"
+      ],
       "greek": "Θεοχαρίτωτε Ἁγνὴ εὐλογημένη, τὸν διὰ σπλάγχνα οἰκτιρμῶν ἐκ σοῦ τεχθέντα, σὺν ταῖς ἄνω δυνάμεσι καὶ τοῖς Ἀρχαγγέλοις, καὶ πᾶσι τοῖς Ἀσωμάτοις ὑπὲρ ἡμῶν, δυσώπει ἀκαταπαύστως δοῦναι ἡμῖν, πρὸ τοῦ τέλους διόρθωσιν, καὶ ἱλασμὸν ἁμαρτιῶν, καὶ βίου ἐπανόρθωσιν, ὅπως εὕρωμεν ἔλεος.",
       "value": "O Lady, pure, graced by God, and ever-blessed, * join with the Powers in the heavens, the Archangels, * all the Bodiless Hosts and ceaselessly petition * the Lord, who in His compassion was born from you, * entreating on our behalf that before the end * He will grant us correction and the expiation of our sins, * amendment of our way of life, * so that mercy await us all. [SD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row067",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "source",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.sourceOctoechos",
+        "titles_en_US_dedes|ti.sourceOctoechos"
+      ],
       "greek": "Τῆς Ὀκτωήχου - - -",
       "value": "From Octoechos - - -"
     },
     {
       "key": "2026-06-08-ma-gr-en.row068",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.Kathisma3",
+        "titles_en_US_dedes|ti.Kathisma3"
+      ],
       "greek": "Κάθισμα Γʹ.",
       "value": "Kathisma III."
     },
     {
       "key": "2026-06-08-ma-gr-en.row069",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.ForCompunction_hymns",
+        "titles_en_US_dedes|ti.ForCompunction_hymns"
+      ],
       "greek": "Κατανυκτικά.",
       "value": "For compunction."
     },
     {
       "key": "2026-06-08-ma-gr-en.row070",
       "kind": "mode",
+      "dcsClasses": [
+        "leftCell",
+        "mode",
+        "kvp",
+        "melody",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.Mode8",
+        "he.a.m8_gr_GR_cog|heAU.TinSofianKaiLogon.name",
+        "miscellanea_en_US_goadedes|misc.Mode8",
+        "he.a.m8_en_US_goadedes|heAU.TinSofianKaiLogon.name"
+      ],
       "greek": "Ἦχος πλ. δʹ. \r\n Τὴν Σοφίαν καὶ Λόγον.",
       "value": "Mode pl. 4. By conceiving the Wisdom."
     },
     {
       "key": "2026-06-08-ma-gr-en.row071",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "greekmelody",
+        "kvp",
+        "dummy",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "he.a.m8_gr_GR_cog|heAU.TinSofianKaiLogon.greekname",
+        "he.a.m8_en_US_goadedes|heAU.TinSofianKaiLogon.greekname"
+      ],
       "greek": "",
       "value": "Τὴν Σοφίαν καὶ Λόγον."
     },
     {
       "key": "2026-06-08-ma-gr-en.row072",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "oc.m8.d2_gr_GR_cog|ocMA.Kathisma31.text",
+        "oc.m8.d2_en_US_goadedes|ocMA.Kathisma31.text",
+        "properties_en_US_goadedes|version.designation"
+      ],
       "greek": "Ἕως πότε ψυχή μου ζῇς ἀμελῶς; ἕως πότε ῥαθύμως διατελεῖς; τοῦ ὕπνου ἐξεγέρθητι, ῥαθυμίας ταλαίπωρε, καὶ κατὰ νοῦν λαβοῦσα, τὰς πράξεις σου στέναξον, καὶ τοῦ δικαίου φρῖξον, Κριτοῦ τὴν ἀπόφασιν. Τί ἀπολογήσῃ, ἐν ἐκείνῃ τῇ ὥρᾳ; ἢ πῶς τῆς μελλούσης, λυτρωθήσῃ φλογώσεως, ἀδιόρθωτος μένουσα; βόησον πρὸ τέλους τῷ Κριτῇ· Τῶν πταισμάτων δός μοι Σῶτερ ἄφεσιν· σὺ γὰρ μόνος ὑπάρχεις μακρόθυμος.",
       "value": "For how long will you rashly insist to live * with indifference and laziness, O my soul? * Wake up from your apathy as from sleep, O pathetic fool. * Recollect your sinful deeds and moan with anxiety, * and shudder at the thought of the verdict the Judge will pronounce. * What kind of defense will you have in that hour? * And how do you expect to be saved from the future fire, if you refuse to correct yourself? * Before the end, cry out to the Judge, * “O Savior, forgive my offenses, * for You are supremely long-suffering.” [GOASD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row073",
-      "kind": "text",
+      "kind": "verse",
+      "dcsClasses": [
+        "leftCell",
+        "verse",
+        "italicsred",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.vVerse",
+        "liturgical.verses_gr_GR_cog|psMA.weekday.kathismata.v3.text",
+        "miscellanea_en_US_dedes|misc.vVerse",
+        "liturgical.verses_en_US_saas|psMA.weekday.kathismata.v3.text"
+      ],
       "greek": "Στίχ. \r\n \r\n Θαυμαστὸς ὁ Θεὸς ἐν τοῖς ἁγίοις αὐτοῦ.",
       "value": "Verse: God is wondrous in His saints."
     },
     {
       "key": "2026-06-08-ma-gr-en.row074",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.ForMartyrs_1hymn",
+        "titles_en_US_dedes|ti.ForMartyrs_1hymn"
+      ],
       "greek": "Μαρτυρικόν.",
       "value": "For the Martyrs."
     },
     {
       "key": "2026-06-08-ma-gr-en.row075",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "oc.m8.d2_gr_GR_cog|ocMA.Kathisma32.text",
+        "oc.m8.d2_en_US_dedes|ocMA.Kathisma32.text",
+        "properties_en_US_dedes|version.designation"
+      ],
       "greek": "Φωτὶ οὐρανίῳ καταλάμπεται, σήμερον αὕτη ἡ σκηνή· ἐν αὐτῇ γὰρ στρατιαί, Ἀγγέλων ἀγάλλονται, σὺν αὐταῖς καὶ δικαίων, χοροὶ εὐφραίνονται, ἐπὶ τῇ μνήμῃ τῶν Ἀθλοφόρων. Αὐτῶν ταῖς παρακλήσεσι, κατάπεμψον τῷ κόσμῳ σου, τὴν εἰρήνην Χριστέ, καὶ τὸ μέγα ἔλεος.",
       "value": "This tabernacle is splendidly illumined today with heavenly light. For herein do the armies of Angels greatly rejoice, and with them the hosts of the Righteous are cheerful, as the victorious Martyrs are commemorated. O Christ, by their supplications, send down peace and great mercy to Your world. [SD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row076",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "mixed",
+        "kvp",
+        "designation",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.GloryBothNow",
+        "titles_gr_GR_cog|ti.Theotokion",
+        "titles_en_US_dedes|ti.GloryBothNow",
+        "titles_en_US_dedes|ti.Theotokion"
+      ],
       "greek": "Δόξα· καὶ νῦν. \r\n Θεοτοκίον.",
       "value": "Glory. Both now. Theotokion."
     },
     {
       "key": "2026-06-08-ma-gr-en.row077",
       "kind": "mode",
+      "dcsClasses": [
+        "leftCell",
+        "mode",
+        "kvp",
+        "melody",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.Mode8",
+        "he.a.m8_gr_GR_cog|heAU.ToProstachthen.melody",
+        "miscellanea_en_US_dedes|misc.Mode8",
+        "he.a.m8_en_US_dedes|heAU.ToProstachthen.melody"
+      ],
       "greek": "Ἦχος πλ. δʹ. \r\n Αὐτόμελον.",
       "value": "Mode pl. 4. Automelon."
     },
     {
       "key": "2026-06-08-ma-gr-en.row078",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "he.a.m8_gr_GR_cog|heAU.ToProstachthen.text",
+        "he.a.m8_en_US_dedes|heAU.ToProstachthen.text",
+        "properties_en_US_dedes|version.designation"
+      ],
       "greek": "Τὸ προσταχθὲν μυστικῶς λαβὼν ἐν γνώσει, ἐν τῇ σκηνῇ τοῦ Ἰωσὴφ σπουδῇ ἐπέστη, ὁ Ἀσώματος λέγων τῇ Ἀπειρογάμῳ· Ὁ κλίνας τῇ καταβάσει τοὺς οὐρανούς, χωρεῖται ἀναλλοιώτως ὅλος ἐν σοί· ὃν καὶ βλέπων ἐν μήτρᾳ σου, λαβόντα δούλου μορφήν, ἐξίσταμαι κραυγάζων σοι· Χαῖρε, Νύμφη ἀνύμφευτε!",
       "value": "When he perceived what had secretly been ordered, * to the abode of Joseph urgently reported * the unbodied one saying unto the Unwedded: * “The Lord who has bowed the heavens in His descent, * in you is contained completely and without change; * and beholding Him in your womb * taking the form of a slave, * astounded I cry out to you: * Rejoice, O unwedded Bride.” [SD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row079",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "bkmrk08",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.bookmark",
+        "miscellanea_en_US_dedes|misc.bookmark"
+      ],
       "greek": "bookmark",
       "value": "bookmark"
     },
     {
       "key": "2026-06-08-ma-gr-en.row080",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Reader",
+        "actors_en_US_goa|ac.Reader"
+      ],
       "greek": "ΑΝΑΓΝΩΣΤΗΣ",
       "value": "READER"
     },
     {
       "key": "2026-06-08-ma-gr-en.row081",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "ps_gr_GR_cog|psa50.title",
+        "ps_en_US_saas|psa50.title"
+      ],
       "greek": "Ψαλμὸς Nʹ (50).",
       "value": "Psalm 50 (51)."
     },
     {
       "key": "2026-06-08-ma-gr-en.row082",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "reading",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "ps_gr_GR_cog|psa50.text",
+        "ps_en_US_saas|psa50.text",
+        "properties_en_US_saas|version.designation"
+      ],
       "greek": "Ἐλέησόν με, ὁ Θεός, κατὰ τὸ μέγα ἔλεός σου, καὶ κατὰ τὸ πλῆθος τῶν οἰκτιρμῶν σου ἐξάλειψον τὸ ἀνόμημά μου. Ἐπὶ πλεῖον πλῦνόν με ἀπὸ τῆς ἀνομίας μου, καὶ απὸ τῆς ἁμαρτίας μου καθάρισόν με. Ὅτι τὴν ἀνομίαν μου ἐγὼ γινώσκω, καὶ ἡ ἁμαρτία μου ἐνώπιόν μού ἐστι διὰ παντός. Σοὶ μόνῳ ἥμαρτον, καὶ τὸ πονηρὸν ἐνώπιόν σου ἐποίησα· ὅπως ἂν δικαιωθῇς ἐν τοῖς λόγοις σου, καὶ νικήσῃς ἐν τῷ κρίνεσθαί σε. Ἰδοὺ γὰρ ἐν ἀνομίαις συνελήφθην, καὶ ἐν ἁμαρτίαις ἐκίσσησέ με ἡ μήτηρ μου. Ἰδοὺ γὰρ ἀλήθειαν ἠγάπησας· τὰ ἄδηλα καὶ τὰ κρύφια τῆς σοφίας σου ἐδήλωσάς μοι. Ῥαντιεῖς με ὑσσώπῳ καὶ καθαρισθήσομαι· πλυνεῖς με καὶ ὑπὲρ χιόνα λευκανθήσομαι. Ἀκουτιεῖς μοι ἀγαλλίασιν καὶ εὐφροσύνην· ἀγαλλιάσονται ὀστέα τεταπεινωμένα. Ἀπόστρεψον τὸ πρόσωπόν σου ἀπὸ τῶν ἁμαρτιῶν μου καὶ πάσας τὰς ἀνομίας μου ἐξάλειψον. Καρδίαν καθαρὰν κτίσον ἐν ἐμοί, ὁ Θεός, καὶ πνεῦμα εὐθὲς ἐγκαίνισον ἐν τοῖς ἐγκάτοις μου. Μὴ ἀποῤῥίψῃς με ἀπὸ τοῦ προσώπου σου καὶ τὸ Πνεῦμά σου τὸ ἅγιον μὴ ἀντανέλῃς ἀπʼ ἐμοῦ. Ἀπόδος μοι τὴν ἀγαλλίασιν τοῦ σωτηρίου σου καὶ πνεύματι ἡγεμονικῷ στήριξόν με. Διδάξω ἀνόμους τὰς ὁδούς σου καὶ ἀσεβεῖς ἐπὶ σὲ ἐπιστρέψουσι. Ῥῦσαί με ἐξ αἱμάτων, ὁ Θεός, ὁ Θεὸς τῆς σωτηρίας μου· ἀγαλλιάσεται ἡ γλῶσσά μου τὴν δικαιοσύνην σου. Κύριε, τὰ χείλη μου ἀνοίξεις καὶ τὸ στόμα μου ἀναγγελεῖ τὴν αἴνεσίν σου. Ὅτι εἰ ἠθέλησας θυσίαν, ἔδωκα ἄν· ὁλοκαυτώματα οὐκ εὐδοκήσεις. Θυσία τῷ Θεῷ πνεῦμα συντετριμμένον· καρδίαν συντετριμμένην καὶ τεταπεινωμένην ὁ Θεὸς οὐκ ἐξουδενώσει. Ἀγάθυνον, Κύριε, ἐν τῇ εὐδοκίᾳ σου τὴν Σιὼν καὶ οἰκοδομηθήτω τὰ τείχη Ἰερουσαλήμ. Τότε εὐδοκήσεις θυσίαν δικαιοσύνης, ἀναφορὰν καὶ ὁλοκαυτώματα. Τότε ἀνοίσουσιν ἐπὶ τὸ θυσιαστήριόν σου μόσχους.",
       "value": "Have mercy on me, O God, according to Your great mercy; and according to the abundance of Your compassion, blot out my transgression. Wash me thoroughly from my lawlessness and cleanse me from my sin. For I know my lawlessness, and my sin is always before me. Against You only have I sinned and done evil in Your sight; that You may be justified in Your words, and overcome when You are judged. For behold, I was conceived in transgressions, and in sins my mother bore me. Behold, You love truth; You showed me the unknown and secret things of Your wisdom. You shall sprinkle me with hyssop, and I will be cleansed; You shall wash me, and I will be made whiter than snow. You shall make me hear joy and gladness; my bones that were humbled shall greatly rejoice. Turn Your face from my sins, and blot out all my transgressions. Create in me a clean heart, O God, and renew a right spirit within me. Do not cast me away from Your presence, and do not take Your Holy Spirit from me. Restore to me the joy of Your salvation, and uphold me with Your guiding Spirit. I will teach transgressors Your ways, and the ungodly shall turn back to You. Deliver me from bloodguiltiness, O God, the God of my salvation, and my tongue shall greatly rejoice in Your righteousness. O Lord, You shall open my lips, and my mouth will declare Your praise. For if You desired sacrifice, I would give it; You will not be pleased with whole burnt offerings. A sacrifice to God is a broken spirit, a broken and humbled heart God will not despise. Do good, O Lord, in Your good pleasure to Zion, and let the walls of Jerusalem be built; then You will be pleased with a sacrifice of righteousness, with offerings and whole burnt offerings; then shall they offer young bulls on Your altar. [SAAS]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row083",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.Kontakion",
+        "titles_en_US_dedes|ti.Kontakion"
+      ],
       "greek": "Κοντάκιον.",
       "value": "Kontakion."
     },
     {
       "key": "2026-06-08-ma-gr-en.row084",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "source0",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.sourceMenaion",
+        "titles_en_US_dedes|ti.sourceMenaion"
+      ],
       "greek": "Τοῦ Μηναίου - - -",
       "value": "From Menaion - - -"
     },
     {
       "key": "2026-06-08-ma-gr-en.row085",
       "kind": "mode",
+      "dcsClasses": [
+        "leftCell",
+        "mode",
+        "kvp",
+        "melody",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.Mode2",
+        "he.a.m2_gr_GR_cog|heAU.TaAnoZiton.name",
+        "miscellanea_en_US_goadedes|misc.Mode2",
+        "he.a.m2_en_US_goadedes|heAU.TaAnoZiton.name"
+      ],
       "greek": "Ἦχος βʹ. \r\n Τὰ ἄνω ζητῶν.",
       "value": "Mode 2. In seeking the heights."
     },
     {
       "key": "2026-06-08-ma-gr-en.row086",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "greekmelody",
+        "kvp",
+        "dummy",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "he.a.m2_gr_GR_cog|heAU.TaAnoZiton.greekname",
+        "he.a.m2_en_US_goadedes|heAU.TaAnoZiton.greekname"
+      ],
       "greek": "",
       "value": "Τὰ ἄνω ζητῶν."
     },
     {
       "key": "2026-06-08-ma-gr-en.row087",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "reading",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "me.m02.d08_gr_GR_cog|meMA.Kontakion1.text",
+        "me.m02.d08_en_US_goadedes|meMA.Kontakion1.text",
+        "properties_en_US_goadedes|version.designation"
+      ],
       "greek": "Ἀνδρείᾳ ψυχῆς, τὴν πίστιν ὁπλισάμενος, καὶ ῥῆμα Θεοῦ, ὡς λόγχην χειρισάμενος, τὸν ἐχθρὸν κατέτρωσας, τῶν μαρτύρων κλέος Θεόδωρε· σὺν αὐτοῖς Χριστῷ τῷ Θεῷ, πρεσβεύων μὴ παύσῃ ὑπὲρ πάντων ἡμῶν.",
       "value": "With courage of soul taking the shield of faith, O Saint, * and also the Spirit’s sword, which is the word of God, * you wounded the enemy. * As the gem of martyrs, O Theodore, * join them to pray to Christ our God, * and ever intercede for the sake of us all. [GOASD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row088",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.Oikos",
+        "titles_en_US_dedes|ti.Oikos"
+      ],
       "greek": "Ὁ Οἶκος.",
       "value": "Oikos."
     },
     {
       "key": "2026-06-08-ma-gr-en.row089",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "reading",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "me.m02.d08_gr_GR_cog|meMA.Oikos1.text",
+        "me.m02.d08_en_US_dedes|meMA.Oikos1.text",
+        "properties_en_US_dedes|version.designation"
+      ],
       "greek": "Τῶν ἀθλητῶν τὸ ἔκλαμπρον κάλλος δεῦτε πάντες, τοῖς ὕμνοις τῶν στεφάνων, πιστοὶ Θεόδωρον καταστέψωμεν· δῶρον Θεοῦ γὰρ μέγα τῷ κόσμῳ ἀναδέδεικται, λάμψεσι ταῖς τῶν θαυμάτων· τὸν γὰρ ἐχθρὸν ἐκνικήσας Βελίαρ ἄθλοις σεπτοῖς, ὀμβρίζει ἀντὶ αἱμάτων, κρουνηδὸν ἰαμάτων τὰ ῥεύματα. Ἐν τούτοις οὖν πᾶσι χαίρει Χριστῷ, καὶ δίδωσιν εἰρήνην ἀνέκλειπτον· διὸ βοῶμεν αὐτῷ· Πρεσβεύων μὴ παύσῃ, ὑπὲρ πάντων ἡμῶν.",
       "value": "Theodore, the splendid jewel of martyr athletes, is honored today. Come, O believers, and let us crown him with our hymns of praise. As his name means gift of God, so he was a great gift from God to the world, beaming with miracles. Since he defeated the enemy Belial by his venerable contests, now instead of blood he gushes a torrent of cures and healings. In all these things he rejoices in Christ, and he gives never-ending peace. Therefore we cry out to him: “Ever intercede for the sake of us all.” [SD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row090",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "bkmrk06",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.bookmark",
+        "miscellanea_en_US_dedes|misc.bookmark"
+      ],
       "greek": "bookmark",
       "value": "bookmark"
     },
     {
       "key": "2026-06-08-ma-gr-en.row091",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "rubric",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "rubrical_gr_GR_cog|ru.standing.prefix",
+        "rubrical_gr_GR_cog|ru.standing.matins.synaxarion",
+        "rubrical_en_US_dedes|ru.standing.prefix",
+        "rubrical_en_US_dedes|ru.standing.matins.synaxarion"
+      ],
       "greek": "Ὁ λαὸς ἵσταται \r\n διὰ τὴν ἀνάγνωσιν τοῦ Συναξαρίου.",
       "value": "Stand for the reading of the Synaxarion."
     },
     {
       "key": "2026-06-08-ma-gr-en.row092",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.Synaxarion",
+        "titles_en_US_dedes|ti.Synaxarion"
+      ],
       "greek": "Συναξάριον",
       "value": "Synaxarion"
     },
     {
       "key": "2026-06-08-ma-gr-en.row093",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "chapverse",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.Menaion",
+        "titles_en_US_dedes|ti.Menaion"
+      ],
       "greek": "Τοῦ Μηναίου.",
       "value": "From the Menaion."
     },
     {
       "key": "2026-06-08-ma-gr-en.row094",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "reading",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "sy.m06.d08_gr_GR_cog|syMA.commemoration01.text",
+        "sy.m06.d08_en_US_dedes|syMA.commemoration01.text"
+      ],
       "greek": "Τῇ Ηʹ τοῦ αὐτοῦ μηνός, μνήμη τῆς ἀνακομιδῆς τοῦ Λειψάνου τοῦ Ἁγίου Μεγαλομάρτυρος Θεοδώρου τοῦ Στρατηλάτου.",
       "value": "On June 8 we commemorate the translation of the relics of the Holy Great-martyr Theodore the Commander."
     },
     {
       "key": "2026-06-08-ma-gr-en.row095",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "reading",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "sy.m06.d08_gr_GR_cog|syMA.commemoration02.text",
+        "sy.m06.d08_en_US_dedes|syMA.commemoration02.text"
+      ],
       "greek": "Τῇ αὐτῇ ἡμέρᾳ, τελεῖται ἡ σύναξις τῆς ὑπεραγίας Θεοτόκου καὶ τοῦ Ἀρχαγγέλου Μιχαὴλ ἐν τῷ Σωσθενείῳ.",
       "value": "On this day is the Synaxis of the most-holy Theotokos and of the Archangel Michael in Sosthenio."
     },
     {
       "key": "2026-06-08-ma-gr-en.row096",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "reading",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "sy.m06.d08_gr_GR_cog|syMA.commemoration03.text",
+        "sy.m06.d08_en_US_dedes|syMA.commemoration03.text"
+      ],
       "greek": "Τῇ αὐτῇ ἡμέρᾳ, μνήμη τῶν Ἁγίων Μαρτύρων Νικάνδρου καὶ Μαρκιανοῦ.",
       "value": "On this day we also commemorate the Holy Martyrs Nicander and Marcian."
     },
     {
       "key": "2026-06-08-ma-gr-en.row097",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "reading",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "sy.m06.d08_gr_GR_cog|syMA.commemoration04.text",
+        "sy.m06.d08_en_US_dedes|syMA.commemoration04.text"
+      ],
       "greek": "Τῇ αὐτῇ ἡμέρᾳ, μνήμη τῆς Ἁγίας Μάρτυρος Καλλιόπης.",
       "value": "On this day we commemorate the holy Martyr Kalliopi."
     },
     {
       "key": "2026-06-08-ma-gr-en.row098",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "reading",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "sy.m06.d08_gr_GR_cog|syMA.commemoration05.text",
+        "sy.m06.d08_en_US_dedes|syMA.commemoration05.text"
+      ],
       "greek": "Τῇ αὐτῇ ἡμέρᾳ, ὁ Ἅγιος Νεομάρτυς Θεοφάνης, ὁ μαρτυρήσας ἐν Κωνστανινουπόλει κατὰ τὸ ἔτος 1559, ὀγγίνοις (ἤτοι τζεγγελίοις) τελειοῦται.",
       "value": "On this day, the Holy New-Martyr Theophanes, who was witnessed in Constantinople in the year 1559, died by torture."
     },
     {
       "key": "2026-06-08-ma-gr-en.row099",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "reading",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "sy.m06.d08_gr_GR_cog|syMA.lastline",
+        "sy.m06.d08_en_US_dedes|syMA.lastline"
+      ],
       "greek": "Ταῖς αὐτῶν ἀγίαις πρεσβείαις, Χριστὲ ὁ Θεός, ἐλέησον ἡμᾶς. Ἀμήν.",
       "value": "By their holy intercessions, Christ God, have mercy on us. Amen."
     },
     {
       "key": "2026-06-08-ma-gr-en.row100",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "bkmrk07",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.bookmark",
+        "miscellanea_en_US_dedes|misc.bookmark"
+      ],
       "greek": "bookmark",
       "value": "bookmark"
     },
     {
       "key": "2026-06-08-ma-gr-en.row101",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Choir",
+        "actors_en_US_goa|ac.Choir"
+      ],
       "greek": "ΧΟΡΟΣ",
       "value": "CHOIR"
     },
     {
       "key": "2026-06-08-ma-gr-en.row102",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "mode",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.Ode9",
+        "miscellanea_gr_GR_cog|misc.Heirmos",
+        "miscellanea_gr_GR_cog|misc.Mode4",
+        "miscellanea_en_US_dedes|misc.Ode9",
+        "miscellanea_en_US_dedes|misc.Heirmos",
+        "miscellanea_en_US_dedes|misc.Mode4"
+      ],
       "greek": "ᾨδὴ θʹ. \r\n Ὁ Εἱρμός. \r\n Ἦχος δʹ.",
       "value": "Ode ix. Heirmos. Mode 4."
     },
     {
       "key": "2026-06-08-ma-gr-en.row103",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "greekmelody",
+        "kvp",
+        "dummy",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "he.h.m4_gr_GR_cog|heHE.CheirasEkpetasasDaniil.greekname",
+        "he.h.m4_en_US_dedes|heHE.CheirasEkpetasasDaniil.greekname"
+      ],
       "greek": "",
       "value": "Χεῖρας ἐκπετάσας Δανιήλ."
     },
     {
       "key": "2026-06-08-ma-gr-en.row104",
-      "kind": "text",
+      "kind": "verse",
+      "dcsClasses": [
+        "leftCell",
+        "verse",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "ps_gr_GR_cog|bode8.v19.text",
+        "ps_en_US_saas|bode8.v19.text"
+      ],
       "greek": "Αἰνοῦμεν, εὐλογοῦμεν καὶ προσκυνοῦμεν τὸν Κύριον.",
       "value": "We praise and we bless and we worship the Lord."
     },
     {
       "key": "2026-06-08-ma-gr-en.row105",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "heirmos",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "he.h.m4_gr_GR_cog|heHE.CheirasEkpetasasDaniil.text",
+        "he.h.m4_en_US_dedes|heHE.CheirasEkpetasasDaniil.text",
+        "properties_en_US_dedes|version.designation"
+      ],
       "greek": "Χεῖρας ἐκπετάσας Δανιήλ, λεόντων χάσματα, ἐν λάκκω ἔφραξε· πυρὸς δὲ δύναμιν ἔσβεσαν, ἀρετὴν περιζωσάμενοι, οἱ εὐσεβείας ἐρασταί, παῖδες κραυγάζοντες· Εὐλογεῖτε, πάντα τὰ ἔργα Κυρίου τὸν Κύριον.",
       "value": "Daniel shut the lions’ gaping mouths inside the den of old, by stretching out his hands. * The three young men overcame the force * of the furnace fire, having girt * themselves in virtue, for they loved * godliness, and were together singing, * “Bless the Lord and praise Him, all you works of the Lord.” [SD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row106",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "bkmrk09",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.bookmark",
+        "miscellanea_en_US_dedes|misc.bookmark"
+      ],
       "greek": "bookmark",
       "value": "bookmark"
     },
     {
       "key": "2026-06-08-ma-gr-en.row107",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "rubric",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "rubrical_gr_GR_cog|ru.standing.prefix",
+        "rubrical_gr_GR_cog|ru.standing.matins.ode9",
+        "rubrical_en_US_dedes|ru.standing.prefix",
+        "rubrical_en_US_dedes|ru.standing.matins.ode9"
+      ],
       "greek": "Ὁ λαὸς ἵσταται \r\n διὰ τὴν Θʹ Ὠδήν.",
       "value": "Stand for the singing of Ode ix."
     },
     {
       "key": "2026-06-08-ma-gr-en.row108",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Deacon",
+        "actors_en_US_goa|ac.Deacon"
+      ],
       "greek": "ΔΙΑΚΟΝΟΣ",
       "value": "DEACON"
     },
     {
       "key": "2026-06-08-ma-gr-en.row109",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.exc15.text",
+        "prayers_en_US_goa|pr.exc15.text"
+      ],
       "greek": "Τὴν Θεοτόκον καὶ μητέρα τοῦ φωτὸς ἐν ὕμνοις τιμῶντες μεγαλύνωμεν.",
       "value": "Let us honor and magnify in song the Theotokos and the Mother of the light."
     },
     {
       "key": "2026-06-08-ma-gr-en.row110",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Choir",
+        "actors_en_US_goa|ac.Choir"
+      ],
       "greek": "ΧΟΡΟΣ",
       "value": "CHOIR"
     },
     {
       "key": "2026-06-08-ma-gr-en.row111",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.Ode9",
+        "miscellanea_en_US_dedes|misc.Ode9"
+      ],
       "greek": "ᾨδὴ θʹ.",
       "value": "Ode ix."
     },
     {
       "key": "2026-06-08-ma-gr-en.row112",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "mode",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.Magnificat",
+        "miscellanea_gr_GR_cog|misc.Mode4",
+        "titles_en_US_dedes|ti.Magnificat",
+        "miscellanea_en_US_dedes|misc.Mode4"
+      ],
       "greek": "Μεγαλυνάριον. \r\n Ἦχος δʹ.",
       "value": "The Magnificat. Mode 4."
     },
     {
       "key": "2026-06-08-ma-gr-en.row113",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "kvp",
+        "media-group",
+        "media-icon",
+        "fa",
+        "fa-byznote",
+        "jqm-dropdown",
+        "jqm-dropdown-tip",
+        "alwb-media-dropdown-div",
+        "jqm-dropdown-menu",
+        "jqm-dropdown-relative",
+        "alwb-media-dropdown-menu",
+        "mediaMenuItemId",
+        "mediaMenuItemPeople",
+        "glyphicon",
+        "glyphicon-music",
+        "rightCell",
+        "glyphicon-volume-up"
+      ],
+      "dcsKeys": [
+        "he.h.m6_gr_GR_cog|heHE.TinTimioteran.text",
+        "he.h.m6_en_US_dedes|heHE.TinTimioteran.text"
+      ],
       "greek": "c1011 - GTheodoridis/\r\n \r\n \r\n c1012 - Petros-Ioannis | JM Boyer/\r\n \r\n \r\n \r\n \r\n c1013 - Roubanis/",
       "value": "c1211 - SDedes/\r\n \r\n \r\n c1212 - GTheodoridis/\r\n \r\n \r\n \r\n \r\n c1211 - SDedes/\r\n \r\n \r\n \r\n \r\n c1211.a1 - SDorrance/\r\n \r\n \r\n c1211.a2 - J Damianos/"
     },
     {
       "key": "2026-06-08-ma-gr-en.row114",
-      "kind": "text",
+      "kind": "verse",
+      "dcsClasses": [
+        "leftCell",
+        "verse",
+        "boldred",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.vVerse",
+        "le.go.os_gr_GR_cog|leosMA.magnificat.v1.text",
+        "miscellanea_en_US_dedes|misc.vVerse",
+        "le.go.os_en_US_nkjv|leosMA.magnificat.v1.text",
+        "properties_en_US_nkjv|version.designation"
+      ],
       "greek": "Στίχ. \r\n \r\n Μεγαλύνει ἡ ψυχή μου τὸν Κύριον, καὶ ἠγαλλίασε τὸ πνεῦμά μου ἐπὶ τῷ Θεῷ τῷ σωτῆρί μου.",
       "value": "Verse: My soul magnifies the Lord, and my spirit has rejoiced in God my Savior. [NKJV]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row115",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "he.h.m6_gr_GR_cog|heHE.TinTimioteran.text",
+        "he.h.m6_en_US_goadedes|heHE.TinTimioteran.text",
+        "properties_en_US_goadedes|version.designation"
+      ],
       "greek": "Τὴν τιμιωτέραν τῶν Χερουβείμ, καὶ ἐνδοξοτέραν, ἀσυγκρίτως τῶν Σεραφείμ, τὴν ἀδιαφθόρως, Θεὸν Λόγον τεκοῦσαν, τὴν ὄντως Θεοτόκον, σὲ μεγαλύνομεν.",
       "value": "Greater in honor than the Cherubim, and in glory greater beyond compare than the Seraphim; you without corruption gave birth to God the Word, and are truly Theotokos. You do we magnify. [GOASD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row116",
-      "kind": "text",
+      "kind": "verse",
+      "dcsClasses": [
+        "leftCell",
+        "verse",
+        "boldred",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.vVerse",
+        "le.go.os_gr_GR_cog|leosMA.magnificat.v2.text",
+        "miscellanea_en_US_dedes|misc.vVerse",
+        "le.go.os_en_US_nkjv|leosMA.magnificat.v2.text",
+        "properties_en_US_nkjv|version.designation"
+      ],
       "greek": "Στίχ. \r\n \r\n Ὅτι ἐπέβλεψεν ἐπὶ τὴν ταπείνωσιν τῆς δούλης αὐτοῦ· ἰδού γάρ, ἀπὸ τοῦ νῦν μακαριοῦσί με πᾶσαι αἱ γενεαί.",
       "value": "Verse: For He has regarded the lowly state of His maidservant; for behold, henceforth all generations will call me blessed. [NKJV]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row117",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "he.h.m6_gr_GR_cog|heHE.TinTimioteran.text",
+        "he.h.m6_en_US_goadedes|heHE.TinTimioteran.text",
+        "properties_en_US_goadedes|version.designation"
+      ],
       "greek": "Τὴν τιμιωτέραν τῶν Χερουβείμ, καὶ ἐνδοξοτέραν, ἀσυγκρίτως τῶν Σεραφείμ, τὴν ἀδιαφθόρως, Θεὸν Λόγον τεκοῦσαν, τὴν ὄντως Θεοτόκον, σὲ μεγαλύνομεν.",
       "value": "Greater in honor than the Cherubim, and in glory greater beyond compare than the Seraphim; you without corruption gave birth to God the Word, and are truly Theotokos. You do we magnify. [GOASD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row118",
-      "kind": "text",
+      "kind": "verse",
+      "dcsClasses": [
+        "leftCell",
+        "verse",
+        "boldred",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.vVerse",
+        "le.go.os_gr_GR_cog|leosMA.magnificat.v3.text",
+        "miscellanea_en_US_dedes|misc.vVerse",
+        "le.go.os_en_US_nkjv|leosMA.magnificat.v3.text",
+        "properties_en_US_nkjv|version.designation"
+      ],
       "greek": "Στίχ. \r\n \r\n Ὅτι ἐποίησέ μοι μεγαλεῖα ὁ Δυνατός, καὶ ἅγιον τὸ ὄνομα αὐτοῦ, καί το ἔλεος αὐτοῦ εἰς γενεάν, καὶ γενεὰν τοῖς φοβουμένοις αὐτόν.",
       "value": "Verse: For He who is mighty has done great things for me, and holy is His name. And His mercy is on those who fear Him from generation to generation. [NKJV]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row119",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "he.h.m6_gr_GR_cog|heHE.TinTimioteran.text",
+        "he.h.m6_en_US_goadedes|heHE.TinTimioteran.text",
+        "properties_en_US_goadedes|version.designation"
+      ],
       "greek": "Τὴν τιμιωτέραν τῶν Χερουβείμ, καὶ ἐνδοξοτέραν, ἀσυγκρίτως τῶν Σεραφείμ, τὴν ἀδιαφθόρως, Θεὸν Λόγον τεκοῦσαν, τὴν ὄντως Θεοτόκον, σὲ μεγαλύνομεν.",
       "value": "Greater in honor than the Cherubim, and in glory greater beyond compare than the Seraphim; you without corruption gave birth to God the Word, and are truly Theotokos. You do we magnify. [GOASD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row120",
-      "kind": "text",
+      "kind": "verse",
+      "dcsClasses": [
+        "leftCell",
+        "verse",
+        "boldred",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.vVerse",
+        "le.go.os_gr_GR_cog|leosMA.magnificat.v4.text",
+        "miscellanea_en_US_dedes|misc.vVerse",
+        "le.go.os_en_US_nkjv|leosMA.magnificat.v4.text",
+        "properties_en_US_nkjv|version.designation"
+      ],
       "greek": "Στίχ. \r\n \r\n Ἐποίησε κράτος ἐν βραχίονι αὐτοῦ, διεσκόρπισεν ὑπερηφάνους διανοίᾳ καρδίας αὐτῶν.",
       "value": "Verse: He has shown strength with His arm; He has scattered the proud in the imagination of their hearts. [NKJV]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row121",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "he.h.m6_gr_GR_cog|heHE.TinTimioteran.text",
+        "he.h.m6_en_US_goadedes|heHE.TinTimioteran.text",
+        "properties_en_US_goadedes|version.designation"
+      ],
       "greek": "Τὴν τιμιωτέραν τῶν Χερουβείμ, καὶ ἐνδοξοτέραν, ἀσυγκρίτως τῶν Σεραφείμ, τὴν ἀδιαφθόρως, Θεὸν Λόγον τεκοῦσαν, τὴν ὄντως Θεοτόκον, σὲ μεγαλύνομεν.",
       "value": "Greater in honor than the Cherubim, and in glory greater beyond compare than the Seraphim; you without corruption gave birth to God the Word, and are truly Theotokos. You do we magnify. [GOASD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row122",
-      "kind": "text",
+      "kind": "verse",
+      "dcsClasses": [
+        "leftCell",
+        "verse",
+        "boldred",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.vVerse",
+        "le.go.os_gr_GR_cog|leosMA.magnificat.v5.text",
+        "miscellanea_en_US_dedes|misc.vVerse",
+        "le.go.os_en_US_nkjv|leosMA.magnificat.v5.text",
+        "properties_en_US_nkjv|version.designation"
+      ],
       "greek": "Στίχ. \r\n \r\n Καθεῖλε δυνάστας ἀπὸ θρόνων, καὶ ὕψωσε ταπεινούς, πεινῶντας ἐνέπλησεν ἀγαθῶν, καὶ πλουτοῦντας ἐξαπέστειλε κενούς.",
       "value": "Verse: He has put down the mighty from their thrones, and exalted the lowly. He has filled the hungry with good things, and the rich He has sent away empty. [NKJV]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row123",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "he.h.m6_gr_GR_cog|heHE.TinTimioteran.text",
+        "he.h.m6_en_US_goadedes|heHE.TinTimioteran.text",
+        "properties_en_US_goadedes|version.designation"
+      ],
       "greek": "Τὴν τιμιωτέραν τῶν Χερουβείμ, καὶ ἐνδοξοτέραν, ἀσυγκρίτως τῶν Σεραφείμ, τὴν ἀδιαφθόρως, Θεὸν Λόγον τεκοῦσαν, τὴν ὄντως Θεοτόκον, σὲ μεγαλύνομεν.",
       "value": "Greater in honor than the Cherubim, and in glory greater beyond compare than the Seraphim; you without corruption gave birth to God the Word, and are truly Theotokos. You do we magnify. [GOASD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row124",
-      "kind": "text",
+      "kind": "verse",
+      "dcsClasses": [
+        "leftCell",
+        "verse",
+        "boldred",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.vVerse",
+        "le.go.os_gr_GR_cog|leosMA.magnificat.v6.text",
+        "miscellanea_en_US_dedes|misc.vVerse",
+        "le.go.os_en_US_nkjv|leosMA.magnificat.v6.text",
+        "properties_en_US_nkjv|version.designation"
+      ],
       "greek": "Στίχ. \r\n \r\n Ἀντελάβετο Ἰσραὴλ παιδὸς αὐτοῦ, μνησθῆναι ἐλέους, καθὼς ἐλάλησε πρὸς τοὺς Πατέρας ἡμῶν, τῷ Ἀβραάμ, καὶ τῷ σπέρματι αὐτοῦ ἕως αἰῶνος.",
       "value": "Verse: He has helped His servant Israel, in remembrance of His mercy, as He spoke to our fathers, to Abraham and to his seed forever. [NKJV]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row125",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "he.h.m6_gr_GR_cog|heHE.TinTimioteran.text",
+        "he.h.m6_en_US_goadedes|heHE.TinTimioteran.text",
+        "properties_en_US_goadedes|version.designation"
+      ],
       "greek": "Τὴν τιμιωτέραν τῶν Χερουβείμ, καὶ ἐνδοξοτέραν, ἀσυγκρίτως τῶν Σεραφείμ, τὴν ἀδιαφθόρως, Θεὸν Λόγον τεκοῦσαν, τὴν ὄντως Θεοτόκον, σὲ μεγαλύνομεν.",
       "value": "Greater in honor than the Cherubim, and in glory greater beyond compare than the Seraphim; you without corruption gave birth to God the Word, and are truly Theotokos. You do we magnify. [GOASD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row126",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "mode",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.Heirmos",
+        "miscellanea_gr_GR_cog|misc.Mode4",
+        "miscellanea_en_US_dedes|misc.Heirmos",
+        "miscellanea_en_US_dedes|misc.Mode4"
+      ],
       "greek": "Ὁ Εἱρμός. \r\n Ἦχος δʹ.",
       "value": "Heirmos. Mode 4."
     },
     {
       "key": "2026-06-08-ma-gr-en.row127",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "greekmelody",
+        "kvp",
+        "dummy",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "he.h.m4_gr_GR_cog|heHE.LithosAcheirotmitos.greekname",
+        "he.h.m4_en_US_dedes|heHE.LithosAcheirotmitos.greekname"
+      ],
       "greek": "",
       "value": "Λίθος ἀχειρότμητος."
     },
     {
       "key": "2026-06-08-ma-gr-en.row128",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "heirmos",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "he.h.m4_gr_GR_cog|heHE.LithosAcheirotmitos.text",
+        "he.h.m4_en_US_dedes|heHE.LithosAcheirotmitos.text",
+        "properties_en_US_dedes|version.designation"
+      ],
       "greek": "Λίθος ἀχειρότμητος ὄρους, ἐξ ἀλαξεύτου σου Παρθένε, ἀκρογωνιαῖος ἐτμήθη, Χριστὸς συνάψας τὰς διεστώσας φύσεις· διὸ ἐπαγαλλόμενοι σὲ Θεοτόκε μεγαλύνομεν.",
       "value": "A cornerstone was cut out without hands from a never-quarried mountain, * which prefigured you, holy Virgin. * The stone is Christ, who joined the disparate natures. * As we rejoice because of this, O Theotokos, we magnify you. [SD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row129",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.ItIsTrulyRight_part1.text",
+        "he.h.m6_gr_GR_cog|heHE.TinTimioteran.text",
+        "prayers_en_US_goa|pr.ItIsTrulyRight_part1.text",
+        "he.h.m6_en_US_goadedes|heHE.TinTimioteran.text",
+        "properties_en_US_goadedes|version.designation"
+      ],
       "greek": "Ἄξιόν ἐστιν ὡς ἀληθῶς μακαρίζειν σε τὴν Θεοτόκον, τὴν ἀειμακάριστον καὶ παναμώμητον καὶ μητέρα τοῦ Θεοῦ ἡμῶν. \r\n Τὴν τιμιωτέραν τῶν Χερουβείμ, καὶ ἐνδοξοτέραν, ἀσυγκρίτως τῶν Σεραφείμ, τὴν ἀδιαφθόρως, Θεὸν Λόγον τεκοῦσαν, τὴν ὄντως Θεοτόκον, σὲ μεγαλύνομεν.",
       "value": "It is truly right to bless you, Theotokos, ever blessed, most pure, and Mother of our God. Greater in honor than the Cherubim, and in glory greater beyond compare than the Seraphim; you without corruption gave birth to God the Word, and are truly Theotokos. You do we magnify. [GOASD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row130",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "apriest",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Priest",
+        "actors_en_US_goa|ac.Priest"
+      ],
       "greek": "ΙΕΡΕΥΣ",
       "value": "PRIEST"
     },
     {
       "key": "2026-06-08-ma-gr-en.row131",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "dpriest",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.pet14.text",
+        "prayers_en_US_goa|pr.pet14.text"
+      ],
       "greek": "Ἔτι καὶ ἔτι ἐν εἰρήνῃ τοῦ Κυρίου δεηθῶμεν.",
       "value": "Again and again in peace let us pray to the Lord."
     },
     {
       "key": "2026-06-08-ma-gr-en.row132",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "dwachoir",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res01.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res01.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Κύριε, ἐλέησον.",
       "value": "CHOIR: Lord, have mercy."
     },
     {
       "key": "2026-06-08-ma-gr-en.row133",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "apriest",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Priest",
+        "actors_en_US_goa|ac.Priest"
+      ],
       "greek": "ΙΕΡΕΥΣ",
       "value": "PRIEST"
     },
     {
       "key": "2026-06-08-ma-gr-en.row134",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "dpriest",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.pet12.text",
+        "prayers_en_US_goa|pr.pet12.text"
+      ],
       "greek": "Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς, ὁ Θεός, τῇ σῇ χάριτι.",
       "value": "Help us, save us, have mercy on us, and protect us, O God, by Your grace."
     },
     {
       "key": "2026-06-08-ma-gr-en.row135",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "dwachoir",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res01.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res01.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Κύριε, ἐλέησον.",
       "value": "CHOIR: Lord, have mercy."
     },
     {
       "key": "2026-06-08-ma-gr-en.row136",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "apriest",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Priest",
+        "actors_en_US_goa|ac.Priest"
+      ],
       "greek": "ΙΕΡΕΥΣ",
       "value": "PRIEST"
     },
     {
       "key": "2026-06-08-ma-gr-en.row137",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "dpriest",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.pet13.text",
+        "prayers_en_US_goa|pr.pet13.text"
+      ],
       "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
       "value": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
     },
     {
       "key": "2026-06-08-ma-gr-en.row138",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "dwachoir",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res03.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res03.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Σοί, Κύριε.",
       "value": "CHOIR: To You, O Lord."
     },
     {
       "key": "2026-06-08-ma-gr-en.row139",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "apriest",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Priest",
+        "actors_en_US_goa|ac.Priest"
+      ],
       "greek": "ΙΕΡΕΥΣ",
       "value": "PRIEST"
     },
     {
       "key": "2026-06-08-ma-gr-en.row140",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "dpriest",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.exc10.text",
+        "prayers_en_US_goa|pr.exc10.text"
+      ],
       "greek": "Ὅτι σὲ αἰνοῦσι πᾶσαι αἱ δυνάμεις τῶν οὐρανῶν καὶ σοὶ τὴν δόξαν ἀναπέμπουσι, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ ἁγίῳ Πνεύματι, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
       "value": "For all the powers of heaven praise You, and to You they offer up glory, to the Father and the Son and the Holy Spirit, now and ever and to the ages of ages."
     },
     {
       "key": "2026-06-08-ma-gr-en.row141",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "dwachoir",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res04.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res04.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Ἀμήν.",
       "value": "CHOIR: Amen."
     },
     {
       "key": "2026-06-08-ma-gr-en.row142",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "bkmrk10",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.bookmark",
+        "miscellanea_en_US_dedes|misc.bookmark"
+      ],
       "greek": "bookmark",
       "value": "bookmark"
     },
     {
       "key": "2026-06-08-ma-gr-en.row143",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.Exaposteilarion",
+        "titles_en_US_dedes|ti.Exaposteilarion"
+      ],
       "greek": "Ἐξαποστειλάριον.",
       "value": "Exaposteilarion."
     },
     {
       "key": "2026-06-08-ma-gr-en.row144",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "source0",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.sourceMenaion",
+        "titles_en_US_dedes|ti.sourceMenaion"
+      ],
       "greek": "Τοῦ Μηναίου - - -",
       "value": "From Menaion - - -"
     },
     {
       "key": "2026-06-08-ma-gr-en.row145",
       "kind": "mode",
+      "dcsClasses": [
+        "leftCell",
+        "mode",
+        "kvp",
+        "melody",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.Mode3",
+        "he.a.m3_gr_GR_cog|heAU.EnPnevmatiToIero.name",
+        "miscellanea_en_US_goadedes|misc.Mode3",
+        "he.a.m3_en_US_goadedes|heAU.EnPnevmatiToIero.name"
+      ],
       "greek": "Ἦχος γʹ. \r\n Ἐν πνεύματι τῷ ἱερῷ.",
       "value": "Mode 3. The Elder in the Temple."
     },
     {
       "key": "2026-06-08-ma-gr-en.row146",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "greekmelody",
+        "kvp",
+        "dummy",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "he.a.m3_gr_GR_cog|heAU.EnPnevmatiToIero.greekname",
+        "he.a.m3_en_US_goadedes|heAU.EnPnevmatiToIero.greekname"
+      ],
       "greek": "",
       "value": "Ἐν Πνεύματι τῷ Ἱερῷ."
     },
     {
       "key": "2026-06-08-ma-gr-en.row147",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "me.m06.d08_gr_GR_cog|meMA.Exaposteilarion1.text",
+        "me.m06.d08_en_US_goadedes|meMA.Exaposteilarion1.text",
+        "properties_en_US_goadedes|version.designation"
+      ],
       "greek": "Τὰς παρατάξεις τῶν ἐχθρῶν, καὶ δαιμόνων τὰ θράση, εἰς τέλος κατηδάφισας, καὶ τὸ στέφος ἐδέξω, Θεόδωρε μακάριε, ἐκ χειρὸς τοῦ Κτίστου σου, ὡς Μάρτυς τῆς ἀληθείας· διασῴζεις δὲ πάντας, ἐκ παντοίων θλιβερῶν, παγίδων τοῦ ἀλλοτρίου.",
       "value": "You completely dashed to the earth * the insolence of demons * and the arrays of enemies, * and you received the halo * from the hands of your Creator, * O blessed St. Theodore, * as a Martyr of the true faith. * Now you rescue the faithful * from all the traps of the foe * and from every tribulation. [GOASD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row148",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.Theotokion",
+        "titles_en_US_dedes|ti.Theotokion"
+      ],
       "greek": "Θεοτοκίον.",
       "value": "Theotokion."
     },
     {
       "key": "2026-06-08-ma-gr-en.row149",
       "kind": "mode",
+      "dcsClasses": [
+        "leftCell",
+        "mode",
+        "kvp",
+        "melody",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.Mode3",
+        "he.a.m3_gr_GR_cog|heAU.EnPnevmatiToIero.name",
+        "miscellanea_en_US_dedes|misc.Mode3",
+        "he.a.m3_en_US_dedes|heAU.EnPnevmatiToIero.name"
+      ],
       "greek": "Ἦχος γʹ. \r\n Ἐν πνεύματι τῷ ἱερῷ.",
       "value": "Mode 3. The Elder in the Temple."
     },
     {
       "key": "2026-06-08-ma-gr-en.row150",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "me.m06.d08_gr_GR_cog|meMA.ExapTheotokion.text",
+        "me.m06.d08_en_US_dedes|meMA.ExapTheotokion.text",
+        "properties_en_US_dedes|version.designation"
+      ],
       "greek": "Γεραίρουσι τὸν τόκον σου, Ἀσωμάτων αἱ τάξεις· χαρᾶς γὰρ τὰ ἐπίγεια, σὺ πεπλήρωκας μόνη· διό σε τὴν πανάμωμον, οἱ πιστοὶ δοξάζοντες, ἐν ὕμνοις δοξολογοῦμεν· φῶς γὰρ σὺ τοῖς ἐν σκότει, ἐξανατέλλων ὡς ὄρθρος, ἀνέτειλας τῆς ἡμέρας.",
       "value": "The orders of the Bodiless * gaily honor your childbirth. * For among women only you * filled the earth with rejoicing. * We faithful therefore glorify * you the pure and blameless maid; * with hymns we sing your glory; * for to those in the darkness * you shone forth the light of day, * yourself shining like the morning. [SD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row151",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "bkmrk11",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.bookmark",
+        "miscellanea_en_US_dedes|misc.bookmark"
+      ],
       "greek": "bookmark",
       "value": "bookmark"
     },
     {
       "key": "2026-06-08-ma-gr-en.row152",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Reader",
+        "actors_en_US_goa|ac.Reader"
+      ],
       "greek": "ΑΝΑΓΝΩΣΤΗΣ",
       "value": "READER"
     },
     {
       "key": "2026-06-08-ma-gr-en.row153",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "smallred",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.Lauds",
+        "rubrical_gr_GR_cog|ru.Read",
+        "titles_en_US_dedes|ti.Lauds",
+        "rubrical_en_US_dedes|ru.Read"
+      ],
       "greek": "Οἱ Αἶνοι. \r\n (διαβαστά)",
       "value": "Lauds. (read)"
     },
     {
       "key": "2026-06-08-ma-gr-en.row154",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "ps_gr_GR_cog|psa148.title",
+        "ps_en_US_saas|psa148.title"
+      ],
       "greek": "Ψαλμὸς ΡΜΗʹ (148).",
       "value": "Psalm 148."
     },
     {
       "key": "2026-06-08-ma-gr-en.row155",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "reading",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "ps_gr_GR_cog|psa148.text",
+        "ps_en_US_saas|psa148.text",
+        "properties_en_US_saas|version.designation"
+      ],
       "greek": "Αἰνεῖτε τὸν Κύριον ἐκ τῶν οὐρανῶν· αἰνεῖτε αὐτὸν ἐν τοῖς ὑψίστοις. Αἰνεῖτε αὐτόν, πάντες οἱ ἄγγελοι αὐτοῦ· αἰνεῖτε αὐτόν, πᾶσαι αἱ δυνάμεις αὐτοῦ. Αἰνεῖτε αὐτὸν ἥλιος καὶ σελήνη, αἰνεῖτε αὐτὸν πάντα τὰ ἄστρα καὶ τὸ φῶς. Αἰνεῖτε αὐτὸν οἱ οὐρανοὶ τῶν οὐρανῶν καὶ τὸ ὕδωρ τὸ ὑπεράνω τῶν οὐρανῶν. Αἰνεσάτωσαν τὸ ὄνομα Κυρίου, ὅτι αὐτὸς εἶπε, καὶ ἐγενήθησαν, αὐτὸς ἐνετείλατο, καὶ ἐκτίσθησαν. Ἔστησεν αὐτὰ εἰς τὸν αἰῶνα καὶ εἰς τὸν αἰῶνα τοῦ αἰῶνος· πρόσταγμα ἔθετο, καὶ οὐ παρελεύσεται. Αἰνεῖτε τὸν Κύριον ἐκ τῆς γῆς, δράκοντες καὶ πᾶσαι ἄβυσσοι· πῦρ, χάλαζα, χιών, κρύσταλλος, πνεῦμα καταιγίδος, τὰ ποιοῦντα τὸν λόγον αὐτοῦ· τὰ ὄρη καὶ πάντες οἱ βουνοί, ξύλα καρποφόρα καὶ πᾶσαι κέδροι· τὰ θηρία καὶ πάντα τὰ κτήνη, ἑρπετὰ καὶ πετεινὰ πτερωτά· βασιλεῖς τῆς γῆς καὶ πάντες λαοί, ἄρχοντες καὶ πάντες κριταὶ γῆς· νεανίσκοι καὶ παρθένοι, πρεσβύτεροι μετὰ νεωτέρων· αἰνεσάτωσαν τὸ ὄνομα Κυρίου, ὅτι ὑψώθη τὸ ὄνομα αὐτοῦ μόνου· ἡ ἐξομολόγησις αὐτοῦ ἐπὶ γῆς καὶ οὐρανοῦ. Καὶ ὑψώσει κέρας λαοῦ αὐτοῦ· ὕμνος πᾶσι τοῖς ὁσίοις αὐτοῦ, τοῖς υἱοῖς Ἰσραήλ, λαῷ ἐγγίζοντι αὐτῷ.",
       "value": "Praise the Lord from the heavens; praise Him in the highest. Praise Him, all you His angels; praise Him, all you His hosts. Praise Him, sun and moon; praise Him, all you stars and light. Praise Him, you heavens of heavens, and you waters above the heavens. Let them praise the Lord’s name, for He spoke, and they were made; He commanded, and they were created. He established them forever and unto ages of ages; He set forth His ordinance, and it shall not pass away. Praise the Lord from the earth, you dragons and all the deeps, Fire and hail, snow and ice, stormy wind, which perform His word, mountains and all the hills, fruitful trees and all cedars, wild animals and all cattle, creeping things and flying birds, kings of the earth and all peoples, princes and all judges of the earth, young men and maidens, elders with younger, let them praise the Lord’s name, for His name alone is exalted; His thanksgiving is in earth and heaven. And He shall exalt the horn of His people, a hymn for all His saints, for the children of Israel, a people who draw near to Him. [SAAS]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row156",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "ps_gr_GR_cog|psa149.title",
+        "ps_en_US_saas|psa149.title"
+      ],
       "greek": "Ψαλμὸς ΡΜΘʹ(149).",
       "value": "Psalm 149."
     },
     {
       "key": "2026-06-08-ma-gr-en.row157",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "reading",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "ps_gr_GR_cog|psa149.text",
+        "ps_en_US_saas|psa149.text",
+        "properties_en_US_saas|version.designation"
+      ],
       "greek": "Ἄσατε τῷ Κυρίῳ ᾆσμα καινόν, ἡ αἴνεσις αὐτοῦ ἐν ἐκκλησίᾳ ὁσίων. Εὐφρανθήτω Ἰσραὴλ ἐπὶ τῷ ποιήσαντι αὐτόν, καὶ οἱ υἱοὶ Σιὼν ἀγαλλιάσθωσαν ἐπὶ τῷ βασιλεῖ αὐτῶν. Αἰνεσάτωσαν τὸ ὄνομα αὐτοῦ ἐν χορῷ, ἐν τυμπάνῳ καὶ ψαλτηρίῳ ψαλάτωσαν αὐτῷ, ὅτι εὐδοκεῖ Κύριος ἐν τῷ λαῷ αὐτοῦ καὶ ὑψώσει πραεῖς ἐν σωτηρίᾳ. Καυχήσονται ὅσιοι ἐν δόξῃ καὶ ἀγαλλιάσονται ἐπὶ τῶν κοιτῶν αὐτῶν. Αἱ ὑψώσεις τοῦ Θεοῦ ἐν τῷ λάρυγγι αὐτῶν, καὶ ῥομφαῖαι δίστομοι ἐν ταῖς χερσὶν αὐτῶν τοῦ ποιῆσαι ἐκδίκησιν ἐν τοῖς ἔθνεσιν, ἐλεγμοὺς ἐν τοῖς λαοῖς, τοῦ δῆσαι τοὺς βασιλεῖς αὐτῶν ἐν πέδαις καὶ τοὺς ἐνδόξους αὐτῶν ἐν χειροπέδαις σιδηραῖς, τοῦ ποιῆσαι ἐν αὐτοῖς κρῖμα ἔγγραπτον· δόξα αὕτη ἔσται πᾶσι τοῖς ὁσίοις αὐτοῦ.",
       "value": "Sing to the Lord a new song, His praise in the assembly of His holy ones. Let Israel be glad in Him who made him, and let the children of Zion greatly rejoice in their King. Let them praise His name with dance; with tambourine and harp let them sing to Him; for the Lord is pleased with His people, and He shall exalt the gentle with salvation. The holy ones shall boast in glory, and they shall greatly rejoice on their beds; the high praise of God shall be in their mouth and a two-edged sword in their hand, to deal retribution to the nations, reproving among the peoples, to shackle their kings with chains and their nobles with fetters of iron, to fulfill among them the written judgment: This glory have all His holy ones. [SAAS]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row158",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "ps_gr_GR_cog|psa150.title",
+        "ps_en_US_saas|psa150.title"
+      ],
       "greek": "Ψαλμὸς ΡΝʹ (150).",
       "value": "Psalm 150."
     },
     {
       "key": "2026-06-08-ma-gr-en.row159",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "reading",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "ps_gr_GR_cog|psa150.text",
+        "ps_en_US_saas|psa150.text",
+        "properties_en_US_saas|version.designation"
+      ],
       "greek": "Αἰνεῖτε τὸν Θεὸν ἐν τοῖς ἁγίοις αὐτοῦ, αἰνεῖτε αὐτὸν ἐν στερεώματι τῆς δυνάμεως αὐτοῦ· αἰνεῖτε αὐτὸν ἐπὶ ταῖς δυναστείαις αὐτοῦ, αἰνεῖτε αὐτὸν κατὰ τὸ πλῆθος τῆς μεγαλωσύνης αὐτοῦ. Αἰνεῖτε αὐτὸν ἐν ἤχῳ σάλπιγγος, αἰνεῖτε αὐτὸν ἐν ψαλτηρίῳ καὶ κιθάρᾳ· αἰνεῖτε αὐτὸν ἐν τυμπάνῳ καὶ χορῷ, αἰνεῖτε αὐτὸν ἐν χορδαῖς καὶ ὀργάνῳ· αἰνεῖτε αὐτὸν ἐν κυμβάλοις εὐήχοις, αἰνεῖτε αὐτὸν ἐν κυμβάλοις ἀλαλαγμοῦ. Πᾶσα πνοὴ αἰνεσάτω τὸν Κύριον. Ἀλληλούϊα.",
       "value": "Praise God in His saints; praise Him in the firmament of His power; praise Him for His mighty acts; praise Him according to the abundance of His greatness. Praise Him with the sound of a trumpet; praise Him with the harp and lyre; praise Him with timbrel and dance; praise Him with strings and flute; praise Him with resounding cymbals; praise Him with triumphant cymbals; let everything that breathes praise the Lord. Alleluia. [SAAS]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row160",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "reading",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.GloryToTheFather.text",
+        "prayers_gr_US_goa|pr.BothNowAndEver.text",
+        "prayers_en_US_goa|pr.GloryToTheFather.text",
+        "prayers_en_US_goa|pr.BothNowAndEver.text"
+      ],
       "greek": "Δόξα Πατρὶ καὶ Υἱῷ καὶ ἁγίῳ Πνεύματι. \r\n Καὶ νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων. Ἀμήν.",
       "value": "Glory to the Father and the Son and the Holy Spirit. Both now and ever and to the ages of ages. Amen."
     },
     {
       "key": "2026-06-08-ma-gr-en.row161",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "bkmrk12",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.bookmark",
+        "miscellanea_en_US_dedes|misc.bookmark"
+      ],
       "greek": "bookmark",
       "value": "bookmark"
     },
     {
       "key": "2026-06-08-ma-gr-en.row162",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "rubric",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "rubrical_gr_GR_cog|ru.standing.prefix",
+        "rubrical_gr_GR_cog|ru.standing.matins.smalldoxology",
+        "rubrical_en_US_dedes|ru.standing.prefix",
+        "rubrical_en_US_dedes|ru.standing.matins.smalldoxology"
+      ],
       "greek": "Ὁ λαὸς ἵσταται \r\n διὰ τὴν ἀνάγνωσιν τῆς Δοξολογίας.",
       "value": "Stand for the reading of the Doxology."
     },
     {
       "key": "2026-06-08-ma-gr-en.row163",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.SuperiorOrReader",
+        "actors_en_US_goa|ac.SuperiorOrReader"
+      ],
       "greek": "ΠΡΟΕΣΤΩΣ ἢ ΑΝΑΓΝΩΣΤΗΣ",
       "value": "HIERARCH or READER"
     },
     {
       "key": "2026-06-08-ma-gr-en.row164",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "smallred",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "ho.ho03_gr_GR_cog|hoMA.SmallDoxology.title",
+        "rubrical_gr_GR_cog|ru.Read",
+        "ho.ho03_en_US_holycross|hoMA.SmallDoxology.title",
+        "rubrical_en_US_dedes|ru.Read"
+      ],
       "greek": "Δοξολογία \r\n (διαβαστά)",
       "value": "Doxology (read)"
     },
     {
       "key": "2026-06-08-ma-gr-en.row165",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "reading",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "ho.ho03_gr_GR_cog|hoMA.DoxologySmallIntro.text",
+        "ho.ho03_en_US_holycross|hoMA.DoxologySmallIntro.text"
+      ],
       "greek": "Σοὶ δόξα πρέπει, Κύριε, ὁ Θεὸς ἡμῶν, καὶ σοὶ τὴν δόξαν ἀναπέμπομεν, τῷ Πατρί, καὶ τῷ Υἱῷ, καὶ τῷ Ἁγίῳ Πνεύματι, νῦν, καὶ ἀεί, καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
       "value": "To you belongs glory, O Lord our God, and to you we send up glory, to the Father and the Son and the Holy Spirit, now and forever and to the ages of ages."
     },
     {
       "key": "2026-06-08-ma-gr-en.row166",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Reader",
+        "prayers_gr_US_goa|pr.res04.text",
+        "actors_en_US_goa|ac.IL.Reader",
+        "prayers_en_US_goa|pr.res04.text"
+      ],
       "greek": "ΑΝΑΓΝΩΣΤΗΣ: \r\n \r\n Ἀμήν.",
       "value": "READER: Amen."
     },
     {
       "key": "2026-06-08-ma-gr-en.row167",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.SuperiorOrReader",
+        "actors_en_US_goa|ac.SuperiorOrReader"
+      ],
       "greek": "ΠΡΟΕΣΤΩΣ ἢ ΑΝΑΓΝΩΣΤΗΣ",
       "value": "HIERARCH or READER"
     },
     {
       "key": "2026-06-08-ma-gr-en.row168",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "reading",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "ho.ho03_gr_GR_cog|hoMA.SmallDoxology1.text",
+        "ho.ho03_gr_GR_cog|hoMA.SmallDoxology1d",
+        "ho.ho03_gr_GR_cog|hoMA.SmallDoxology2.text",
+        "ho.ho03_gr_GR_cog|hoMA.SmallDoxology2d",
+        "ho.ho03_gr_GR_cog|hoMA.SmallDoxology3.text",
+        "ho.ho03_en_US_holycross|hoMA.SmallDoxology1.text",
+        "ho.ho03_en_US_holycross|hoMA.SmallDoxology1d",
+        "ho.ho03_en_US_holycross|hoMA.SmallDoxology2.text",
+        "ho.ho03_en_US_holycross|hoMA.SmallDoxology2d",
+        "ho.ho03_en_US_holycross|hoMA.SmallDoxology3.text"
+      ],
       "greek": "Δόξα ἐν ὑψίστοις Θεῷ, καὶ ἐπὶ γῆς εἰρήνη ἐν ἀνθρώποις εὐδοκία. Ὑμνοῦμέν σε, εὐλογοῦμέν σε, προσκυνοῦμέν σε, δοξολογοῦμέν σε, εὐχαριστοῦμέν σοι, διὰ τὴν μεγάλην σου δόξαν. Κύριε Βασιλεῦ, ἐπουράνιε Θεέ, Πάτερ παντοκράτορ· Κύριε Υἱὲ μονογενές, Ἰησοῦ Χριστέ, καὶ Ἅγιον Πνεῦμα. Κύριε ὁ Θεός, ὁ Ἀμνὸς τοῦ Θεοῦ, ὁ Υἱὸς τοῦ Πατρός, ὁ αἴρων τὴν ἁμαρτίαν τοῦ κόσμου, ἐλέησον ἡμᾶς, ὁ αἴρων τὰς ἁμαρτίας τοῦ κόσμου. Πρόσδεξαι τὴν δέησιν ἡμῶν, ὁ καθήμενος ἐν δεξιᾷ τοῦ Πατρός, καὶ ἐλέησον ἡμᾶς. Ὅτι σὺ εἶ μόνος Ἅγιος, σὺ εἶ μόνος Κύριος, Ἰησοῦς Χριστός, εἰς δόξαν Θεοῦ Πατρός. Ἀμήν. Καθʼ ἑκάστην \r\n ἡμέραν \r\n εὐλογήσω σε, καὶ αἰνέσω τὸ ὄνομά σου εἰς τὸν αἰῶνα, καὶ εἰς τὸν αἰῶνα τοῦ αἰῶνος. Κύριε, καταφυγὴ ἐγενήθης ἡμῖν ἐν γενεᾷ καὶ γενεᾷ. Ἐγὼ εἶπα· Κύριε, ἐλέησόν με· ἴασαι τὴν ψυχήν μου, ὅτι ἥμαρτόν σοι. Κύριε, πρὸς σὲ κατέφυγον· δίδαξόν με τοῦ ποιεῖν τὸ θέλημά σου, ὅτι σὺ εἶ ὁ Θεός μου. Ὅτι παρὰ σοὶ πηγὴ ζωῆς· ἐν τῷ φωτί σου ὀψόμεθα φῶς. Παράτεινον τὸ ἔλεός σου τοῖς γινώσκουσί σε. Καταξίωσον, Κύριε, ἐν τῇ \r\n ἡμέρᾳ \r\n ταύτῃ ἀναμαρτήτους φυλαχθῆναι ἡμᾶς. Εὐλογητὸς εἶ, Κύριε, ὁ Θεὸς τῶν Πατέρων ἡμῶν, καὶ αἰνετὸν καὶ δεδοξασμένον τὸ ὄνομά σου εἰς τοὺς αἰῶνας. Ἀμήν. Γένοιτο, Κύριε, τὸ ἔλεός σου ἐφʼ ἡμᾶς, καθάπερ ἠλπίσαμεν ἐπὶ σέ. Εὐλογητὸς εἶ, Κύριε· δίδαξόν με τὰ δικαιώματά σου. Εὐλογητὸς εἶ, Δέσποτα· συνέτισόν με τὰ δικαιώματά σου. Εὐλογητός εἶ, Ἅγιε· φώτισόν με τοῖς δικαιώμασί σου. Κύριε, τὸ ἔλεός σου εἰς τὸν αἰῶνα· τὰ ἔργα τῶν χειρῶν σου μὴ παρίδῃς. Σοὶ πρέπει αἶνος, σοὶ πρέπει ὕμνος, σοὶ δόξα πρέπει, τῷ Πατρί, καὶ τῷ Υἱῷ, καὶ τῷ Ἁγίῳ Πνεύματι, νῦν, καὶ ἀεί, καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων. Ἀμήν.",
       "value": "Glory to God in the highest, and on earth peace, good will to men. We praise you, we bless you, we worship you, we glorify you, and we thank you, for your great glory. Lord, King, Heavenly God, Father Almighty; only-begotten Son, Lord Jesus Christ and Holy Spirit. Lord God, the Lamb of God, the Son of the Father, who take away the sin of the world, have mercy on us, you who take away the sins of the world. Accept our supplication, you who sit at the right of the Father, and have mercy on us. For you are the only Holy One, you are the only Lord, Jesus Christ, to the glory of God the Father. Amen. Every day I shall bless you, and I shall praise your name forever, and unto the ages of ages. Lord, you have become for us a refuge from generation to generation. I have said: Lord, have mercy on me, heal my soul, for I have sinned against you. Lord, to you I have fled; teach me to do your will, for you are my God. For with you is the fountain of life; in your light we shall see light. Extend your mercy to those who know you. Grant, O Lord, that in this day we may be kept without sin. Blessed are you, O Lord, the God of our Fathers, and praised and glorified is your name unto the ages. Amen. Let your mercy, Lord, come upon us, just as we have hoped in you. Blessed are you, O Lord, teach me your commandments. Blessed are you, O Master, make me understand your commandments. Blessed are you, O Holy One, enlighten me with your commandments. Lord, your mercy remains forever, do not turn away from the works of your hands. To you belongs praise, to you belongs a hymn, to you belongs glory, to the Father and the Son and the Holy Spirit, now and ever and to the ages of ages. Amen."
     },
     {
       "key": "2026-06-08-ma-gr-en.row169",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "mixed",
+        "smallred",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.LitanyComp.uc",
+        "titles_en_US_dedes|ti.LitanyComp.uc"
+      ],
       "greek": "ΤΑ ΠΛΗΡΩΤΙΚΑ",
       "value": "LITANY OF COMPLETION"
     },
     {
       "key": "2026-06-08-ma-gr-en.row170",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "adeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Deacon",
+        "actors_en_US_goa|ac.Deacon"
+      ],
       "greek": "ΔΙΑΚΟΝΟΣ",
       "value": "DEACON"
     },
     {
       "key": "2026-06-08-ma-gr-en.row171",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "ddeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.pet24m.text",
+        "prayers_en_US_goa|pr.pet24m.text"
+      ],
       "greek": "Πληρώσωμεν τὴν ἑωθινὴν δέησιν ἡμῶν τῷ Κυρίῳ.",
       "value": "Let us complete our morning prayer to the Lord."
     },
     {
       "key": "2026-06-08-ma-gr-en.row172",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "dwachoir",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res01.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res01.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Κύριε, ἐλέησον.",
       "value": "CHOIR: Lord, have mercy."
     },
     {
       "key": "2026-06-08-ma-gr-en.row173",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "adeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Deacon",
+        "actors_en_US_goa|ac.Deacon"
+      ],
       "greek": "ΔΙΑΚΟΝΟΣ",
       "value": "DEACON"
     },
     {
       "key": "2026-06-08-ma-gr-en.row174",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "ddeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.pet12.text",
+        "prayers_en_US_goa|pr.pet12.text"
+      ],
       "greek": "Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς, ὁ Θεός, τῇ σῇ χάριτι.",
       "value": "Help us, save us, have mercy on us, and protect us, O God, by Your grace."
     },
     {
       "key": "2026-06-08-ma-gr-en.row175",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "dwachoir",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res01.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res01.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Κύριε, ἐλέησον.",
       "value": "CHOIR: Lord, have mercy."
     },
     {
       "key": "2026-06-08-ma-gr-en.row176",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "adeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Deacon",
+        "actors_en_US_goa|ac.Deacon"
+      ],
       "greek": "ΔΙΑΚΟΝΟΣ",
       "value": "DEACON"
     },
     {
       "key": "2026-06-08-ma-gr-en.row177",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "ddeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.pet25m.text",
+        "prayers_en_US_goa|pr.pet25m.text"
+      ],
       "greek": "Τὴν ἡμέραν πᾶσαν τελείαν, ἁγίαν, εἰρηνικὴν καὶ ἀναμάρτητον παρὰ τοῦ Κυρίου αἰτησώμεθα.",
       "value": "That the whole day may be perfect, holy, peaceful, and sinless, let us ask the Lord."
     },
     {
       "key": "2026-06-08-ma-gr-en.row178",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "dwachoir",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res02.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res02.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Παράσχου, Κύριε.",
       "value": "CHOIR: Grant this, O Lord."
     },
     {
       "key": "2026-06-08-ma-gr-en.row179",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "adeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Deacon",
+        "actors_en_US_goa|ac.Deacon"
+      ],
       "greek": "ΔΙΑΚΟΝΟΣ",
       "value": "DEACON"
     },
     {
       "key": "2026-06-08-ma-gr-en.row180",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "ddeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.pet26.text",
+        "prayers_en_US_goa|pr.pet26.text"
+      ],
       "greek": "Ἄγγελον εἰρήνης, πιστὸν ὁδηγόν, φύλακα τῶν ψυχῶν καὶ τῶν σωμάτων ἡμῶν παρὰ τοῦ Κυρίου αἰτησώμεθα.",
       "value": "For an angel of peace, a faithful guide, a guardian of our souls and bodies, let us ask the Lord."
     },
     {
       "key": "2026-06-08-ma-gr-en.row181",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "dwachoir",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res02.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res02.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Παράσχου, Κύριε.",
       "value": "CHOIR: Grant this, O Lord."
     },
     {
       "key": "2026-06-08-ma-gr-en.row182",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "adeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Deacon",
+        "actors_en_US_goa|ac.Deacon"
+      ],
       "greek": "ΔΙΑΚΟΝΟΣ",
       "value": "DEACON"
     },
     {
       "key": "2026-06-08-ma-gr-en.row183",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "ddeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.pet27.text",
+        "prayers_en_US_goa|pr.pet27.text"
+      ],
       "greek": "Συγγνώμην καὶ ἄφεσιν τῶν ἁμαρτιῶν καὶ τῶν πλημμελημάτων ἡμῶν παρὰ τοῦ Κυρίου αἰτησώμεθα.",
       "value": "For pardon and remission of our sins and transgressions, let us ask the Lord."
     },
     {
       "key": "2026-06-08-ma-gr-en.row184",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "dwachoir",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res02.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res02.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Παράσχου, Κύριε.",
       "value": "CHOIR: Grant this, O Lord."
     },
     {
       "key": "2026-06-08-ma-gr-en.row185",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "adeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Deacon",
+        "actors_en_US_goa|ac.Deacon"
+      ],
       "greek": "ΔΙΑΚΟΝΟΣ",
       "value": "DEACON"
     },
     {
       "key": "2026-06-08-ma-gr-en.row186",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "ddeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.pet28.text",
+        "prayers_en_US_goa|pr.pet28.text"
+      ],
       "greek": "Τὰ καλὰ καὶ συμφέροντα ταῖς ψυχαῖς ἡμῶν καὶ εἰρήνην τῷ κόσμῳ παρὰ τοῦ Κυρίου αἰτησώμεθα.",
       "value": "For that which is good and beneficial for our souls, and for peace for the world, let us ask the Lord."
     },
     {
       "key": "2026-06-08-ma-gr-en.row187",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "dwachoir",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res02.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res02.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Παράσχου, Κύριε.",
       "value": "CHOIR: Grant this, O Lord."
     },
     {
       "key": "2026-06-08-ma-gr-en.row188",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "adeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Deacon",
+        "actors_en_US_goa|ac.Deacon"
+      ],
       "greek": "ΔΙΑΚΟΝΟΣ",
       "value": "DEACON"
     },
     {
       "key": "2026-06-08-ma-gr-en.row189",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "ddeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.pet29.text",
+        "prayers_en_US_goa|pr.pet29.text"
+      ],
       "greek": "Τὸν ὑπόλοιπον χρόνον τῆς ζωῆς ἡμῶν ἐν εἰρήνῃ καὶ μετανοίᾳ ἐκτελέσαι παρὰ τοῦ Κυρίου αἰτησώμεθα.",
       "value": "That we may complete the remaining time of our life in peace and repentance, let us ask the Lord."
     },
     {
       "key": "2026-06-08-ma-gr-en.row190",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "dwachoir",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res02.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res02.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Παράσχου, Κύριε.",
       "value": "CHOIR: Grant this, O Lord."
     },
     {
       "key": "2026-06-08-ma-gr-en.row191",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "adeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Deacon",
+        "actors_en_US_goa|ac.Deacon"
+      ],
       "greek": "ΔΙΑΚΟΝΟΣ",
       "value": "DEACON"
     },
     {
       "key": "2026-06-08-ma-gr-en.row192",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "ddeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.pet30.text",
+        "prayers_en_US_goa|pr.pet30.text"
+      ],
       "greek": "Χριστιανὰ τὰ τέλη τῆς ζωῆς ἡμῶν, ἀνώδυνα, ἀνεπαίσχυντα, εἰρηνικὰ καὶ καλὴν ἀπολογίαν τὴν ἐπὶ τοῦ φοβεροῦ βήματος τοῦ Χριστοῦ αἰτησώμεθα.",
       "value": "And let us ask for a Christian end to our life, peaceful, without shame and suffering, and for a good defense before the awesome judgment seat of Christ."
     },
     {
       "key": "2026-06-08-ma-gr-en.row193",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "dwachoir",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res02.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res02.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Παράσχου, Κύριε.",
       "value": "CHOIR: Grant this, O Lord."
     },
     {
       "key": "2026-06-08-ma-gr-en.row194",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "adeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Deacon",
+        "actors_en_US_goa|ac.Deacon"
+      ],
       "greek": "ΔΙΑΚΟΝΟΣ",
       "value": "DEACON"
     },
     {
       "key": "2026-06-08-ma-gr-en.row195",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "ddeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.pet13.text",
+        "prayers_en_US_goa|pr.pet13.text"
+      ],
       "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
       "value": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
     },
     {
       "key": "2026-06-08-ma-gr-en.row196",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "dwachoir",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res03.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res03.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Σοί, Κύριε.",
       "value": "CHOIR: To You, O Lord."
     },
     {
       "key": "2026-06-08-ma-gr-en.row197",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "apriest",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Priest",
+        "actors_en_US_goa|ac.Priest"
+      ],
       "greek": "ΙΕΡΕΥΣ",
       "value": "PRIEST"
     },
     {
       "key": "2026-06-08-ma-gr-en.row198",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "dpriest",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.exc12.text",
+        "prayers_en_US_goa|pr.exc12.text"
+      ],
       "greek": "Ὅτι Θεὸς ἐλέους, οἰκτιρμῶν, καὶ φιλανθρωπίας ὑπάρχεις, καὶ σοὶ τὴν δόξαν ἀναπέμπομεν, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ ἁγίῳ Πνεύματι, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
       "value": "For You are the God of mercy and compassion and love for humankind, and to You we offer up glory, to the Father and the Son and the Holy Spirit, now and ever and to ages of ages."
     },
     {
       "key": "2026-06-08-ma-gr-en.row199",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "dwachoir",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res04.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res04.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Ἀμήν.",
       "value": "CHOIR: Amen."
     },
     {
       "key": "2026-06-08-ma-gr-en.row200",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Priest",
+        "prayers_gr_US_goa|pr.pet31.text",
+        "actors_en_US_goa|ac.IL.Priest",
+        "prayers_en_US_goa|pr.pet31.text"
+      ],
       "greek": "ΙΕΡΕΥΣ: \r\n \r\n Εἰρήνη πᾶσι.",
       "value": "PRIEST: Peace be with all."
     },
     {
       "key": "2026-06-08-ma-gr-en.row201",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "dwachoir",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res05.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res05.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Καὶ τῷ πνεύματί σου.",
       "value": "CHOIR: And with your spirit."
     },
     {
       "key": "2026-06-08-ma-gr-en.row202",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "adeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Deacon",
+        "actors_en_US_goa|ac.Deacon"
+      ],
       "greek": "ΔΙΑΚΟΝΟΣ",
       "value": "DEACON"
     },
     {
       "key": "2026-06-08-ma-gr-en.row203",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "ddeacon",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.pet32.text",
+        "prayers_en_US_goa|pr.pet32.text"
+      ],
       "greek": "Τὰς κεφαλὰς ἡμῶν τῷ Κυρίῳ κλίνωμεν.",
       "value": "Let us bow our heads to the Lord."
     },
     {
       "key": "2026-06-08-ma-gr-en.row204",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "dwachoir",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res03.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res03.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Σοί, Κύριε.",
       "value": "CHOIR: To You, O Lord."
     },
     {
       "key": "2026-06-08-ma-gr-en.row205",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "apriest",
+        "kvp",
+        "smaller",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Priest",
+        "rubrical_gr_GR_cog|ru.InALowVoice",
+        "actors_en_US_goa|ac.Priest",
+        "rubrical_en_US_dedes|ru.InALowVoice"
+      ],
       "greek": "ΙΕΡΕΥΣ \r\n (χαμηλοφώνως)",
       "value": "PRIEST (in a low voice)"
     },
     {
       "key": "2026-06-08-ma-gr-en.row206",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "inaudible",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "hi.hi04_gr_US_goa|hiMA.Key0113.text",
+        "hi.hi04_en_US_goadedes|hiMA.Key0113.text"
+      ],
       "greek": "Κύριε ἅγιε, ὁ ἐν ὑψηλοῖς κατοικῶν καὶ τὰ ταπεινὰ ἐφορῶν καὶ τῷ παντεφόρῳ σου ὄμματι ἐπιβλέπων ἐπὶ πᾶσαν τὴν κτίσιν, σοὶ ἐκλίναμεν τὸν αὐχένα τῆς ψυχῆς καὶ τοῦ σώματος καὶ δεόμεθά σου, ἅγιε ἁγίων· Ἔκτεινον τὴν χεῖρά σου τὴν ἀόρατον ἐξ ἁγίου κατοικητηρίου σου καὶ εὐλόγησον πάντας ἡμᾶς· καὶ εἴ τι ἡμάρτομεν ἑκουσίως ἢ ἀκουσίως, ὡς ἀγαθὸς καὶ φιλάνθρωπος Θεὸς συγχώρησον, δωρούμενος ἡμῖν τὰ ἐγκόσμια καὶ ὑπερκόσμια ἀγαθά σου.",
       "value": "Holy Lord, who dwell in the highest and look upon the humble and observe all creation with Your all-seeing eye, to You we bow the neck of soul and body, and we pray You, Holy of holies: Extend Your invisible hand from Your holy heavens and bless us all. And as good and benevolent God, forgive us any misdeeds we committed voluntarily or involuntarily, and grant us Your blessings in this world and in the next."
     },
     {
       "key": "2026-06-08-ma-gr-en.row207",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "apriest",
+        "kvp",
+        "smaller",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Priest",
+        "rubrical_gr_GR_cog|ru.Aloud",
+        "actors_en_US_goa|ac.Priest",
+        "rubrical_en_US_dedes|ru.Aloud"
+      ],
       "greek": "ΙΕΡΕΥΣ \r\n (ἐκφώνως)",
       "value": "PRIEST (aloud)"
     },
     {
       "key": "2026-06-08-ma-gr-en.row208",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "dpriest",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.exc13.text",
+        "prayers_en_US_goa|pr.exc13.text"
+      ],
       "greek": "Σὸν γάρ ἐστι τὸ ἐλεεῖν καὶ σώζειν ἡμᾶς, ὁ Θεὸς ἡμῶν, καὶ σοὶ τὴν δόξαν ἀναπέμπομεν, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ ἁγίῳ Πνεύματι, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
       "value": "For Yours it is to show mercy and to save us, O our God, and to You we offer up glory, to the Father and the Son and the Holy Spirit, now and ever and to ages of ages."
     },
     {
       "key": "2026-06-08-ma-gr-en.row209",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "dwachoir",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res04.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res04.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Ἀμήν.",
       "value": "CHOIR: Amen."
     },
     {
       "key": "2026-06-08-ma-gr-en.row210",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.ApostichaOctoechos",
+        "titles_en_US_dedes|ti.ApostichaOctoechos"
+      ],
       "greek": "Ἀπόστιχα τῆς Ὀκτωήχου.",
       "value": "Aposticha of the Octoechos."
     },
     {
       "key": "2026-06-08-ma-gr-en.row211",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "source0",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.sourceOctoechos",
+        "titles_en_US_dedes|ti.sourceOctoechos"
+      ],
       "greek": "Τῆς Ὀκτωήχου - - -",
       "value": "From Octoechos - - -"
     },
     {
       "key": "2026-06-08-ma-gr-en.row212",
       "kind": "mode",
+      "dcsClasses": [
+        "leftCell",
+        "mode",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.Mode8",
+        "miscellanea_en_US_dedes|misc.Mode8"
+      ],
       "greek": "Ἦχος πλ. δʹ.",
       "value": "Mode pl. 4."
     },
     {
       "key": "2026-06-08-ma-gr-en.row213",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "oc.m8.d2_gr_GR_cog|ocMA.Aposticha1.text",
+        "oc.m8.d2_en_US_dedes|ocMA.Aposticha1.text",
+        "properties_en_US_dedes|version.designation"
+      ],
       "greek": "Ὅταν λάβω κατὰ νοῦν, τὰ πλήθη τῶν πεπραγμένων μοι δεινῶν, καὶ εἰς ἔννοιαν ἔλθω, τῆς φοβερᾶς ἐκείνης ἐτάσεως, τρόμῳ συνεχόμενος, πρὸς σὲ καταφεύγω τὸν φιλάνθρωπον Θεόν. Διὸ μή με παρίδῃς ἱκετεύω σε, μόνε ἀναμάρτητε, δώρησαι κατάνυξιν τῇ ταπεινῇ μου ψυχῇ, πρὸ τελευτῆς καὶ σῶσόν με.",
       "value": "When I bring to mind the many terrible things I have done, and when I think about that terrifying judgment, I am overcome by trembling, and I turn to You, my benevolent God. So I pray to You, the only sinless One, do not despise me; but before the end, give compunction to my humble soul and save me. [SD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row214",
-      "kind": "text",
+      "kind": "verse",
+      "dcsClasses": [
+        "leftCell",
+        "verse",
+        "boldred",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.vVerse",
+        "liturgical.verses_gr_GR_cog|psMA.weekday.aposverse.v1.text",
+        "miscellanea_en_US_dedes|misc.vVerse",
+        "liturgical.verses_en_US_saas|psMA.weekday.aposverse.v1.text",
+        "properties_en_US_saas|version.designation"
+      ],
       "greek": "Στίχ. \r\n \r\n Ἐνεπλήσθημεν τὸ πρωΐ τοῦ ἐλέους σου, Κύριε, καὶ ἠγαλλιασάμεθα καὶ εὐφράνθημεν ἐν πάσαις ταῖς ἡμέραις ἡμῶν· εὐφρανθείημεν ἀνθʼ ὧν ἡμερῶν ἐταπείνωσας ἡμᾶς, ἐτῶν, ὧν εἴδομεν κακά. Καὶ ἴδε ἐπὶ τοὺς δούλους σου καὶ ἐπὶ τὰ ἔργα σου καὶ ὁδήγησον τοὺς υἱοὺς αὐτῶν.",
       "value": "Verse: We were filled with Your mercy in the morning, and in all our days we greatly rejoiced and were glad; gladden us in return for the days You humbled us, for the years we saw evil things. And behold Your servants and Your works, and guide their sons. [SAAS]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row215",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "oc.m8.d2_gr_GR_cog|ocMA.Aposticha2.text",
+        "oc.m8.d2_en_US_dedes|ocMA.Aposticha2.text",
+        "properties_en_US_dedes|version.designation"
+      ],
       "greek": "Δάκρυά μοι δὸς ὁ Θεός, ὡς ποτὲ τῇ γυναικὶ τῇ ἁμαρτωλῷ, καὶ ἀξίωσόν με βρέχειν τοὺς πόδας σου, τοὺς ἐμὲ ἐκ τῆς ὁδοῦ τῆς πλάνης ἐλευθερώσαντας, καὶ μύρον εὐωδίας σοι προσφέρειν, βίον καθαρόν, ἐν μετανοίᾳ μοι κτισθέντα, ἵνα ἀκούσω κᾀγὼ τῆς εὐκταίας σου φωνῆς. Ἡ πίστις σου σέσωκέ σε, πορεύου εἰς εἰρήνην.",
       "value": "Give me tears, O Lord, as once You did to the sinful woman, and grant that I may wet Your feet, which freed me from the way of error, and like her to offer You, as fragrant ointment, a pure life that is built on repentance; so that I, too, may hear those cherished words of Yours: “Your faith has saved you, go in peace.” [SD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row216",
-      "kind": "text",
+      "kind": "verse",
+      "dcsClasses": [
+        "leftCell",
+        "verse",
+        "boldred",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.vVerse",
+        "liturgical.verses_gr_GR_cog|psMA.weekday.aposverse.v2.text",
+        "miscellanea_en_US_dedes|misc.vVerse",
+        "liturgical.verses_en_US_saas|psMA.weekday.aposverse.v2.text",
+        "properties_en_US_saas|version.designation"
+      ],
       "greek": "Στίχ. \r\n \r\n Καὶ ἔστω ἡ λαμπρότης Κυρίου τοῦ Θεοῦ ἡμῶν ἐφʼ ἡμᾶς, καὶ τὰ ἔργα τῶν χειρῶν ἡμῶν κατεύθυνον ἐφʼ ἡμᾶς, καὶ τὸ ἔργον τῶν χειρῶν ἡμῶν κατεύθυνον.",
       "value": "Verse: And let the brightness of the Lord our God be upon us, and prosper for us the works of our hands. [SAAS]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row217",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "melody",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "he.a.m8_gr_GR_cog|heAU.TiYmasKalesomen.melody",
+        "he.a.m8_en_US_dedes|heAU.TiYmasKalesomen.melody"
+      ],
       "greek": "Αὐτόμελον.",
       "value": "Automelon."
     },
     {
       "key": "2026-06-08-ma-gr-en.row218",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "greekmelody",
+        "kvp",
+        "dummy",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "he.a.m8_gr_GR_cog|heAU.TiYmasKalesomen.greekname",
+        "he.a.m8_en_US_dedes|heAU.TiYmasKalesomen.greekname"
+      ],
       "greek": "",
       "value": "Τί ὑμᾶς καλέσωμεν."
     },
     {
       "key": "2026-06-08-ma-gr-en.row219",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "he.a.m8_gr_GR_cog|heAU.TiYmasKalesomen.text",
+        "he.a.m8_en_US_dedes|heAU.TiYmasKalesomen.text",
+        "properties_en_US_dedes|version.designation"
+      ],
       "greek": "Τί ὑμᾶς καλέσωμεν Ἅγιοι; Χερουβίμ; ὅτι ὑμῖν ἐπανεπαύσατο Χριστός. Σεραφίμ; ὅτι ἀπαύστως ἐδοξάσατε αὐτόν. Ἀγγέλους; τὸ γὰρ σῶμα ἀπεστράφητε. Δυνάμεις; ἐνεργεῖτε ἐν τοῖς θαύμασι. Πολλὰ ὑμῶν τὰ ὀνόματα, καὶ μείζονα τὰ χαρίσματα, πρεσβεύσατε, τοῦ σωθῆναι τὰς ψυχὰς ἡμῶν.",
       "value": "What are we to call you, O holy ones? * Cherubim, inasmuch as Christ has found repose in you. * Seraphim, for without ceasing you were glorifying Him. * Or Angels, from the body you had turned away. * Or Powers, you are active doing miracles. * Your names are many, and greater are * the spiritual gifts that you received. * So intercede, we entreat you, that our souls be saved. [SD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row220",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "mixed",
+        "kvp",
+        "designation",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.Glory",
+        "titles_gr_GR_cog|ti.SaintM",
+        "titles_en_US_dedes|ti.Glory",
+        "titles_en_US_dedes|ti.SaintM"
+      ],
       "greek": "Δόξα. \r\n Τοῦ Ἁγίου.",
       "value": "Glory. For the Saint."
     },
     {
       "key": "2026-06-08-ma-gr-en.row221",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "source0",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.sourceMenaion",
+        "titles_en_US_dedes|ti.sourceMenaion"
+      ],
       "greek": "Τοῦ Μηναίου - - -",
       "value": "From Menaion - - -"
     },
     {
       "key": "2026-06-08-ma-gr-en.row222",
       "kind": "mode",
+      "dcsClasses": [
+        "leftCell",
+        "mode",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.Mode6",
+        "miscellanea_en_US_dedes|misc.Mode6"
+      ],
       "greek": "Ἦχος πλ. βʹ.",
       "value": "Mode pl. 2."
     },
     {
       "key": "2026-06-08-ma-gr-en.row223",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "kvp",
+        "media-group-empty",
+        "rightCell",
+        "media-group",
+        "media-icon",
+        "fa",
+        "fa-byznote",
+        "jqm-dropdown",
+        "jqm-dropdown-tip",
+        "alwb-media-dropdown-div",
+        "jqm-dropdown-menu",
+        "jqm-dropdown-relative",
+        "alwb-media-dropdown-menu",
+        "mediaMenuItemId",
+        "mediaMenuItemPeople",
+        "glyphicon",
+        "glyphicon-music"
+      ],
+      "dcsKeys": [
+        "me.m02.d17_gr_GR_cog|meMA.LaudsGlory.text",
+        "me.m02.d17_en_US_dedes|meMA.LaudsGlory.text"
+      ],
       "greek": "",
       "value": "c1211 - SDedes/\r\n \r\n \r\n \r\n \r\n c1211 - SDedes/"
     },
     {
       "key": "2026-06-08-ma-gr-en.row224",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "me.m02.d17_gr_GR_cog|meMA.LaudsGlory.text",
+        "me.m02.d17_en_US_dedes|meMA.LaudsGlory.text",
+        "properties_en_US_dedes|version.designation"
+      ],
       "greek": "Ἁγιωσύνης δωρεά, καὶ πλοῦτος θείας ζωῆς, πεφανέρωσαι τῷ κόσμῳ Θεόδωρε· Χριστὸς γάρ σου σοφέ, τὴν μνήμην ἐδόξασεν, ἐν ᾗ συμφώνως οἱ πιστοί, γεγηθότες ὑμνοῦμεν, τοὺς ἀγῶνας τῶν ἄθλων σου.",
       "value": "O wise Martyr Theodore, Christ has glorified your memory and made you famous in the world, a gift of holiness and a treasure of divine life, in accord with your name. And we the faithful, with one accord, rejoice as we extol the contests of your martyrdom. [SD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row225",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "mixed",
+        "kvp",
+        "designation",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.BothNow",
+        "titles_gr_GR_cog|ti.Theotokion",
+        "titles_en_US_dedes|ti.BothNow",
+        "titles_en_US_dedes|ti.Theotokion"
+      ],
       "greek": "Καὶ νῦν. \r\n Θεοτοκίον.",
       "value": "Both now. Theotokion."
     },
     {
       "key": "2026-06-08-ma-gr-en.row226",
       "kind": "mode",
+      "dcsClasses": [
+        "leftCell",
+        "mode",
+        "kvp",
+        "melody",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.Mode6",
+        "he.o_gr_GR_cog|heOT.TheotokeSyEi.name",
+        "miscellanea_en_US_dedes|misc.Mode6",
+        "he.o_en_US_dedes|heOT.TheotokeSyEi.name"
+      ],
       "greek": "Ἦχος πλ. βʹ. \r\n Θεοτόκε, σὺ εἶ ἡ ἄμπελος.",
       "value": "Mode pl. 2. Theotokos, you are the true vine."
     },
     {
       "key": "2026-06-08-ma-gr-en.row227",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "he.o_gr_GR_cog|heOT.TheotokeSyEiAthloforou.text",
+        "he.o_en_US_dedes|heOT.TheotokeSyEiAthloforou.text",
+        "properties_en_US_dedes|version.designation"
+      ],
       "greek": "μετὰ τοῦ Ἀθλοφόρου",
       "value": "with the Martyr [SD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row228",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Priest",
+        "actors_en_US_goa|ac.Priest"
+      ],
       "greek": "ΙΕΡΕΥΣ",
       "value": "PRIEST"
     },
     {
       "key": "2026-06-08-ma-gr-en.row229",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "reading",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "liturgical.verses_gr_GR_cog|psMA.weekday.end.v1.text",
+        "liturgical.verses_en_US_saas|psMA.weekday.end.v1.text",
+        "properties_en_US_saas|version.designation"
+      ],
       "greek": "Ἀγαθὸν τὸ ἐξομολογεῖσθαι τῷ Κυρίῳ καὶ ψάλλειν τῷ ὀνόματί σου, Ὕψιστε· τοῦ ἀναγγέλλειν τῷ πρωΐ τὸ ἔλεός σου καὶ τὴν ἀλήθειάν σου κατὰ νύκτα.",
       "value": "It is good to give thanks to the Lord and to sing to Your name, O Most High, to proclaim Your mercy in the morning and Your truth at night. [SAAS]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row230",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Reader",
+        "actors_en_US_goa|ac.Reader"
+      ],
       "greek": "ΑΝΑΓΝΩΣΤΗΣ",
       "value": "READER"
     },
     {
       "key": "2026-06-08-ma-gr-en.row231",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.Trisagion",
+        "titles_en_US_dedes|ti.Trisagion"
+      ],
       "greek": "Τρισάγιον.",
       "value": "Trisagion Prayers."
     },
     {
       "key": "2026-06-08-ma-gr-en.row232",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "reading",
+        "kvp",
+        "red",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.HolyGod.text",
+        "rubrical_gr_GR_cog|ru.Thrice",
+        "prayers_en_US_goa|pr.HolyGod.text",
+        "rubrical_en_US_dedes|ru.Thrice"
+      ],
       "greek": "Ἅγιος ὁ Θεός, ἅγιος Ἰσχυρός, ἅγιος Ἀθάνατος, ἐλέησον ἡμᾶς. \r\n (3)",
       "value": "Holy God, Holy Mighty, Holy Immortal, have mercy on us. (3)"
     },
     {
       "key": "2026-06-08-ma-gr-en.row233",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "reading",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.GloryToTheFather.text",
+        "prayers_gr_US_goa|pr.BothNowAndEver.text",
+        "prayers_en_US_goa|pr.GloryToTheFather.text",
+        "prayers_en_US_goa|pr.BothNowAndEver.text"
+      ],
       "greek": "Δόξα Πατρὶ καὶ Υἱῷ καὶ ἁγίῳ Πνεύματι. \r\n Καὶ νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων. Ἀμήν.",
       "value": "Glory to the Father and the Son and the Holy Spirit. Both now and ever and to the ages of ages. Amen."
     },
     {
       "key": "2026-06-08-ma-gr-en.row234",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "reading",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.AllHolyTrinity.text",
+        "prayers_en_US_goa|pr.AllHolyTrinity.text"
+      ],
       "greek": "Παναγία Τριάς, ἐλέησον ἡμᾶς. Κύριε, ἱλάσθητι ταῖς ἁμαρτίαις ἡμῶν. Δέσποτα, συγχώρησον τὰς ἀνομίας ἡμῖν. Ἅγιε, ἐπίσκεψαι καὶ ἴασαι τὰς ἀσθενείας ἡμῶν, ἕνεκεν τοῦ ὀνόματός σου.",
       "value": "All-holy Trinity, have mercy on us. Lord, forgive our sins. Master, pardon our transgressions. Holy One, visit and heal our infirmities for Your name’s sake."
     },
     {
       "key": "2026-06-08-ma-gr-en.row235",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "reading",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.res06.text",
+        "prayers_en_US_goa|pr.res06.text"
+      ],
       "greek": "Κύριε, ἐλέησον. Κύριε, ἐλέησον. Κύριε, ἐλέησον.",
       "value": "Lord, have mercy. Lord, have mercy. Lord, have mercy."
     },
     {
       "key": "2026-06-08-ma-gr-en.row236",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "reading",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.GloryToTheFather.text",
+        "prayers_gr_US_goa|pr.BothNowAndEver.text",
+        "prayers_en_US_goa|pr.GloryToTheFather.text",
+        "prayers_en_US_goa|pr.BothNowAndEver.text"
+      ],
       "greek": "Δόξα Πατρὶ καὶ Υἱῷ καὶ ἁγίῳ Πνεύματι. \r\n Καὶ νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων. Ἀμήν.",
       "value": "Glory to the Father and the Son and the Holy Spirit. Both now and ever and to the ages of ages. Amen."
     },
     {
       "key": "2026-06-08-ma-gr-en.row237",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "reading",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.OurFather.text",
+        "prayers_en_US_goa|pr.OurFather.text"
+      ],
       "greek": "Πάτερ ἡμῶν ὁ ἐν τοῖς οὐρανοῖς, ἁγιασθήτω τὸ ὄνομά σου. Ἐλθέτω ἡ βασιλεία σου. Γενηθήτω τὸ θέλημά σου, ὡς ἐν οὐρανῷ καὶ ἐπὶ τῆς γῆς. Τὸν ἄρτον ἡμῶν τὸν ἐπιούσιον δὸς ἡμῖν σήμερον. Καὶ ἄφες ἡμῖν τὰ ὀφειλήματα ἡμῶν, ὡς καὶ ἡμεῖς ἀφίεμεν τοῖς ὀφειλέταις ἡμῶν. Καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν, ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ.",
       "value": "Our Father, who art in heaven, hallowed be Thy name. Thy kingdom come, Thy will be done, on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from evil."
     },
     {
       "key": "2026-06-08-ma-gr-en.row238",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Priest",
+        "actors_en_US_goa|ac.Priest"
+      ],
       "greek": "ΙΕΡΕΥΣ",
       "value": "PRIEST"
     },
     {
       "key": "2026-06-08-ma-gr-en.row239",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.exc20.text",
+        "prayers_en_US_goa|pr.exc20.text"
+      ],
       "greek": "Ὅτι σοῦ ἐστιν ἡ βασιλεία καὶ ἡ δύναμις καὶ ἡ δόξα τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ ἁγίου Πνεύματος, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
       "value": "For Thine is the kingdom and the power and the glory, of the Father and the Son and the Holy Spirit, now and ever and to ages of ages."
     },
     {
       "key": "2026-06-08-ma-gr-en.row240",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res04.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res04.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Ἀμήν.",
       "value": "CHOIR: Amen."
     },
     {
       "key": "2026-06-08-ma-gr-en.row241",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "designation",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.Apolytikion",
+        "titles_en_US_dedes|ti.Apolytikion"
+      ],
       "greek": "Ἀπολυτίκιον.",
       "value": "Apolytikion."
     },
     {
       "key": "2026-06-08-ma-gr-en.row242",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "source0",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.sourceMenaion",
+        "titles_en_US_dedes|ti.sourceMenaion"
+      ],
       "greek": "Τοῦ Μηναίου - - -",
       "value": "From Menaion - - -"
     },
     {
       "key": "2026-06-08-ma-gr-en.row243",
       "kind": "mode",
+      "dcsClasses": [
+        "leftCell",
+        "mode",
+        "kvp",
+        "melody",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.Mode4",
+        "he.a.m4_gr_GR_cog|heAU.OYpsotheisEnToStavro.name",
+        "miscellanea_en_US_dedes|misc.Mode4",
+        "he.a.m4_en_US_dedes|heAU.OYpsotheisEnToStavro.name"
+      ],
       "greek": "Ἦχος δʹ. \r\n Ὁ ὑψωθεὶς ἐν τῷ Σταυρῷ.",
       "value": "Mode 4. You who were lifted."
     },
     {
       "key": "2026-06-08-ma-gr-en.row244",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "greekmelody",
+        "kvp",
+        "dummy",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "he.a.m4_gr_GR_cog|heAU.OYpsotheisEnToStavro.greekname",
+        "he.a.m4_en_US_dedes|heAU.OYpsotheisEnToStavro.greekname"
+      ],
       "greek": "",
       "value": "Ὁ ὑψωθεὶς ἐν τῷ Σταυρῷ."
     },
     {
       "key": "2026-06-08-ma-gr-en.row245",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "kvp",
+        "media-group",
+        "glyphicon",
+        "glyphicon-music",
+        "jqm-dropdown",
+        "jqm-dropdown-tip",
+        "alwb-media-dropdown-div",
+        "jqm-dropdown-menu",
+        "jqm-dropdown-relative",
+        "alwb-media-dropdown-menu",
+        "mediaMenuItemId",
+        "mediaMenuItemPeople",
+        "rightCell",
+        "media-group-empty"
+      ],
+      "dcsKeys": [
+        "me.m02.d08_gr_GR_cog|meVE.Apolytikion1.text",
+        "me.m02.d08_en_US_dedes|meVE.Apolytikion1.text"
+      ],
       "greek": "c1011 - NewByz/",
       "value": ""
     },
     {
       "key": "2026-06-08-ma-gr-en.row246",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "me.m02.d08_gr_GR_cog|meVE.Apolytikion1.text",
+        "me.m02.d08_en_US_dedes|meVE.Apolytikion1.text",
+        "properties_en_US_dedes|version.designation"
+      ],
       "greek": "Στρατολογίᾳ ἀληθεῖ Ἀθλοφόρε, τοῦ οὐρανίου στρατηγὸς Βασιλέως, περικαλὴς γεγένησαι Θεόδωρε· ὅπλοις γὰρ τῆς πίστεως, παρετάξω ἐμφρόνως, καὶ κατεξωλόθρευσας, τῶν δαιμόνων τὰ στίφη, καὶ νικηφόρος ὤφθης ἀθλητής· ὅθεν σε πίστει ἀεὶ μακαρίζομεν.",
       "value": "O medal-winner, you were duly enlisted * and highly decorated as a commander, * O Theodore, in service to the heavenly King. * Armed with faith, you prudently went to war and combated, * and you vanquished utterly the arrays of the demons. * O Martyr Athlete, evermore with faith * we count you blessed, for you were victorious. [SD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row247",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "mixed",
+        "kvp",
+        "designation",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.GloryBothNow",
+        "titles_gr_GR_cog|ti.Theotokion",
+        "titles_en_US_dedes|ti.GloryBothNow",
+        "titles_en_US_dedes|ti.Theotokion"
+      ],
       "greek": "Δόξα· καὶ νῦν. \r\n Θεοτοκίον.",
       "value": "Glory. Both now. Theotokion."
     },
     {
       "key": "2026-06-08-ma-gr-en.row248",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "source0",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "titles_gr_GR_cog|ti.sourceOctoechos",
+        "titles_en_US_dedes|ti.sourceOctoechos"
+      ],
       "greek": "Τῆς Ὀκτωήχου - - -",
       "value": "From Octoechos - - -"
     },
     {
       "key": "2026-06-08-ma-gr-en.row249",
       "kind": "mode",
+      "dcsClasses": [
+        "leftCell",
+        "mode",
+        "kvp",
+        "melody",
+        "dummy",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "miscellanea_gr_GR_cog|misc.Mode4",
+        "oc.m4.d2_gr_GR_cog|ocMA.ApolTheotokion.melody",
+        "miscellanea_en_US_dedes|misc.Mode4",
+        "oc.m4.d2_en_US_dedes|ocMA.ApolTheotokion.melody"
+      ],
       "greek": "Ἦχος δʹ.",
       "value": "Mode 4."
     },
     {
       "key": "2026-06-08-ma-gr-en.row250",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "hymn",
+        "kvp",
+        "rightCell",
+        "versiondesignation",
+        "key"
+      ],
+      "dcsKeys": [
+        "oc.m4.d5_gr_GR_cog|ocMA.Kathisma33.text",
+        "oc.m4.d5_en_US_dedes|ocMA.Kathisma33.text",
+        "properties_en_US_dedes|version.designation"
+      ],
       "greek": "Ὅτι πάντων ὑπάρχεις τῶν ποιημάτων ὑπερτέρα, ἀνυμνεῖν σε ἀξίως, μὴ εὐποροῦντες Θεοτόκε, δωρεὰν αἰτοῦμέν σε, ἐλέησον ἡμᾶς.",
       "value": "We are unequipped to praise you worthily, O Theotokos, for you are the highest of all things created. Therefore, we entreat you: As a gift to us, have mercy on us. [SD]"
     },
     {
       "key": "2026-06-08-ma-gr-en.row251",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "rubric",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "client_gr_GR_cog|cl.ho.ho03.R001",
+        "client_en_US_goa|cl.ho.ho03.R001"
+      ],
       "greek": "(Παραλείπεται ἡ ἐκτενής.)",
       "value": "(The “ektenia” litany has been omitted.)"
     },
     {
       "key": "2026-06-08-ma-gr-en.row252",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Priest",
+        "prayers_gr_US_goa|pr.exc17.text",
+        "actors_en_US_goa|ac.IL.Priest",
+        "prayers_en_US_goa|pr.exc17.text"
+      ],
       "greek": "ΙΕΡΕΥΣ: \r\n \r\n Σοφία.",
       "value": "PRIEST: Wisdom."
     },
     {
       "key": "2026-06-08-ma-gr-en.row253",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Reader",
+        "prayers_gr_US_goa|pr.Bless_father.text",
+        "actors_en_US_goa|ac.IL.Reader",
+        "prayers_en_US_goa|pr.Bless_father.text"
+      ],
       "greek": "ΑΝΑΓΝΩΣΤΗΣ: \r\n \r\n Εὐλόγησον.",
       "value": "READER: Father, bless!"
     },
     {
       "key": "2026-06-08-ma-gr-en.row254",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Priest",
+        "actors_en_US_goa|ac.Priest"
+      ],
       "greek": "ΙΕΡΕΥΣ",
       "value": "PRIEST"
     },
     {
       "key": "2026-06-08-ma-gr-en.row255",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.DismissalPrayer1.text",
+        "prayers_en_US_goa|pr.DismissalPrayer1.text"
+      ],
       "greek": "Ὁ ὢν εὐλογητὸς Χριστὸς ὁ Θεὸς ἡμῶν πάντοτε, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
       "value": "Blessed is Christ our God, the One who is, always, now and ever and to the ages of ages."
     },
     {
       "key": "2026-06-08-ma-gr-en.row256",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res04.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res04.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Ἀμήν.",
       "value": "CHOIR: Amen."
     },
     {
       "key": "2026-06-08-ma-gr-en.row257",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.SuperiorOrReader",
+        "actors_en_US_goa|ac.SuperiorOrReader"
+      ],
       "greek": "ΠΡΟΕΣΤΩΣ ἢ ΑΝΑΓΝΩΣΤΗΣ",
       "value": "HIERARCH or READER"
     },
     {
       "key": "2026-06-08-ma-gr-en.row258",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.DismissalPrayer2.text",
+        "prayers_en_US_goa|pr.DismissalPrayer2.text"
+      ],
       "greek": "Στερεώσαι Κύριος ὁ Θεός τὴν ἁγίαν καὶ ἀμώμητον πίστιν τῶν εὐσεβῶν καὶ ὀρθοδόξων χριστιανῶν σὺν τῇ ἁγίᾳ αὐτοῦ Μεγάλῃ Ἐκκλησίᾳ Κωνσταντινουπόλεως, τῇ ἱερᾷ ἡμῶν Ἀρχιεπισκοπῇ, [τῇ ἁγίᾳ Μητροπόλει ταύτῃ] καὶ τῇ πόλει ταύτῃ εἰς αἰῶνας αἰώνων.",
       "value": "The Lord God make firm the holy and pure faith of the pious Orthodox Christians, together with the Holy and Great Church of Christ of Constantinople, our Sacred Archdiocese, [this Holy Metropolis,] and this city, to the ages of ages."
     },
     {
       "key": "2026-06-08-ma-gr-en.row259",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res04.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res04.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Ἀμήν.",
       "value": "CHOIR: Amen."
     },
     {
       "key": "2026-06-08-ma-gr-en.row260",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "rubric",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "ho.ho03_gr_GR_cog|R27",
+        "ho.ho03_en_US_dedes|R27"
+      ],
       "greek": "Εἶτα τό· «Δεῦτε προσκυνήσωμεν…» καὶ τὴν Πρώτην Ὥραν.",
       "value": "Then we begin the First Hour, saying: “Come let us worship…”"
     },
     {
       "key": "2026-06-08-ma-gr-en.row261",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "rubric",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "rubrical_gr_GR_cog|ru.Or",
+        "rubrical_en_US_dedes|ru.Or"
+      ],
       "greek": "ἤ·",
       "value": "or:"
     },
     {
       "key": "2026-06-08-ma-gr-en.row262",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "bmc_matins_dismissal",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "website.preferences.titles_gr_GR_cog|mc.matins.dismissal",
+        "website.preferences.titles_en_US_goa|mc.matins.dismissal"
+      ],
       "greek": "Dismissal",
       "value": "Dismissal"
     },
     {
       "key": "2026-06-08-ma-gr-en.row263",
       "kind": "title",
+      "dcsClasses": [
+        "leftCell",
+        "actor",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.Priest",
+        "actors_en_US_goa|ac.Priest"
+      ],
       "greek": "ΙΕΡΕΥΣ",
       "value": "PRIEST"
     },
     {
       "key": "2026-06-08-ma-gr-en.row264",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "dpriest",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.GloryToYouOurGod.text",
+        "prayers_en_US_goa|pr.GloryToYouOurGod.text"
+      ],
       "greek": "Δόξα σοι ὁ Θεὸς ἡμῶν, δόξα σοι.",
       "value": "Glory to You, our God, glory to You."
     },
     {
       "key": "2026-06-08-ma-gr-en.row265",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "dpriest",
+        "kvp",
+        "dummy",
+        "red",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "dismissals_gr_US_goa|dis00",
+        "me.m06.d08_gr_GR_cog|meDA.dismissal",
+        "dismissals_gr_US_goa|dis01",
+        "dismissals_gr_US_goa|dis02",
+        "dismissals_gr_US_goa|dis03",
+        "dismissals_gr_US_goa|dis04",
+        "dismissals_gr_US_goa|dis05",
+        "dismissals_gr_US_goa|dis06",
+        "dismissals_gr_US_goa|dis07",
+        "dismissals_gr_US_goa|dis08",
+        "client_gr_US_goa|cl.localpatronsaint1.dismissal",
+        "dismissals_gr_US_goa|dis09",
+        "me.m06.d08_gr_GR_cog|meDA.insert1",
+        "me.m06.d08_gr_GR_cog|meDA.insert2",
+        "dismissals_gr_US_goa|dis10",
+        "dismissals_gr_US_goa|dis88",
+        "dismissals_en_US_goadedes|dis00",
+        "me.m06.d08_en_US_dedes|meDA.dismissal",
+        "dismissals_en_US_goadedes|dis01",
+        "dismissals_en_US_goadedes|dis02",
+        "dismissals_en_US_goadedes|dis03",
+        "dismissals_en_US_goadedes|dis04",
+        "dismissals_en_US_goadedes|dis05",
+        "dismissals_en_US_goadedes|dis06",
+        "dismissals_en_US_goadedes|dis07",
+        "dismissals_en_US_goadedes|dis08",
+        "client_en_US_goa|cl.localpatronsaint1.dismissal",
+        "dismissals_en_US_goadedes|dis09",
+        "me.m06.d08_en_US_dedes|meDA.insert1",
+        "me.m06.d08_en_US_dedes|meDA.insert2",
+        "dismissals_en_US_goadedes|dis10",
+        "dismissals_en_US_goadedes|dis88"
+      ],
       "greek": "Χριστὸς ὁ ἀληθινὸς Θεὸς ἡμῶν, \r\n ταῖς πρεσβείαις τῆς παναχράντου καὶ παναμώμου ἁγίας αὐτοῦ Μητρός, \r\n δυνάμει τοῦ τιμίου καὶ ζωοποιοῦ Σταυροῦ, \r\n προστασίαις τῶν τιμίων ἐπουρανίων δυνάμεων ἀσωμάτων, \r\n ἱκεσίαις τοῦ τιμίου, ἐνδόξου, προφήτου, προδρόμου καὶ βαπτιστοῦ Ἰωάννου, \r\n τῶν ἁγίων ἐνδόξων καὶ πανευφήμων ἀποστόλων, \r\n τῶν ἁγίων ἐνδόξων καὶ καλλινίκων μαρτύρων· \r\n τῶν ὁσίων καὶ θεοφόρων πατέρων ἡμῶν· \r\n (τοῦ ἁγίου τοῦ ναοῦ)· \r\n \r\n τῶν ἁγίων καὶ δικαίων θεοπατόρων Ἰωακεὶμ καὶ Ἄννης, \r\n τοῦ ἁγίου ἑνδόξου Μεγαλομάρτυρος Θεοδώρου τοῦ Στρατηλάτου, \r\n οὗ τοῦ ἁγίου Λειψάνου τὴν Ἀνακομιδὴν ἑορτάζομεν· \r\n καὶ πάντων τῶν ἁγίων, \r\n ἐλεήσαι καὶ σώσαι ἡμᾶς, ὡς ἀγαθὸς καὶ φιλάνθρωπος καὶ ἐλεήμων Θεός.",
       "value": "May Christ our true God, through the intercessions of His all-pure and all-immaculate holy Mother, the power of the precious and life-giving Cross, the protection of the honorable, bodiless powers of heaven, the supplications of the honorable, glorious prophet and forerunner John the Baptist, of the holy, glorious, and praiseworthy apostles, of the holy, glorious, and triumphant martyrs, of our righteous and God-bearing fathers, (local patron saint); of the holy and righteous ancestors of God Joachim and Anna, the holy and glorious Great-martyr Theodore the General, the transfer of whose holy Relic we celebrate, and of all the saints, have mercy on us and save us, as He is good, benevolent, and merciful God."
     },
     {
       "key": "2026-06-08-ma-gr-en.row266",
       "kind": "rubric",
+      "dcsClasses": [
+        "leftCell",
+        "bmc_matins_close",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "website.preferences.titles_gr_GR_cog|mc.matins.close",
+        "website.preferences.titles_en_US_goa|mc.matins.close"
+      ],
       "greek": "Conclusion, i.e. “Through the prayers…”",
       "value": "Conclusion, i.e. “Through the prayers…”"
     },
     {
       "key": "2026-06-08-ma-gr-en.row267",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialog",
+        "dpriest",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "prayers_gr_US_goa|pr.ThroughThePrayers_fathers.text",
+        "prayers_en_US_goa|pr.ThroughThePrayers_fathers.text"
+      ],
       "greek": "Διʼ εὐχῶν τῶν ἁγίων πατέρων ἡμῶν, Κύριε Ἰησοῦ Χριστὲ ὁ Θεός, ἐλέησον ἡμᾶς.",
       "value": "Through the prayers of our holy fathers, Lord Jesus Christ our God, have mercy on us."
     },
     {
       "key": "2026-06-08-ma-gr-en.row268",
       "kind": "text",
+      "dcsClasses": [
+        "leftCell",
+        "dialogwithactor",
+        "actorwithdialog",
+        "kvp",
+        "rightCell"
+      ],
+      "dcsKeys": [
+        "actors_gr_GR_cog|ac.IL.Choir",
+        "prayers_gr_US_goa|pr.res04.text",
+        "actors_en_US_goa|ac.IL.Choir",
+        "prayers_en_US_goa|pr.res04.text"
+      ],
       "greek": "ΧΟΡΟΣ: \r\n \r\n Ἀμήν.",
       "value": "CHOIR: Amen."
     }
