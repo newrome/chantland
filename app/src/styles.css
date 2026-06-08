@@ -487,6 +487,7 @@ textarea {
 
 .entry-verse .entry-text {
   color: var(--rubric);
+  font-style: italic;
 }
 
 .entry-mode .entry-text,
