@@ -290,6 +290,7 @@ function renderDocument() {
   const queryMatchesDocument = state.query && `${selected.title} ${selected.path}`.toLowerCase().includes(state.query.toLowerCase());
   const entries = selected.entries.filter((entry) => {
     const effective = effectiveEntry(entry);
+    if (entry.kind === "greekmelody") return false;
     if (state.workspaceMode === "sing") return true;
     if (state.filter !== "all" && entry.kind !== state.filter) return false;
     if (!state.query || queryMatchesDocument) return true;

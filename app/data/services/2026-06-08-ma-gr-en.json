@@ -3,7 +3,7 @@
   "slug": "2026-06-08-ma-gr-en",
   "title": "MATINS · June 8",
   "sourceUrl": "https://dcs.goarch.org/goa/dcs/h/s/2026/06/08/ma/gr-en/index.html",
-  "importedAt": "2026-06-08T23:51:46.250Z",
+  "importedAt": "2026-06-09T00:27:32.520Z",
   "entries": [
     {
       "key": "2026-06-08-ma-gr-en.row001",
@@ -363,7 +363,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row021",
-      "kind": "text",
+      "kind": "greekmelody",
       "dcsClasses": [
         "leftCell",
         "greekmelody",
@@ -873,7 +873,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row049",
-      "kind": "text",
+      "kind": "greekmelody",
       "dcsClasses": [
         "leftCell",
         "greekmelody",
@@ -947,7 +947,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row053",
-      "kind": "text",
+      "kind": "greekmelody",
       "dcsClasses": [
         "leftCell",
         "greekmelody",
@@ -1162,7 +1162,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row065",
-      "kind": "text",
+      "kind": "greekmelody",
       "dcsClasses": [
         "leftCell",
         "greekmelody",
@@ -1265,7 +1265,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row071",
-      "kind": "text",
+      "kind": "greekmelody",
       "dcsClasses": [
         "leftCell",
         "greekmelody",
@@ -1530,7 +1530,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row086",
-      "kind": "text",
+      "kind": "greekmelody",
       "dcsClasses": [
         "leftCell",
         "greekmelody",
@@ -1816,7 +1816,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row103",
-      "kind": "text",
+      "kind": "greekmelody",
       "dcsClasses": [
         "leftCell",
         "greekmelody",
@@ -2280,7 +2280,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row127",
-      "kind": "text",
+      "kind": "greekmelody",
       "dcsClasses": [
         "leftCell",
         "greekmelody",
@@ -2620,7 +2620,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row146",
-      "kind": "text",
+      "kind": "greekmelody",
       "dcsClasses": [
         "leftCell",
         "greekmelody",
@@ -3917,7 +3917,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row218",
-      "kind": "text",
+      "kind": "greekmelody",
       "dcsClasses": [
         "leftCell",
         "greekmelody",
@@ -4382,7 +4382,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row244",
-      "kind": "text",
+      "kind": "greekmelody",
       "dcsClasses": [
         "leftCell",
         "greekmelody",
