@@ -493,6 +493,7 @@ textarea {
 .entry-actor .entry-text {
   color: var(--accent);
   font-weight: 600;
+  text-align: center;
 }
 
 .entry-hymn .entry-text::first-letter {
