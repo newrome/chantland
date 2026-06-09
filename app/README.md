@@ -31,3 +31,5 @@ The reader keeps the DCS source text unchanged and stores parish-specific servic
 - Reopen, copy, delete, or export saved iterations for that same service.
 
 Saved iterations live in browser local storage under `dcsServiceEditions`. Export produces a JSON copy of the active iteration.
+
+Parish-wide English replacements are also saved immediately in browser local storage under `dcsReplacementDatabase`. These replacements are keyed first by the internal DCS English source key, such as `liturgical.verses_en_US_saas|psMA.beginning.v1.text`, and fall back to the imported row key when no DCS key is available. This lets a parish version of the same hymn or verse reapply consistently when that source key appears again.

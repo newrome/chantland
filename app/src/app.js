@@ -1,8 +1,10 @@
 const STORAGE_KEY = "dcsServiceEditions";
+const REPLACEMENT_DB_KEY = "dcsReplacementDatabase";
 
 const state = {
   catalog: null,
   editions: loadEditions(),
+  replacementDatabase: loadReplacementDatabase(),
   collection: null,
   documentId: null,
   activeEditionId: null,
@@ -165,17 +167,14 @@ function bindEvents() {
     const value = els.replacementText.value.trim();
     if (!value || value === entry.value) {
       delete state.draft.replacements[entry.key];
+      deleteReplacementDatabaseEntry(entry);
     } else {
-      state.draft.replacements[entry.key] = {
-        key: entry.key,
-        kind: entry.kind,
-        source: entry.value,
-        value,
-        note: "Parish Version",
-        updatedAt: new Date().toISOString(),
-      };
+      const replacement = createReplacement(entry, value);
+      state.draft.replacements[entry.key] = replacement;
+      upsertReplacementDatabaseEntry(entry, replacement);
     }
     state.draft.updatedAt = new Date().toISOString();
+    persistEditions();
     render();
   });
 }
@@ -241,6 +240,8 @@ function renderDocuments() {
 
 function renderEditionPanel() {
   const versions = editionsForCurrentDocument();
+  const selected = selectedDocument(selectedCollection());
+  const changed = selected ? effectiveReplacementCount(selected) : 0;
   const options = [
     optionElement("source", "Source text"),
     ...versions.map((edition) => optionElement(edition.id, edition.name || edition.title)),
@@ -249,7 +250,7 @@ function renderEditionPanel() {
   els.editionSelect.replaceChildren(...options);
   els.editionSelect.value = state.activeEditionId || "source";
   els.editionName.value = state.draft?.name || "";
-  els.replacementCount.textContent = `${Object.keys(state.draft?.replacements || {}).length} changed`;
+  els.replacementCount.textContent = `${changed} changed`;
 }
 
 function renderDocument() {
@@ -266,8 +267,7 @@ function renderDocument() {
     return;
   }
 
-  const replacements = state.draft?.replacements || {};
-  const changed = Object.keys(replacements).length;
+  const changed = effectiveReplacementCount(selected);
   els.collectionLabel.textContent = collection.name;
   els.title.textContent = selected.title;
   els.meta.textContent = [
@@ -355,14 +355,61 @@ function findFirstMatchingDocument() {
 }
 
 function effectiveEntry(entry) {
-  const replacement = state.draft?.replacements?.[entry.key];
-  if (!replacement) return { ...entry, changed: false };
-  return { ...entry, value: replacement.value, changed: true };
+  const replacement = state.draft?.replacements?.[entry.key] || databaseReplacementFor(entry);
+  if (!replacement) return { ...entry, changed: false, replacement: null };
+  return { ...entry, value: replacement.value, changed: true, replacement };
 }
 
 function activeEditionLabel(changed) {
   if (!changed) return "Source text";
   return `${state.draft?.name || "Parish Version"} · Parish Version`;
+}
+
+function effectiveReplacementCount(doc) {
+  return doc.entries.filter((entry) => effectiveEntry(entry).changed).length;
+}
+
+function createReplacement(entry, value) {
+  const now = new Date().toISOString();
+  return {
+    key: entry.key,
+    sourceKeys: replacementLookupKeys(entry),
+    kind: entry.kind,
+    source: entry.value,
+    value,
+    note: "Parish Version",
+    updatedAt: now,
+  };
+}
+
+function databaseReplacementFor(entry) {
+  return replacementLookupKeys(entry)
+    .map((key) => state.replacementDatabase[key])
+    .find(Boolean) || null;
+}
+
+function upsertReplacementDatabaseEntry(entry, replacement) {
+  for (const key of replacementLookupKeys(entry)) {
+    state.replacementDatabase[key] = {
+      ...replacement,
+      databaseKey: key,
+    };
+  }
+  persistReplacementDatabase();
+}
+
+function deleteReplacementDatabaseEntry(entry) {
+  for (const key of replacementLookupKeys(entry)) {
+    delete state.replacementDatabase[key];
+  }
+  persistReplacementDatabase();
+}
+
+function replacementLookupKeys(entry) {
+  const dcsKeys = (entry.dcsKeys || [])
+    .filter((key) => /_en_/.test(key))
+    .filter((key) => !key.includes("properties_"));
+  return dcsKeys.length ? dcsKeys : [entry.key];
 }
 
 async function loadImportedServices() {
@@ -394,11 +441,11 @@ async function loadImportedServices() {
 }
 
 function openEditor(entry) {
-  const replacement = state.draft?.replacements?.[entry.key];
+  const replacement = effectiveEntry(entry).replacement;
   state.editingKey = entry.key;
   els.editKind.textContent = entry.kind;
   els.editTitle.textContent = labelFor(entry);
-  els.editSource.textContent = entry.key;
+  els.editSource.textContent = replacementLookupKeys(entry).join(" · ");
   els.sourceText.value = entry.greek ? `${entry.greek}\n\n${entry.value}` : entry.value;
   els.replacementText.value = replacement?.value || entry.value;
   els.editDialog.showModal();
@@ -446,6 +493,15 @@ function saveCurrentEdition() {
   state.draft.collection = state.collection;
   state.draft.title = doc.title;
   state.draft.name = (els.editionName.value || state.draft.name || `${doc.title} Custom`).trim();
+  for (const entry of doc.entries) {
+    const replacement = databaseReplacementFor(entry);
+    if (replacement && !state.draft.replacements[entry.key]) {
+      state.draft.replacements[entry.key] = {
+        ...replacement,
+        key: entry.key,
+      };
+    }
+  }
   state.draft.updatedAt = new Date().toISOString();
 
   const index = state.editions.findIndex((edition) => edition.id === state.draft.id);
@@ -505,11 +561,23 @@ function persistEditions() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state.editions));
 }
 
+function persistReplacementDatabase() {
+  localStorage.setItem(REPLACEMENT_DB_KEY, JSON.stringify(state.replacementDatabase));
+}
+
 function loadEditions() {
   try {
     return JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
   } catch {
     return [];
+  }
+}
+
+function loadReplacementDatabase() {
+  try {
+    return JSON.parse(localStorage.getItem(REPLACEMENT_DB_KEY) || "{}");
+  } catch {
+    return {};
   }
 }
 
