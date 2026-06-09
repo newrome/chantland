@@ -710,7 +710,7 @@ function singleEntryMarkup(entry, effective) {
       <button class="replace-button" type="button">${effective.changed ? "Edit replacement" : "Replace"}</button>
     </div>
     ${effective.changed ? `<p class="replacement-note">Parish Version</p>` : ""}
-    <p class="entry-text">${formatValue(effective.value)}</p>
+    <p class="entry-text">${formatEntryValue(entry, effective.value)}</p>
   `;
 }
 
@@ -722,8 +722,8 @@ function bilingualEntryMarkup(entry, effective) {
     </div>
     ${effective.changed ? `<p class="replacement-note">Parish Version</p>` : ""}
     <div class="bilingual-row">
-      <p class="entry-text greek-text">${formatValue(entry.greek)}</p>
-      <p class="entry-text">${formatValue(effective.value)}</p>
+      <p class="entry-text greek-text">${formatEntryValue(entry, entry.greek)}</p>
+      <p class="entry-text">${formatEntryValue(entry, effective.value)}</p>
     </div>
   `;
 }
@@ -733,16 +733,34 @@ function singingEntryMarkup(entry, effective) {
     return `
       ${effective.changed ? `<p class="replacement-note singing-note">Parish Version</p>` : ""}
       <div class="bilingual-row">
-        <p class="entry-text greek-text">${formatValue(entry.greek)}</p>
-        <p class="entry-text">${formatValue(effective.value)}</p>
+        <p class="entry-text greek-text">${formatEntryValue(entry, entry.greek)}</p>
+        <p class="entry-text">${formatEntryValue(entry, effective.value)}</p>
       </div>
     `;
   }
 
   return `
     ${effective.changed ? `<p class="replacement-note singing-note">Parish Version</p>` : ""}
-    <p class="entry-text">${formatValue(effective.value)}</p>
+    <p class="entry-text">${formatEntryValue(entry, effective.value)}</p>
   `;
+}
+
+function formatEntryValue(entry, value) {
+  if (entry.kind === "mode" && (entry.dcsClasses || []).includes("melody")) {
+    return formatModeAndMelody(value);
+  }
+  return formatValue(value);
+}
+
+function formatModeAndMelody(value) {
+  const text = String(value).replace(/\s+/g, " ").trim();
+  const match = text.match(/^(Mode\s+(?:pl\.\s+)?\d+\.|Mode\s+(?:First|Second|Third|Fourth|Grave|Plagal)[^.]*\.|Ἦχος\s+[^.]+\.)\s*(.*)$/i);
+  if (!match) return `<span class="mode-label">${formatValue(text)}</span>`;
+
+  return [
+    `<span class="mode-label">${formatValue(match[1])}</span>`,
+    match[2] ? ` <span class="melody-label">${formatValue(match[2])}</span>` : "",
+  ].join("");
 }
 
 function formatValue(value) {
