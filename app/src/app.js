@@ -1,3 +1,9 @@
+import {
+  SUPABASE_PUBLISHABLE_KEY,
+  SUPABASE_REPLACEMENTS_TABLE,
+  SUPABASE_URL,
+} from "./supabase-config.js";
+
 const STORAGE_KEY = "dcsServiceEditions";
 const REPLACEMENT_DB_KEY = "dcsReplacementDatabase";
 
@@ -5,6 +11,8 @@ const state = {
   catalog: null,
   editions: loadEditions(),
   replacementDatabase: loadReplacementDatabase(),
+  supabaseReady: Boolean(SUPABASE_URL && SUPABASE_PUBLISHABLE_KEY),
+  syncStatus: "Local",
   collection: null,
   documentId: null,
   activeEditionId: null,
@@ -55,6 +63,7 @@ async function init() {
   document.documentElement.style.setProperty("--reader-size", `${state.fontSize}px`);
   document.body.classList.toggle("dark", localStorage.getItem("dcsTheme") === "dark");
 
+  await loadRemoteReplacementDatabase();
   state.catalog = { collections: [] };
   await loadImportedServices();
   selectFirstAvailableDocument();
@@ -161,17 +170,17 @@ function bindEvents() {
     if (entry) els.replacementText.value = entry.value;
   });
 
-  els.applyReplacement.addEventListener("click", () => {
+  els.applyReplacement.addEventListener("click", async () => {
     const entry = selectedDocument(selectedCollection())?.entries.find((item) => item.key === state.editingKey);
     if (!entry) return;
     const value = els.replacementText.value.trim();
     if (!value || value === entry.value) {
       delete state.draft.replacements[entry.key];
-      deleteReplacementDatabaseEntry(entry);
+      await deleteReplacementDatabaseEntry(entry);
     } else {
       const replacement = createReplacement(entry, value);
       state.draft.replacements[entry.key] = replacement;
-      upsertReplacementDatabaseEntry(entry, replacement);
+      await upsertReplacementDatabaseEntry(entry, replacement);
     }
     state.draft.updatedAt = new Date().toISOString();
     persistEditions();
@@ -273,6 +282,7 @@ function renderDocument() {
   els.meta.textContent = [
     `${selected.entries.length} entries`,
     `${changed} replacements`,
+    state.syncStatus,
     selected.path,
   ].join(" · ");
   els.editionNote.textContent = activeEditionLabel(changed);
@@ -388,7 +398,7 @@ function databaseReplacementFor(entry) {
     .find(Boolean) || null;
 }
 
-function upsertReplacementDatabaseEntry(entry, replacement) {
+async function upsertReplacementDatabaseEntry(entry, replacement) {
   for (const key of replacementLookupKeys(entry)) {
     state.replacementDatabase[key] = {
       ...replacement,
@@ -396,13 +406,15 @@ function upsertReplacementDatabaseEntry(entry, replacement) {
     };
   }
   persistReplacementDatabase();
+  await syncReplacementToSupabase(entry, replacement);
 }
 
-function deleteReplacementDatabaseEntry(entry) {
+async function deleteReplacementDatabaseEntry(entry) {
   for (const key of replacementLookupKeys(entry)) {
     delete state.replacementDatabase[key];
   }
   persistReplacementDatabase();
+  await deleteReplacementFromSupabase(entry);
 }
 
 function replacementLookupKeys(entry) {
@@ -579,6 +591,99 @@ function loadReplacementDatabase() {
   } catch {
     return {};
   }
+}
+
+async function loadRemoteReplacementDatabase() {
+  if (!state.supabaseReady) return;
+
+  try {
+    const response = await fetch(supabaseTableUrl("?select=*"), {
+      headers: supabaseHeaders(),
+    });
+    if (!response.ok) throw new Error(`Supabase load failed: ${response.status}`);
+
+    const rows = await response.json();
+    for (const row of rows) {
+      state.replacementDatabase[row.dcs_key] = {
+        databaseKey: row.dcs_key,
+        key: row.row_key,
+        sourceKeys: row.source_keys || [row.dcs_key],
+        kind: row.kind || "text",
+        source: row.source_text || "",
+        value: row.replacement_text || "",
+        note: row.note || "Parish Version",
+        updatedAt: row.updated_at,
+      };
+    }
+    state.syncStatus = "Supabase synced";
+    persistReplacementDatabase();
+  } catch (error) {
+    state.syncStatus = "Local changes only";
+    console.warn(error);
+  }
+}
+
+async function syncReplacementToSupabase(entry, replacement) {
+  if (!state.supabaseReady) return;
+
+  try {
+    const rows = replacementLookupKeys(entry).map((key) => ({
+      dcs_key: key,
+      row_key: entry.key,
+      kind: entry.kind,
+      source_keys: replacementLookupKeys(entry),
+      source_text: entry.value,
+      replacement_text: replacement.value,
+      note: "Parish Version",
+      updated_at: new Date().toISOString(),
+    }));
+    const response = await fetch(supabaseTableUrl("?on_conflict=dcs_key"), {
+      method: "POST",
+      headers: {
+        ...supabaseHeaders(),
+        Prefer: "resolution=merge-duplicates,return=minimal",
+      },
+      body: JSON.stringify(rows),
+    });
+    if (!response.ok) throw new Error(`Supabase save failed: ${response.status}`);
+    state.syncStatus = "Supabase synced";
+  } catch (error) {
+    state.syncStatus = "Local changes only";
+    console.warn(error);
+  }
+}
+
+async function deleteReplacementFromSupabase(entry) {
+  if (!state.supabaseReady) return;
+
+  try {
+    for (const key of replacementLookupKeys(entry)) {
+      const response = await fetch(supabaseTableUrl(`?dcs_key=eq.${encodeURIComponent(key)}`), {
+        method: "DELETE",
+        headers: {
+          ...supabaseHeaders(),
+          Prefer: "return=minimal",
+        },
+      });
+      if (!response.ok) throw new Error(`Supabase delete failed: ${response.status}`);
+    }
+    state.syncStatus = "Supabase synced";
+  } catch (error) {
+    state.syncStatus = "Local changes only";
+    console.warn(error);
+  }
+}
+
+function supabaseTableUrl(query = "") {
+  return `${SUPABASE_URL}/rest/v1/${SUPABASE_REPLACEMENTS_TABLE}${query}`;
+}
+
+function supabaseHeaders() {
+  return {
+    apikey: SUPABASE_PUBLISHABLE_KEY,
+    Authorization: `Bearer ${SUPABASE_PUBLISHABLE_KEY}`,
+    "Content-Type": "application/json",
+  };
 }
 
 function optionElement(value, label) {
