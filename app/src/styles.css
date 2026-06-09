@@ -493,6 +493,7 @@ textarea {
 .entry-mode .entry-text,
 .entry-melody .entry-text {
   color: var(--mode);
+  text-align: center;
 }
 
 .mode-label {
