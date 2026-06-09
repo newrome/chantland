@@ -490,6 +490,11 @@ textarea {
   font-style: italic;
 }
 
+.entry-dcs-servicesourcessection .entry-text,
+.entry-rubric.entry-dcs-servicesources .entry-text {
+  text-align: center;
+}
+
 .entry-actor .entry-text {
   color: var(--accent);
   font-weight: 600;

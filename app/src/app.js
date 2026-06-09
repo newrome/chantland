@@ -305,7 +305,7 @@ function renderDocument() {
   els.content.replaceChildren(...entries.map((entry) => {
     const effective = effectiveEntry(entry);
     const section = document.createElement("section");
-    section.className = `entry entry-${entry.kind}${effective.changed ? " changed" : ""}`;
+    section.className = entryClassName(entry, effective.changed);
     section.id = entryId(entry);
     const greekMelody = greekMelodyReferenceFor(selected, entry);
     section.innerHTML = state.workspaceMode === "sing"
@@ -711,6 +711,13 @@ function labelFor(entry) {
 
 function entryId(entry) {
   return `entry-${entry.key.replace(/[^a-z0-9_-]+/gi, "-")}`;
+}
+
+function entryClassName(entry, changed) {
+  const dcsClasses = (entry.dcsClasses || [])
+    .map((className) => `entry-dcs-${className.replace(/[^a-z0-9_-]+/gi, "-")}`)
+    .join(" ");
+  return `entry entry-${entry.kind}${dcsClasses ? ` ${dcsClasses}` : ""}${changed ? " changed" : ""}`;
 }
 
 function singleEntryMarkup(entry, effective) {
