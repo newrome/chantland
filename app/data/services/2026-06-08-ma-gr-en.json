@@ -3,7 +3,7 @@
   "slug": "2026-06-08-ma-gr-en",
   "title": "MATINS · June 8",
   "sourceUrl": "https://dcs.goarch.org/goa/dcs/h/s/2026/06/08/ma/gr-en/index.html",
-  "importedAt": "2026-06-09T00:44:33.827Z",
+  "importedAt": "2026-06-09T01:11:14.389Z",
   "entries": [
     {
       "key": "2026-06-08-ma-gr-en.row001",
@@ -174,7 +174,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row011",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -520,7 +520,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row029",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -574,7 +574,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row032",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -628,7 +628,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row035",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -682,7 +682,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row038",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -1428,7 +1428,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row080",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -1779,7 +1779,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row101",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -1902,7 +1902,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row108",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -1934,7 +1934,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row110",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -2337,7 +2337,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row130",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -2391,7 +2391,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row133",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -2445,7 +2445,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row136",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -2499,7 +2499,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row139",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -2726,7 +2726,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row152",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -2918,7 +2918,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row163",
-      "kind": "rubric",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -2988,7 +2988,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row167",
-      "kind": "rubric",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -3045,7 +3045,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row170",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -3099,7 +3099,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row173",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -3153,7 +3153,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row176",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -3207,7 +3207,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row179",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -3261,7 +3261,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row182",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -3315,7 +3315,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row185",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -3369,7 +3369,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row188",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -3423,7 +3423,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row191",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -3477,7 +3477,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row194",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -3531,7 +3531,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row197",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -3624,7 +3624,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row202",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -3678,7 +3678,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row205",
-      "kind": "rubric",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -3714,7 +3714,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row207",
-      "kind": "rubric",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -4110,7 +4110,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row228",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -4145,7 +4145,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row230",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -4280,7 +4280,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row238",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -4573,7 +4573,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row254",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -4624,7 +4624,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row257",
-      "kind": "rubric",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",
@@ -4723,7 +4723,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row263",
-      "kind": "title",
+      "kind": "actor",
       "dcsClasses": [
         "leftCell",
         "actor",

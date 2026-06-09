@@ -490,6 +490,11 @@ textarea {
   font-style: italic;
 }
 
+.entry-actor .entry-text {
+  color: var(--accent);
+  font-weight: 600;
+}
+
 .entry-hymn .entry-text::first-letter {
   color: var(--accent);
   float: left;
