@@ -490,6 +490,15 @@ textarea {
   font-style: italic;
 }
 
+.entry-hymn .entry-text::first-letter {
+  color: var(--accent);
+  float: left;
+  font-size: 3.1em;
+  font-weight: 700;
+  line-height: 0.86;
+  padding-right: 0.08em;
+}
+
 .entry-mode .entry-text,
 .entry-melody .entry-text {
   color: var(--mode);

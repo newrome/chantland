@@ -3,7 +3,7 @@
   "slug": "2026-06-08-ma-gr-en",
   "title": "MATINS · June 8",
   "sourceUrl": "https://dcs.goarch.org/goa/dcs/h/s/2026/06/08/ma/gr-en/index.html",
-  "importedAt": "2026-06-09T00:27:32.520Z",
+  "importedAt": "2026-06-09T00:44:33.827Z",
   "entries": [
     {
       "key": "2026-06-08-ma-gr-en.row001",
@@ -236,7 +236,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row014",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -407,7 +407,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row023",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -481,7 +481,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row027",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -816,7 +816,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row046",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -890,7 +890,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row050",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -964,7 +964,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row054",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -1067,7 +1067,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row060",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -1105,7 +1105,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row062",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -1179,7 +1179,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row066",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -1282,7 +1282,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row072",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -1336,7 +1336,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row075",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -1393,7 +1393,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row078",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -2037,7 +2037,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row115",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -2078,7 +2078,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row117",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -2119,7 +2119,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row119",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -2160,7 +2160,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row121",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -2201,7 +2201,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row123",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -2242,7 +2242,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row125",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -2316,7 +2316,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row129",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -2637,7 +2637,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row147",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -2691,7 +2691,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row150",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -3819,7 +3819,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row213",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -3860,7 +3860,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row215",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -3934,7 +3934,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row219",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -4034,7 +4034,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row224",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -4091,7 +4091,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row227",
-      "kind": "rubric",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -4426,7 +4426,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row246",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",
@@ -4500,7 +4500,7 @@
     },
     {
       "key": "2026-06-08-ma-gr-en.row250",
-      "kind": "text",
+      "kind": "hymn",
       "dcsClasses": [
         "leftCell",
         "hymn",

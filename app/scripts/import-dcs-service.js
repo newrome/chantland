@@ -103,6 +103,7 @@ function decodeEntities(value) {
 function classifyRow(row) {
   const english = row.english || "";
   const greek = row.greek || "";
+  if (row.classes.includes("hymn")) return "hymn";
   if (row.classes.includes("greekmelody")) return "greekmelody";
   if (row.classes.includes("verse") || row.keys.some((key) => /\|misc\.vVerse\d+/.test(key))) return "verse";
   if (/^(MATINS|PRIEST|READER|CHOIR|DEACON|BOOKS - SOURCES)$/i.test(english)) return "title";
