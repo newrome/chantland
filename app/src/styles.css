@@ -499,6 +499,12 @@ textarea {
   padding-right: 0.08em;
 }
 
+.entry-hymn .entry-text[lang="en"] {
+  hyphens: auto;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
 .entry-mode .entry-text,
 .entry-melody .entry-text {
   color: var(--mode);

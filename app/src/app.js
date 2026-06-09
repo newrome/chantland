@@ -720,7 +720,7 @@ function singleEntryMarkup(entry, effective) {
       <button class="replace-button" type="button">${effective.changed ? "Edit replacement" : "Replace"}</button>
     </div>
     ${effective.changed ? `<p class="replacement-note">Parish Version</p>` : ""}
-    <p class="entry-text">${formatEntryValue(entry, effective.value)}</p>
+    <p class="entry-text" lang="en">${formatEntryValue(entry, effective.value)}</p>
   `;
 }
 
@@ -732,8 +732,8 @@ function bilingualEntryMarkup(entry, effective, greekMelody = "") {
     </div>
     ${effective.changed ? `<p class="replacement-note">Parish Version</p>` : ""}
     <div class="bilingual-row">
-      <p class="entry-text greek-text">${formatEntryValue(entry, entry.greek)}</p>
-      <p class="entry-text">${formatEntryValue(entry, effective.value)}${greekMelodyMarkup(greekMelody)}</p>
+      <p class="entry-text greek-text" lang="el">${formatEntryValue(entry, entry.greek)}</p>
+      <p class="entry-text" lang="en">${formatEntryValue(entry, effective.value)}${greekMelodyMarkup(greekMelody)}</p>
     </div>
   `;
 }
@@ -743,15 +743,15 @@ function singingEntryMarkup(entry, effective, greekMelody = "") {
     return `
       ${effective.changed ? `<p class="replacement-note singing-note">Parish Version</p>` : ""}
       <div class="bilingual-row">
-        <p class="entry-text greek-text">${formatEntryValue(entry, entry.greek)}</p>
-        <p class="entry-text">${formatEntryValue(entry, effective.value)}${greekMelodyMarkup(greekMelody)}</p>
+        <p class="entry-text greek-text" lang="el">${formatEntryValue(entry, entry.greek)}</p>
+        <p class="entry-text" lang="en">${formatEntryValue(entry, effective.value)}${greekMelodyMarkup(greekMelody)}</p>
       </div>
     `;
   }
 
   return `
     ${effective.changed ? `<p class="replacement-note singing-note">Parish Version</p>` : ""}
-    <p class="entry-text">${formatEntryValue(entry, effective.value)}</p>
+    <p class="entry-text" lang="en">${formatEntryValue(entry, effective.value)}</p>
   `;
 }
 
