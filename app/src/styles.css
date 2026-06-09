@@ -507,6 +507,14 @@ textarea {
   font-weight: 400;
 }
 
+.greek-melody-reference {
+  display: block;
+  margin-top: 2px;
+  color: var(--mode);
+  font-style: italic;
+  font-weight: 400;
+}
+
 body.sing-mode {
   background: var(--panel);
 }

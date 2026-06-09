@@ -307,9 +307,10 @@ function renderDocument() {
     const section = document.createElement("section");
     section.className = `entry entry-${entry.kind}${effective.changed ? " changed" : ""}`;
     section.id = entryId(entry);
+    const greekMelody = greekMelodyReferenceFor(selected, entry);
     section.innerHTML = state.workspaceMode === "sing"
-      ? singingEntryMarkup(entry, effective)
-      : (entry.greek ? bilingualEntryMarkup(entry, effective) : singleEntryMarkup(entry, effective));
+      ? singingEntryMarkup(entry, effective, greekMelody)
+      : (entry.greek ? bilingualEntryMarkup(entry, effective, greekMelody) : singleEntryMarkup(entry, effective));
     section.querySelector(".replace-button")?.addEventListener("click", () => openEditor(entry));
     return section;
   }));
@@ -369,6 +370,14 @@ function effectiveEntry(entry) {
   const replacement = state.draft?.replacements?.[entry.key] || databaseReplacementFor(entry);
   if (!replacement) return { ...entry, changed: false, replacement: null };
   return { ...entry, value: replacement.value, changed: true, replacement };
+}
+
+function greekMelodyReferenceFor(doc, entry) {
+  if (entry.kind !== "mode") return "";
+  const index = doc.entries.findIndex((item) => item.key === entry.key);
+  const next = doc.entries[index + 1];
+  if (next?.kind !== "greekmelody" || !next.value) return "";
+  return next.value;
 }
 
 function activeEditionLabel(changed) {
@@ -715,7 +724,7 @@ function singleEntryMarkup(entry, effective) {
   `;
 }
 
-function bilingualEntryMarkup(entry, effective) {
+function bilingualEntryMarkup(entry, effective, greekMelody = "") {
   return `
     <div class="entry-topline">
       <p class="entry-key">${escapeHtml(labelFor(entry))}</p>
@@ -724,18 +733,18 @@ function bilingualEntryMarkup(entry, effective) {
     ${effective.changed ? `<p class="replacement-note">Parish Version</p>` : ""}
     <div class="bilingual-row">
       <p class="entry-text greek-text">${formatEntryValue(entry, entry.greek)}</p>
-      <p class="entry-text">${formatEntryValue(entry, effective.value)}</p>
+      <p class="entry-text">${formatEntryValue(entry, effective.value)}${greekMelodyMarkup(greekMelody)}</p>
     </div>
   `;
 }
 
-function singingEntryMarkup(entry, effective) {
+function singingEntryMarkup(entry, effective, greekMelody = "") {
   if (entry.greek) {
     return `
       ${effective.changed ? `<p class="replacement-note singing-note">Parish Version</p>` : ""}
       <div class="bilingual-row">
         <p class="entry-text greek-text">${formatEntryValue(entry, entry.greek)}</p>
-        <p class="entry-text">${formatEntryValue(entry, effective.value)}</p>
+        <p class="entry-text">${formatEntryValue(entry, effective.value)}${greekMelodyMarkup(greekMelody)}</p>
       </div>
     `;
   }
@@ -744,6 +753,11 @@ function singingEntryMarkup(entry, effective) {
     ${effective.changed ? `<p class="replacement-note singing-note">Parish Version</p>` : ""}
     <p class="entry-text">${formatEntryValue(entry, effective.value)}</p>
   `;
+}
+
+function greekMelodyMarkup(value) {
+  if (!value) return "";
+  return `<span class="greek-melody-reference">[${formatValue(value)}]</span>`;
 }
 
 function formatEntryValue(entry, value) {
